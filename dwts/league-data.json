@@ -1,0 +1,16 @@
+{
+  "league": {"name":"DWTS Fantasy League","season":"2026","week":0,"phase":"Preseason","startingBux":200,"shakeupWeek":6,"lastUpdated":"2026-08-19"},
+  "owners": [
+    {"id":"team1","name":"Team 1","bux":200,"points":0,"movement":0},
+    {"id":"team2","name":"Team 2","bux":200,"points":0,"movement":0},
+    {"id":"team3","name":"Team 3","bux":200,"points":0,"movement":0},
+    {"id":"team4","name":"Team 4","bux":200,"points":0,"movement":0},
+    {"id":"team5","name":"Team 5","bux":200,"points":0,"movement":0},
+    {"id":"team6","name":"Team 6","bux":200,"points":0,"movement":0}
+  ],
+  "dancers": [],
+  "weeks": [],
+  "transactions": [],
+  "locks": [],
+  "notes": ["Auction draft has not happened yet."]
+}
