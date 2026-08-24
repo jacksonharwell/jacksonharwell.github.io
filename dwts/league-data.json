@@ -1,15 +1,19 @@
 {
-  "league": {"name":"DWTS Fantasy League","season":"2026","week":0,"phase":"Preseason","startingBux":200,"shakeupWeek":6,"lastUpdated":"2026-08-19"},
+  "league": {"name":"DWTS Fantasy League","season":"2026","week":0,"phase":"Preseason","startingBux":200,"shakeupWeek":6,"draftDate":"Tuesday, September 8, 2026","draftTime":"7:00 PM","premiereDate":"Tuesday, September 15, 2026","lastUpdated":"2026-08-24"},
   "owners": [
     {"id":"jackson","name":"Jackson","bux":200,"points":0,"movement":0},
     {"id":"colton","name":"Colton","bux":200,"points":0,"movement":0},
     {"id":"payton","name":"Payton","bux":200,"points":0,"movement":0},
     {"id":"mattie","name":"Mattie","bux":200,"points":0,"movement":0},
-    {"id":"jessica","name":"Jessica","bux":200,"points":0,"movement":0}
+    {"id":"jessica","name":"Jessica","bux":200,"points":0,"movement":0},
+    {"id":"squid","name":"Squid","bux":200,"points":0,"movement":0}
   ],
-  "dancers": [],
-  "weeks": [],
-  "transactions": [],
-  "locks": [],
-  "notes": ["Five-owner league confirmed. Auction draft has not happened yet."]
+  "dancers": [
+    {"id":"ciara-miller","name":"Ciara Miller","status":"confirmed","pro":"TBD","ownerId":null,"ownerName":null,"auctionCost":null,"seasonPoints":0,"avgScore":null,"trend":0,"image":"https://www.bravotv.com/sites/bravo/files/styles/scale_1280/public/2024/01/summer-house-season-8-ciara-miller_0.jpg?itok=OVq4MSig","knownFor":"Summer House • model • former travel nurse","danceBackground":"10 years of ballet growing up","bio":"Bravo reality star, model and former travel nurse best known for Summer House. Ciara has a legitimate dance foundation: she has said she grew up dancing and studied ballet for about 10 years, which gives her one of the clearest early skill signals among the announced cast."},
+    {"id":"maura-higgins","name":"Maura Higgins","status":"confirmed","pro":"TBD","ownerId":null,"ownerName":null,"auctionCost":null,"seasonPoints":0,"avgScore":null,"trend":0,"image":"https://images.entertainment.ie/person/5YnVKlwOAqwaWi1JGHQdJOXAzQV.jpg","knownFor":"Love Island UK • The Traitors • TV presenter","danceBackground":"Irish dancing as a child • Dancing on Ice contestant","bio":"Irish television personality who broke out on Love Island UK and later became a presenter and a runner-up faithful on The Traitors. She did Irish dancing as a child and competed on Dancing on Ice, so she already has experience learning choreography and performing under pressure."},
+    {"id":"jackson-olson","name":"Jackson Olson","status":"confirmed","pro":"TBD","ownerId":null,"ownerName":null,"auctionCost":null,"seasonPoints":0,"avgScore":null,"trend":0,"image":"https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c","knownFor":"Savannah Bananas • Banana Ball • social media","danceBackground":"No formal background publicly established","bio":"Savannah Bananas baseball player and social-media personality whose job already blends elite athleticism with crowd entertainment. Formal dance training has not been publicly established, but coordination, stamina, stage comfort and the Bananas' choreographed showmanship make him an intriguing athletic upside pick."},
+    {"id":"guillermo-rodriguez","name":"Guillermo Rodriguez","status":"confirmed","pro":"Witney Carson","proImage":"https://www.dancemagazine.com/wp-content/uploads/2021/12/img-77.png","ownerId":null,"ownerName":null,"auctionCost":null,"seasonPoints":0,"avgScore":null,"trend":0,"image":"https://cloudfront-us-east-1.images.arcpublishing.com/dmn/L5RFDFSIFFAWVBAZF26CUC4TSY.jpg","knownFor":"Jimmy Kimmel Live! • comedy personality","danceBackground":"No formal dance background publicly established","bio":"Longtime Jimmy Kimmel Live! personality who went from studio security guard to one of late-night TV's most recognizable comedy sidekicks. He brings enormous likability and performance comfort, but no notable formal dance background has been announced. His confirmed pro is two-time Mirrorball champion Witney Carson."}
+  ],
+  "weeks": [], "transactions": [], "locks": [],
+  "notes": ["Six-owner league confirmed.","Auction draft: Sept. 8 at 7 PM, one week before the Sept. 15 premiere.","Study board includes officially announced contestants as of Aug. 24."]
 }
