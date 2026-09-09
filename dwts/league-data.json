@@ -6,10 +6,11 @@
     "phase": "Preseason",
     "startingBux": 200,
     "shakeupWeek": 6,
-    "draftDate": "Tuesday, September 8, 2026",
-    "draftTime": "7:00 PM",
+    "draftDate": "Sunday, September 13, 2026",
+    "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-09",
+    "draftISO": "2026-09-13T18:00:00-05:00"
   },
   "owners": [
     {
@@ -390,7 +391,7 @@
   "locks": [],
   "notes": [
     "Six-owner league confirmed.",
-    "Auction draft: Sept. 8 at 7 PM, one week before the Sept. 15 premiere.",
+    "Auction draft: Sunday, Sept. 13 at 6 PM Central, two days before the Sept. 15 premiere.",
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ]
 }
