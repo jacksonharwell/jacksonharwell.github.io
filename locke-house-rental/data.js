@@ -1,2 +1,27 @@
-window.LOCKE_DATA={lastUpdated:"September 12, 2026",market:{sourceNote:"Public rate checks near Will Rogers; taxes and availability vary.",normalHotel:150,roomsReplaced:3,cleaningFee:175,airbnbGuestFee:.142},monthlyHotel:{"2026-09":160,"2026-10":175,"2026-11":170,"2026-12":165,"2027-01":185,"2027-02":175,"2027-03":165},events:[
-{name:"Texas Classic",start:"2026-09-16",end:"2026-09-20",type:"horse",rate:350,icon:"♞",status:"confirmed"},{name:"Rocket League World Championship",start:"2026-09-18",end:"2026-09-20",type:"sport",rate:375,icon:"◆",status:"confirmed"},{name:"PBR Rattler Days",start:"2026-10-02",end:"2026-10-04",type:"rodeo",rate:350,icon:"★",status:"confirmed"},{name:"Brooks & Dunn",start:"2026-10-09",end:"2026-10-10",type:"concert",rate:375,icon:"♪",status:"confirmed"},{name:"NRCHA Snaffle Bit Futurity",start:"2026-10-09",end:"2026-10-24",type:"horse",rate:425,icon:"♞",status:"confirmed"},{name:"NCHA World Championship Futurity",start:"2026-11-16",end:"2026-12-12",type:"horse",rate:425,icon:"♞",status:"confirmed"},{name:"Critical Role Live",start:"2026-12-03",end:"2026-12-03",type:"concert",rate:300,icon:"♪",status:"confirmed"},{name:"for KING + COUNTRY",start:"2026-12-05",end:"2026-12-05",type:"concert",rate:325,icon:"♪",status:"confirmed"},{name:"Flatland Cavalry — NYE",start:"2026-12-31",end:"2026-12-31",type:"concert",rate:450,icon:"♪",status:"confirmed"},{name:"Fort Worth Stock Show & Rodeo",start:"2027-01-15",end:"2027-02-06",type:"rodeo",rate:450,icon:"★",status:"confirmed"},{name:"NRCHA Celebration of Champions",start:"2027-02-13",end:"2027-02-27",type:"horse",rate:400,icon:"♞",status:"confirmed"},{name:"NCHA Super Stakes",start:"2027-03-25",end:"2027-04-18",type:"horse",rate:425,icon:"♞",status:"projected"}]};
+window.LOCKE_DATA={lastUpdated:"September 12, 2026",market:{sourceNote:"Public hotel-rate checks near Will Rogers; taxes and availability vary.",normalHotel:150,roomsReplaced:3,cleaningFee:175,airbnbGuestFee:.142},monthlyHotel:{"2026-09":160,"2026-10":175,"2026-11":170,"2026-12":165,"2027-01":185,"2027-02":175,"2027-03":165,"2027-04":170,"2027-05":185,"2027-06":170,"2027-07":160,"2027-08":155,"2027-09":165},events:[
+{name:"Texas Classic",start:"2026-09-15",end:"2026-09-20",type:"horse",rate:350,icon:"♞",status:"confirmed"},
+{name:"Rocket League World Championship",start:"2026-09-18",end:"2026-09-20",type:"city",rate:400,icon:"◆",status:"confirmed",citywide:true},
+{name:"PBR Rattler Days",start:"2026-10-02",end:"2026-10-04",type:"bull",rate:350,icon:"★",status:"confirmed"},
+{name:"Brooks & Dunn",start:"2026-10-09",end:"2026-10-10",type:"music",rate:375,icon:"♪",status:"confirmed"},
+{name:"NRCHA Snaffle Bit Futurity",start:"2026-10-09",end:"2026-10-24",type:"horse",rate:425,icon:"♞",status:"confirmed"},
+{name:"Red Steagall Cowboy Gathering",start:"2026-10-23",end:"2026-10-25",type:"horse",rate:350,icon:"♞",status:"confirmed"},
+{name:"NCHA World Championship Futurity",start:"2026-11-16",end:"2026-12-12",type:"horse",rate:425,icon:"♞",status:"confirmed"},
+{name:"Critical Role Live",start:"2026-12-03",end:"2026-12-03",type:"music",rate:300,icon:"♪",status:"confirmed"},
+{name:"for KING + COUNTRY",start:"2026-12-05",end:"2026-12-05",type:"music",rate:325,icon:"♪",status:"confirmed"},
+{name:"Flatland Cavalry — NYE",start:"2026-12-31",end:"2026-12-31",type:"music",rate:450,icon:"♪",status:"confirmed"},
+{name:"Fort Worth Stock Show & Rodeo",start:"2027-01-15",end:"2027-02-06",type:"cattle",rate:475,icon:"●",status:"confirmed",citywide:true},
+{name:"NRCHA Celebration of Champions",start:"2027-02-13",end:"2027-02-27",type:"horse",rate:400,icon:"♞",status:"confirmed"},
+{name:"Fort Worth Kennel Club Dog Show",start:"2027-03-20",end:"2027-03-21",type:"animal",rate:325,icon:"◆",status:"projected"},
+{name:"Cattle Raisers Convention & Expo",start:"2027-03-19",end:"2027-03-21",type:"cattle",rate:400,icon:"●",status:"projected",citywide:true},
+{name:"NCHA Super Stakes",start:"2027-03-25",end:"2027-04-18",type:"horse",rate:425,icon:"♞",status:"projected"},
+{name:"MAIN ST. Fort Worth Arts Festival",start:"2027-04-15",end:"2027-04-18",type:"city",rate:400,icon:"◆",status:"projected",citywide:true},
+{name:"Mayfest",start:"2027-04-29",end:"2027-05-02",type:"city",rate:375,icon:"◆",status:"projected",citywide:true},
+{name:"Wild Rag Cattle Classic",start:"2027-05-04",end:"2027-05-09",type:"horse",rate:375,icon:"♞",status:"projected"},
+{name:"Charles Schwab Challenge",start:"2027-05-27",end:"2027-05-30",type:"city",rate:450,icon:"◆",status:"confirmed",citywide:true},
+{name:"AQHA Versatility Ranch Horse World",start:"2027-06-14",end:"2027-06-20",type:"horse",rate:375,icon:"♞",status:"projected"},
+{name:"APHA World Championship Show",start:"2027-06-18",end:"2027-07-03",type:"horse",rate:425,icon:"♞",status:"confirmed"},
+{name:"Fort Worth's Fourth",start:"2027-07-03",end:"2027-07-04",type:"city",rate:375,icon:"◆",status:"projected",citywide:true},
+{name:"NCHA Summer Cutting Spectacular",start:"2027-07-09",end:"2027-08-01",type:"horse",rate:425,icon:"♞",status:"projected"},
+{name:"North Texas Fair & Rodeo",start:"2027-08-20",end:"2027-08-28",type:"bull",rate:325,icon:"★",status:"projected"},
+{name:"American Miniature Horse World Show",start:"2027-09-17",end:"2027-09-25",type:"animal",rate:350,icon:"◆",status:"projected"}
+]};
