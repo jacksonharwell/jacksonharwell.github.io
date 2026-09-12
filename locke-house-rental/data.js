@@ -22,6 +22,5 @@ window.LOCKE_DATA={lastUpdated:"September 12, 2026",market:{sourceNote:"Public h
 {name:"APHA World Championship Show",start:"2027-06-18",end:"2027-07-03",type:"horse",rate:425,icon:"♞",status:"confirmed"},
 {name:"Fort Worth's Fourth",start:"2027-07-03",end:"2027-07-04",type:"city",rate:375,icon:"◆",status:"projected",citywide:true},
 {name:"NCHA Summer Cutting Spectacular",start:"2027-07-09",end:"2027-08-01",type:"horse",rate:425,icon:"♞",status:"projected"},
-{name:"North Texas Fair & Rodeo",start:"2027-08-20",end:"2027-08-28",type:"bull",rate:325,icon:"★",status:"projected"},
 {name:"American Miniature Horse World Show",start:"2027-09-17",end:"2027-09-25",type:"animal",rate:350,icon:"◆",status:"projected"}
 ]};
