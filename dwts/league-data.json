@@ -3,55 +3,56 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 0,
-    "phase": "Preseason",
+    "phase": "Draft complete",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-09",
-    "draftISO": "2026-09-13T18:00:00-05:00"
+    "lastUpdated": "2026-09-14",
+    "draftISO": "2026-09-13T18:00:00-05:00",
+    "officialRecord": true
   },
   "owners": [
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 200,
+      "bux": 178,
       "points": 0,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 200,
+      "bux": 210,
       "points": 0,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 200,
+      "bux": 83,
       "points": 0,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 200,
+      "bux": 58,
       "points": 0,
       "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 200,
+      "bux": 142,
       "points": 0,
       "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 200,
+      "bux": 12,
       "points": 0,
       "movement": 0
     }
@@ -62,9 +63,9 @@
       "name": "Jenna Dewan",
       "status": "confirmed",
       "pro": "Val Chmerkovskiy",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "squid",
+      "ownerName": "Squid",
+      "auctionCost": 107,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -78,16 +79,22 @@
       "updateTone": "favorite",
       "preseasonUpdate": "The early prediction market has her narrowly on top at about 20%. Her professional dance résumé raises the ceiling, while possible voter resistance to a perceived advantage remains the main risk.",
       "updateSource": "https://www.covers.com/entertainment/dwts-season-35-winner-odds-kalshi",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "squid",
+        "cost": 107,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "harry-shum-jr",
       "name": "Harry Shum Jr.",
       "status": "confirmed",
       "pro": "Jenna Johnson",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "squid",
+      "ownerName": "Squid",
+      "auctionCost": 81,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -101,16 +108,22 @@
       "updateTone": "favorite",
       "preseasonUpdate": "Running near the top of the early prediction market at about 18%. Harry says ballroom technique feels distinctly different from his prior professional dance work, so hold and frame will be the first real test.",
       "updateSource": "https://people.com/carrie-ann-inaba-weighs-in-contestants-past-dance-advantage-dwts-12111173",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "squid",
+        "cost": 81,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "amber-glenn",
       "name": "Amber Glenn",
       "status": "confirmed",
       "pro": "Pasha Pashkov",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "mattie",
+      "ownerName": "Mattie",
+      "auctionCost": 45,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -124,16 +137,22 @@
       "updateTone": "favorite",
       "preseasonUpdate": "An early top-tier contender at about 18% in the prediction market. Her elite skating background is translating into strong preseason confidence before the first scored dance.",
       "updateSource": "https://www.covers.com/entertainment/dwts-season-35-winner-odds-kalshi",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "mattie",
+        "cost": 45,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "julia-stiles",
       "name": "Julia Stiles",
       "status": "confirmed",
       "pro": "Ezra Sosa",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jessica",
+      "ownerName": "Jessica",
+      "auctionCost": 7,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -147,16 +166,22 @@
       "updateTone": "watch",
       "preseasonUpdate": "Julia clarified that she stopped formal dance after Save the Last Dance and entered rehearsals nervous about dancing in heels. Ezra has praised her dedication; treat the movie résumé as useful familiarity, not current professional training.",
       "updateSource": "https://ew.com/julia-stiles-dwts-partner-ezra-sosa-react-to-juilliard-shady-post-about-save-the-last-dance-12111394",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "jessica",
+        "cost": 7,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "ciara-miller",
       "name": "Ciara Miller",
       "status": "confirmed",
       "pro": "Brandon Armstrong",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "colton",
+      "ownerName": "Colton",
+      "auctionCost": 0,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -165,16 +190,22 @@
       "danceBackground": "Strong foundation — about 10 years of ballet growing up",
       "bio": "Summer House fans know Ciara for her cool confidence, quick wit and effortless style. She also spent many childhood years in ballet, which could give her a head start with posture, lines and body awareness. Brandon has a partner who already knows how to command a camera; now we get to see how quickly the ballroom side clicks.",
       "source": "https://people.com/dancing-with-the-stars-season-35-contestants-revealed-12065058",
-      "proImage": "https://www.etonline.com/sites/default/files/styles/1280x720/public/images/2022-03/brandon-armstrong-GettyImages-1235391957.jpg?h=c673cd1c"
+      "proImage": "https://www.etonline.com/sites/default/files/styles/1280x720/public/images/2022-03/brandon-armstrong-GettyImages-1235391957.jpg?h=c673cd1c",
+      "originalAcquisition": {
+        "ownerId": "colton",
+        "cost": 0,
+        "acquisition": "waiver",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "maura-higgins",
       "name": "Maura Higgins",
       "status": "confirmed",
       "pro": "Mark Ballas",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "payton",
+      "ownerName": "Payton",
+      "auctionCost": 76,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -183,16 +214,22 @@
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
       "bio": "Maura became a fan favorite on Love Island UK thanks to her humor, honesty and huge personality. She danced as a child and has already handled choreographed performance on Dancing on Ice, so she should not be shy about throwing herself into a routine. Pairing her with the wonderfully inventive Mark Ballas feels like a recipe for memorable television.",
       "source": "https://people.com/dancing-with-the-stars-season-35-contestants-revealed-12065058",
-      "proImage": "https://assets.playbill.com/head-shots/Chicago-M.-Ballas-Cropped-1.jpg"
+      "proImage": "https://assets.playbill.com/head-shots/Chicago-M.-Ballas-Cropped-1.jpg",
+      "originalAcquisition": {
+        "ownerId": "payton",
+        "cost": 76,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "tyler-cameron",
       "name": "Tyler Cameron",
       "status": "confirmed",
       "pro": "Sharna Burgess",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "colton",
+      "ownerName": "Colton",
+      "auctionCost": 15,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -201,16 +238,22 @@
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
       "bio": "Tyler became one of Bachelor Nation's most popular contestants after The Bachelorette, and he has since taken on everything from modeling to Special Forces. His football background gives him athleticism, while The Real Dirty Dancing gave him a taste of partner choreography. Sharna's return makes this an especially easy pairing to root for.",
       "source": "https://ew.com/dancing-with-the-stars-reveals-full-season-35-cast-12076314",
-      "proImage": "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/21183538-sharna-burgess-headshot-436x668.png"
+      "proImage": "https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/21183538-sharna-burgess-headshot-436x668.png",
+      "originalAcquisition": {
+        "ownerId": "colton",
+        "cost": 15,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "ezra-frech",
       "name": "Ezra Frech",
       "status": "confirmed",
       "pro": "Daniella Karagach",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jessica",
+      "ownerName": "Jessica",
+      "auctionCost": 51,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -224,7 +267,13 @@
       "updateTone": "rising",
       "preseasonUpdate": "His early prediction-market chance has climbed to roughly 15%, placing him just behind the three preseason leaders. Athletic upside and Daniella's choreography are driving the rise.",
       "updateSource": "https://www.covers.com/entertainment/dwts-season-35-winner-odds-kalshi",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "jessica",
+        "cost": 51,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "tatyana-ali",
@@ -249,9 +298,9 @@
       "name": "Taylor Hanson",
       "status": "confirmed",
       "pro": "Britt Stewart",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
+      "auctionCost": 1,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -260,16 +309,22 @@
       "danceBackground": "Performance crossover — lifelong musician with strong rhythm; no formal training established",
       "bio": "Taylor has spent most of his life making music and performing for live audiences as part of Hanson. He may be new to ballroom, but rhythm, stamina and connecting with a crowd are already second nature. Britt is a patient, expressive teacher, making this feel like a pairing that could quietly grow on everyone.",
       "source": "https://people.com/dancing-with-the-stars-season-35-contestants-revealed-12065058",
-      "proImage": "https://ntvb.tmsimg.com/assets/assets/1346096_v9_aa.jpg"
+      "proImage": "https://ntvb.tmsimg.com/assets/assets/1346096_v9_aa.jpg",
+      "originalAcquisition": {
+        "ownerId": "jackson",
+        "cost": 1,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "jackson-olson",
       "name": "Jackson Olson",
       "status": "confirmed",
       "pro": "Emma Slater",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "mattie",
+      "ownerName": "Mattie",
+      "auctionCost": 97,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -283,7 +338,13 @@
       "updateTone": "rising",
       "preseasonUpdate": "One of the clearest preseason risers at roughly 13% in the prediction market. His built-in showmanship and comfort with choreographed crowd entertainment are making him a popular breakout pick.",
       "updateSource": "https://www.covers.com/entertainment/dwts-season-35-winner-odds-kalshi",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "mattie",
+        "cost": 97,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "sarah-jane-nader",
@@ -308,9 +369,9 @@
       "name": "Connor Wood",
       "status": "confirmed",
       "pro": "Rylee Arnold",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "payton",
+      "ownerName": "Payton",
+      "auctionCost": 41,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -319,16 +380,22 @@
       "danceBackground": "No formal training established — stage comfort and comic performance",
       "bio": "Connor is a comedian, social creator and co-host of Brooke and Connor Make a Podcast. He does not arrive with a formal dance résumé, but he knows how to entertain a room and laugh through an awkward moment—both very useful on DWTS. Rylee's upbeat energy makes this pairing feel instantly likable.",
       "source": "https://ew.com/dancing-with-the-stars-reveals-full-season-35-cast-12076314",
-      "proImage": "https://s.abcnews.com/images/GMA/230912_gma_digital_DWTS_hpMain_1x1_608.jpg"
+      "proImage": "https://s.abcnews.com/images/GMA/230912_gma_digital_DWTS_hpMain_1x1_608.jpg",
+      "originalAcquisition": {
+        "ownerId": "payton",
+        "cost": 41,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "conner-leavitt",
       "name": "Conner Leavitt",
       "status": "confirmed",
       "pro": "Adele Zaikman",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
+      "auctionCost": 46,
       "seasonPoints": 0,
       "avgScore": null,
       "trend": 0,
@@ -342,7 +409,13 @@
       "updateTone": "watch",
       "preseasonUpdate": "His résumé still lacks formal ballroom training, but he does have casual social-media dance familiarity. That slightly upgrades the coordination outlook without putting him in the trained-dancer tier.",
       "updateSource": "https://www.cosmopolitan.com/entertainment/tv/a73642265/which-dancing-with-the-stars-celebs-have-dance-experience/",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "originalAcquisition": {
+        "ownerId": "jackson",
+        "cost": 46,
+        "acquisition": "draft",
+        "date": "2026-09-13"
+      }
     },
     {
       "id": "giada-de-laurentiis",
@@ -387,11 +460,285 @@
     }
   ],
   "weeks": [],
-  "transactions": [],
+  "transactions": [
+    {
+      "type": "draft",
+      "title": "Jenna Dewan drafted by Squid",
+      "detail": "107 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Harry Shum Jr. drafted by Squid",
+      "detail": "81 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Amber Glenn drafted by Mattie",
+      "detail": "45 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Jackson Olson drafted by Mattie",
+      "detail": "97 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Julia Stiles drafted by Jessica",
+      "detail": "7 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Ezra Frech drafted by Jessica",
+      "detail": "51 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Maura Higgins drafted by Payton",
+      "detail": "76 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Connor Wood drafted by Payton",
+      "detail": "41 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Tyler Cameron drafted by Colton",
+      "detail": "15 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Taylor Hanson drafted by Jackson",
+      "detail": "1 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "draft",
+      "title": "Conner Leavitt drafted by Jackson",
+      "detail": "46 Dancer Bux",
+      "date": "September 13, 2026"
+    },
+    {
+      "type": "waiver",
+      "title": "Colton claimed Ciara Miller",
+      "detail": "Colton added Ciara Miller into an open roster spot for 0 Dancer Bux.",
+      "date": "September 13, 2026, 7:40:53 PM"
+    }
+  ],
   "locks": [],
   "notes": [
     "Six-owner league confirmed.",
     "Auction draft: Sunday, Sept. 13 at 6 PM Central, two days before the Sept. 15 premiere.",
     "Full 16-couple cast and official professional pairings added Sept. 2."
-  ]
+  ],
+  "officialState": {
+    "revision": "2026-09-14-draft-1",
+    "purchases": {
+      "jenna-dewan": {
+        "ownerId": "squid",
+        "cost": 107,
+        "acquisition": "draft"
+      },
+      "harry-shum-jr": {
+        "ownerId": "squid",
+        "cost": 81,
+        "acquisition": "draft"
+      },
+      "amber-glenn": {
+        "ownerId": "mattie",
+        "cost": 45,
+        "acquisition": "draft"
+      },
+      "jackson-olson": {
+        "ownerId": "mattie",
+        "cost": 97,
+        "acquisition": "draft"
+      },
+      "julia-stiles": {
+        "ownerId": "jessica",
+        "cost": 7,
+        "acquisition": "draft"
+      },
+      "ezra-frech": {
+        "ownerId": "jessica",
+        "cost": 51,
+        "acquisition": "draft"
+      },
+      "maura-higgins": {
+        "ownerId": "payton",
+        "cost": 76,
+        "acquisition": "draft"
+      },
+      "connor-wood": {
+        "ownerId": "payton",
+        "cost": 41,
+        "acquisition": "draft"
+      },
+      "tyler-cameron": {
+        "ownerId": "colton",
+        "cost": 15,
+        "acquisition": "draft"
+      },
+      "ciara-miller": {
+        "ownerId": "colton",
+        "cost": 0,
+        "acquisition": "waiver"
+      },
+      "taylor-hanson": {
+        "ownerId": "jackson",
+        "cost": 1,
+        "acquisition": "draft"
+      },
+      "conner-leavitt": {
+        "ownerId": "jackson",
+        "cost": 46,
+        "acquisition": "draft"
+      }
+    },
+    "waivers": [
+      "tatyana-ali",
+      "sarah-jane-nader",
+      "giada-de-laurentiis",
+      "guillermo-rodriguez"
+    ],
+    "buxOverrides": {
+      "jackson": 178,
+      "colton": 210,
+      "payton": 83,
+      "mattie": 58,
+      "jessica": 142,
+      "squid": 12
+    },
+    "buxAdjustments": {},
+    "ownershipOverrides": {},
+    "trades": [],
+    "resets": [],
+    "buxLedger": [
+      {
+        "id": "draft-costume-jackson",
+        "ownerId": "jackson",
+        "amount": 25,
+        "reason": "Draft-night costume bonus",
+        "week": "Preseason / Draft",
+        "createdAt": "2026-09-13T18:00:00-05:00"
+      },
+      {
+        "id": "draft-costume-colton",
+        "ownerId": "colton",
+        "amount": 25,
+        "reason": "Draft-night costume bonus",
+        "week": "Preseason / Draft",
+        "createdAt": "2026-09-13T18:00:00-05:00"
+      }
+    ],
+    "transactions": [
+      {
+        "type": "waiver",
+        "title": "Colton claimed Ciara Miller",
+        "detail": "Colton added Ciara Miller into an open roster spot for 0 Dancer Bux.",
+        "date": "September 13, 2026, 7:40:53 PM"
+      }
+    ],
+    "locks": {
+      "colton": "ciara-miller",
+      "jackson": "taylor-hanson",
+      "jessica": "julia-stiles",
+      "mattie": "amber-glenn",
+      "payton": "maura-higgins",
+      "squid": "jenna-dewan"
+    },
+    "tradeStatuses": {
+      "taylor-hanson": "available",
+      "conner-leavitt": "available"
+    }
+  },
+  "draftArchive": {
+    "date": "2026-09-13",
+    "recordedFrom": "Commissioner screenshots supplied September 14, 2026",
+    "acquisitions": {
+      "jenna-dewan": {
+        "ownerId": "squid",
+        "cost": 107,
+        "acquisition": "draft"
+      },
+      "harry-shum-jr": {
+        "ownerId": "squid",
+        "cost": 81,
+        "acquisition": "draft"
+      },
+      "amber-glenn": {
+        "ownerId": "mattie",
+        "cost": 45,
+        "acquisition": "draft"
+      },
+      "jackson-olson": {
+        "ownerId": "mattie",
+        "cost": 97,
+        "acquisition": "draft"
+      },
+      "julia-stiles": {
+        "ownerId": "jessica",
+        "cost": 7,
+        "acquisition": "draft"
+      },
+      "ezra-frech": {
+        "ownerId": "jessica",
+        "cost": 51,
+        "acquisition": "draft"
+      },
+      "maura-higgins": {
+        "ownerId": "payton",
+        "cost": 76,
+        "acquisition": "draft"
+      },
+      "connor-wood": {
+        "ownerId": "payton",
+        "cost": 41,
+        "acquisition": "draft"
+      },
+      "tyler-cameron": {
+        "ownerId": "colton",
+        "cost": 15,
+        "acquisition": "draft"
+      },
+      "ciara-miller": {
+        "ownerId": "colton",
+        "cost": 0,
+        "acquisition": "waiver"
+      },
+      "taylor-hanson": {
+        "ownerId": "jackson",
+        "cost": 1,
+        "acquisition": "draft"
+      },
+      "conner-leavitt": {
+        "ownerId": "jackson",
+        "cost": 46,
+        "acquisition": "draft"
+      }
+    },
+    "remainingBux": {
+      "jackson": 178,
+      "colton": 210,
+      "payton": 83,
+      "mattie": 58,
+      "jessica": 142,
+      "squid": 12
+    },
+    "unowned": [
+      "tatyana-ali",
+      "sarah-jane-nader",
+      "giada-de-laurentiis",
+      "guillermo-rodriguez"
+    ]
+  }
 }
