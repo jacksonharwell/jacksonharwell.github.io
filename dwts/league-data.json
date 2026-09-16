@@ -15,8 +15,11 @@
     "lockPolicy": {
       "day": "Monday",
       "time": "19:00",
-      "timeZone": "America/Chicago"
-    }
+      "timeZone": "America/Chicago",
+      "reopenDay": "Wednesday",
+      "reopenTime": "02:00"
+    },
+    "premiereISODate": "2026-09-15"
   },
   "owners": [
     {
