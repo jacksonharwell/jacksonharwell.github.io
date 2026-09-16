@@ -25,7 +25,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 210,
-      "points": 0,
+      "points": 5,
       "movement": 0
     },
     {
@@ -230,8 +230,8 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 15,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5.67,
       "trend": 0,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
@@ -475,6 +475,19 @@
             5
           ],
           "average": 5,
+          "fantasyPoints": 5
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": "colton",
+          "judges": [
+            6,
+            5,
+            6
+          ],
+          "average": 5.67,
           "fantasyPoints": 5
         }
       ]
