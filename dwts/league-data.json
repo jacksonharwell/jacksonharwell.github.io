@@ -283,8 +283,8 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 3,
+      "avgScore": 3.33,
       "trend": 0,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
@@ -502,6 +502,19 @@
           ],
           "average": 4,
           "fantasyPoints": 4
+        },
+        {
+          "dancerId": "guillermo-rodriguez",
+          "dancerName": "Guillermo Rodriguez",
+          "proName": "Witney Carson",
+          "ownerId": null,
+          "judges": [
+            4,
+            3,
+            3
+          ],
+          "average": 3.33,
+          "fantasyPoints": 3
         }
       ]
     }
