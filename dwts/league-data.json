@@ -46,7 +46,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 162,
-      "points": 0,
+      "points": 6,
       "movement": 0
     },
     {
@@ -254,8 +254,8 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 6,
+      "avgScore": 6.67,
       "trend": 0,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
@@ -515,6 +515,19 @@
           ],
           "average": 3.33,
           "fantasyPoints": 3
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            7,
+            6,
+            7
+          ],
+          "average": 6.67,
+          "fantasyPoints": 6
         }
       ]
     }
