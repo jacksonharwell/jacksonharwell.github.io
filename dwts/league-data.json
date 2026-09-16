@@ -11,7 +11,12 @@
     "premiereDate": "Tuesday, September 15, 2026",
     "lastUpdated": "2026-09-16",
     "draftISO": "2026-09-13T18:00:00-05:00",
-    "officialRecord": true
+    "officialRecord": true,
+    "lockPolicy": {
+      "day": "Monday",
+      "time": "19:00",
+      "timeZone": "America/Chicago"
+    }
   },
   "owners": [
     {
@@ -575,7 +580,16 @@
           "judgesPlacement": 1,
           "judgesBonus": 2
         }
-      ]
+      ],
+      "locks": {
+        "colton": "ciara-miller",
+        "jackson": "taylor-hanson",
+        "jessica": "julia-stiles",
+        "mattie": "amber-glenn",
+        "payton": "maura-higgins",
+        "squid": "jenna-dewan"
+      },
+      "locksFinalized": true
     }
   ],
   "transactions": [
@@ -887,6 +901,21 @@
     "tradeStatuses": {
       "taylor-hanson": "available",
       "conner-leavitt": "available"
+    },
+    "weeklyLocks": {
+      "1": {
+        "picks": {
+          "colton": "ciara-miller",
+          "jackson": "taylor-hanson",
+          "jessica": "julia-stiles",
+          "mattie": "amber-glenn",
+          "payton": "maura-higgins",
+          "squid": "jenna-dewan"
+        },
+        "locked": true,
+        "lockedAt": "2026-09-16T02:47:44.803Z",
+        "reason": "Commissioner requested immediate lock"
+      }
     }
   },
   "draftArchive": {
