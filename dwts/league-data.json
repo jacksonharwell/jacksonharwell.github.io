@@ -24,14 +24,14 @@
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 210,
+      "bux": 230,
       "points": 5,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 83,
+      "bux": 103,
       "points": 0,
       "movement": 0
     },
@@ -671,8 +671,8 @@
     ],
     "buxOverrides": {
       "jackson": 183,
-      "colton": 210,
-      "payton": 83,
+      "colton": 230,
+      "payton": 103,
       "mattie": 63,
       "jessica": 162,
       "squid": 12
@@ -721,6 +721,22 @@
         "reason": "Premiere-night bonus",
         "week": "Week 1",
         "createdAt": "2026-09-15T19:57:39-05:00"
+      },
+      {
+        "id": "premiere-bonus-payton-2026-09-15",
+        "ownerId": "payton",
+        "amount": 20,
+        "reason": "Premiere-night bonus",
+        "week": "Week 1",
+        "createdAt": "2026-09-15T20:00:00-05:00"
+      },
+      {
+        "id": "premiere-bonus-colton-2026-09-15",
+        "ownerId": "colton",
+        "amount": 20,
+        "reason": "Premiere-night bonus",
+        "week": "Week 1",
+        "createdAt": "2026-09-15T20:00:00-05:00"
       }
     ],
     "transactions": [
