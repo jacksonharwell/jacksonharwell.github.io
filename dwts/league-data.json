@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-15",
+    "lastUpdated": "2026-09-16",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true
   },
@@ -53,7 +53,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 0,
+      "points": 7,
       "movement": 0
     }
   ],
@@ -95,8 +95,8 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 7,
+      "avgScore": 7,
       "trend": 0,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
@@ -554,6 +554,19 @@
           ],
           "average": 5.33,
           "fantasyPoints": 5
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "squid",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "fantasyPoints": 7
         }
       ]
     }
