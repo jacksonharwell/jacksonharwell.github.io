@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 0,
-    "phase": "Draft complete",
+    "week": 1,
+    "phase": "Premiere night",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-14",
+    "lastUpdated": "2026-09-15",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true
   },
@@ -39,7 +39,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 58,
-      "points": 0,
+      "points": 5,
       "movement": 0
     },
     {
@@ -325,8 +325,8 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 97,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5,
       "trend": 0,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
@@ -459,7 +459,27 @@
       "proImage": "https://www.dancemagazine.com/wp-content/uploads/2021/12/img-77.png"
     }
   ],
-  "weeks": [],
+  "weeks": [
+    {
+      "week": 1,
+      "label": "Premiere",
+      "date": "2026-09-15",
+      "performances": [
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "ownerId": "mattie",
+          "judges": [
+            5,
+            5,
+            5
+          ],
+          "average": 5,
+          "fantasyPoints": 5
+        }
+      ]
+    }
+  ],
   "transactions": [
     {
       "type": "draft",
