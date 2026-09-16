@@ -46,3 +46,6 @@
 .feather .hbar-fill>span{display:none}
 .feather .color-dot{width:64px;height:24px;background-size:auto}
 .stethoscope .mascot-middle{height:28px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%2228%22%20viewBox%3D%220%200%20100%2028%22%3E%3Cpath%20d%3D%22M0%2014C12%2014%2012%204%2025%204S38%2024%2050%2024S63%204%2075%204S88%2014%20100%2014%22%20fill%3D%22none%22%20stroke%3D%22%23239a67%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M0%2013C12%2013%2012%203%2025%203S38%2023%2050%2023S63%203%2075%203S88%2013%20100%2013%22%20fill%3D%22none%22%20stroke%3D%22%2375d8aa%22%20stroke-width%3D%221%22%2F%3E%3C%2Fsvg%3E") left center/100px 28px repeat-x}
+
+/* Standings use clean, solid team colors without mascot treatments. */
+.owner-colton .hbar-name{color:#e34b4b}
