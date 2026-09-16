@@ -32,7 +32,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 113,
-      "points": 0,
+      "points": 5,
       "movement": 0
     },
     {
@@ -372,8 +372,8 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5.33,
       "trend": 0,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
@@ -528,6 +528,19 @@
           ],
           "average": 6.67,
           "fantasyPoints": 6
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            6,
+            5,
+            5
+          ],
+          "average": 5.33,
+          "fantasyPoints": 5
         }
       ]
     }
