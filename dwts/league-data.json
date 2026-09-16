@@ -18,7 +18,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 208,
-      "points": 4,
+      "points": 9,
       "movement": 0
     },
     {
@@ -301,8 +301,8 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 1,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5.33,
       "trend": 0,
       "image": "https://www.mastersbywinnclaybaugh.com/wp-content/uploads/2024/05/taylor-hanson.jpg",
       "knownFor": "Hanson • singer, songwriter and musician",
@@ -534,6 +534,19 @@
           "dancerName": "Connor Wood",
           "proName": "Rylee Arnold",
           "ownerId": "payton",
+          "judges": [
+            6,
+            5,
+            5
+          ],
+          "average": 5.33,
+          "fantasyPoints": 5
+        },
+        {
+          "dancerId": "taylor-hanson",
+          "dancerName": "Taylor Hanson",
+          "proName": "Britt Stewart",
+          "ownerId": "jackson",
           "judges": [
             6,
             5,
