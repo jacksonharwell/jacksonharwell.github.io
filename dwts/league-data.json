@@ -61,7 +61,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 9,
+      "points": 15,
       "movement": 0
     }
   ],
@@ -74,8 +74,8 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 107,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 6,
+      "avgScore": 6.33,
       "trend": 0,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
@@ -686,6 +686,20 @@
           "average": 4.67,
           "fantasyPoints": 4,
           "basePoints": 4
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "squid",
+          "judges": [
+            6,
+            6,
+            7
+          ],
+          "average": 6.33,
+          "fantasyPoints": 6,
+          "basePoints": 6
         }
       ],
       "locks": {
