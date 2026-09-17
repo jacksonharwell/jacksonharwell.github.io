@@ -40,7 +40,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 113,
-      "points": 5,
+      "points": 12,
       "movement": 0
     },
     {
@@ -214,8 +214,8 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 7,
+      "avgScore": 7,
       "trend": 0,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
@@ -658,6 +658,20 @@
           "average": 6,
           "fantasyPoints": 6,
           "basePoints": 6
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "payton",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "fantasyPoints": 7,
+          "basePoints": 7
         }
       ],
       "locks": {
