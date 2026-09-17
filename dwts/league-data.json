@@ -40,7 +40,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 113,
-      "points": 13,
+      "points": 15,
       "movement": 0
     },
     {
@@ -54,14 +54,14 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 162,
-      "points": 13,
+      "points": 14,
       "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 16,
+      "points": 17,
       "movement": 0
     }
   ],
@@ -542,8 +542,10 @@
             7
           ],
           "average": 6.67,
-          "fantasyPoints": 6,
-          "basePoints": 6
+          "fantasyPoints": 7,
+          "basePoints": 6,
+          "judgesPlacement": 2,
+          "judgesBonus": 1
         },
         {
           "dancerId": "connor-wood",
@@ -672,9 +674,11 @@
             7
           ],
           "average": 7,
-          "fantasyPoints": 8,
+          "fantasyPoints": 10,
           "basePoints": 7,
-          "lockBonus": 1
+          "lockBonus": 1,
+          "judgesPlacement": 1,
+          "judgesBonus": 2
         },
         {
           "dancerId": "sarah-jane-nader",
@@ -703,9 +707,11 @@
             7
           ],
           "average": 6.33,
-          "fantasyPoints": 7,
+          "fantasyPoints": 8,
           "basePoints": 6,
-          "lockBonus": 1
+          "lockBonus": 1,
+          "judgesPlacement": 2,
+          "judgesBonus": 1
         }
       ],
       "locks": {
@@ -819,6 +825,13 @@
       "title": "Sarah Jane Nader eliminated",
       "detail": "4 base points − 1 elimination penalty = 3 fantasy points. Sarah Jane was unowned, so no team total changed.",
       "date": "September 16, 2026"
+    },
+    {
+      "id": "week1-split-night-judges-bonuses",
+      "type": "scoring",
+      "title": "Week 1 split-night leaderboard bonuses finalized",
+      "detail": "Men: Harry Shum Jr. +2 and Ezra Frech +1. Women: Maura Higgins +2 and Jenna Dewan +1.",
+      "date": "September 16, 2026"
     }
   ],
   "locks": [],
@@ -828,7 +841,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-16-premiere-complete",
+    "revision": "2026-09-16-week1-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
