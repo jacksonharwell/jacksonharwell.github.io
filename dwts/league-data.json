@@ -40,28 +40,28 @@
       "id": "payton",
       "name": "Payton",
       "bux": 113,
-      "points": 12,
+      "points": 13,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 88,
-      "points": 11,
+      "points": 12,
       "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 162,
-      "points": 12,
+      "points": 13,
       "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 15,
+      "points": 16,
       "movement": 0
     }
   ],
@@ -614,8 +614,9 @@
             6
           ],
           "average": 6,
-          "fantasyPoints": 6,
-          "basePoints": 6
+          "fantasyPoints": 7,
+          "basePoints": 6,
+          "lockBonus": 1
         },
         {
           "dancerId": "tatyana-ali",
@@ -656,8 +657,9 @@
             6
           ],
           "average": 6,
-          "fantasyPoints": 6,
-          "basePoints": 6
+          "fantasyPoints": 7,
+          "basePoints": 6,
+          "lockBonus": 1
         },
         {
           "dancerId": "maura-higgins",
@@ -670,8 +672,9 @@
             7
           ],
           "average": 7,
-          "fantasyPoints": 7,
-          "basePoints": 7
+          "fantasyPoints": 8,
+          "basePoints": 7,
+          "lockBonus": 1
         },
         {
           "dancerId": "sarah-jane-nader",
@@ -698,8 +701,9 @@
             7
           ],
           "average": 6.33,
-          "fantasyPoints": 6,
-          "basePoints": 6
+          "fantasyPoints": 7,
+          "basePoints": 6,
+          "lockBonus": 1
         }
       ],
       "locks": {
@@ -799,6 +803,13 @@
       "title": "Conner Leavitt eliminated",
       "detail": "4 base points − 1 elimination penalty = 3 fantasy points for Jackson. Original draft ownership and 46-Bux purchase preserved.",
       "date": "September 15, 2026"
+    },
+    {
+      "id": "week1-womens-lock-bonuses",
+      "type": "scoring",
+      "title": "Women’s-night Lock bonuses awarded",
+      "detail": "Payton (Maura Higgins), Squid (Jenna Dewan), Mattie (Amber Glenn), and Jessica (Julia Stiles) each receive +1. Amber and Julia share the third-place cutoff.",
+      "date": "September 16, 2026"
     }
   ],
   "locks": [],
@@ -808,7 +819,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-15-premiere-1",
+    "revision": "2026-09-16-premiere-complete",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
