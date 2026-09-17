@@ -33,7 +33,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 245,
-      "points": 5,
+      "points": 10,
       "movement": 0
     },
     {
@@ -47,7 +47,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 88,
-      "points": 5,
+      "points": 11,
       "movement": 0
     },
     {
@@ -132,8 +132,8 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 45,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 6,
+      "avgScore": 6,
       "trend": 0,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
@@ -190,8 +190,8 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 0,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5,
       "trend": 0,
       "image": "https://media.glamour.com/photos/69e13cd18d7bbac7c87207ea/master/w_2560%2Cc_limit/R825_MBA_20260423_Glamour_Ciara_Cover_Miranda0899_FNL.jpg",
       "knownFor": "Summer House • model • former travel nurse",
@@ -291,8 +291,8 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 4,
+      "avgScore": 4,
       "trend": 0,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
@@ -434,8 +434,8 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 5,
+      "avgScore": 5.33,
       "trend": 0,
       "image": "https://cdn.mos.cms.futurecdn.net/sCezjLZymv5Dw3fVKtZQK8.jpg",
       "knownFor": "Food Network • chef • author",
@@ -582,6 +582,58 @@
           "basePoints": 7,
           "judgesPlacement": 1,
           "judgesBonus": 2
+        },
+        {
+          "dancerId": "ciara-miller",
+          "dancerName": "Ciara Miller",
+          "proName": "Brandon Armstrong",
+          "ownerId": "colton",
+          "judges": [
+            5,
+            5,
+            5
+          ],
+          "average": 5,
+          "fantasyPoints": 5
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "mattie",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "fantasyPoints": 6
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": null,
+          "judges": [
+            4,
+            4,
+            4
+          ],
+          "average": 4,
+          "fantasyPoints": 4
+        },
+        {
+          "dancerId": "giada-de-laurentiis",
+          "dancerName": "Giada De Laurentiis",
+          "proName": "Alan Bersten",
+          "ownerId": null,
+          "judges": [
+            6,
+            5,
+            5
+          ],
+          "average": 5.33,
+          "fantasyPoints": 5
         }
       ],
       "locks": {
