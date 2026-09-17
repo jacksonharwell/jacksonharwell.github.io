@@ -357,7 +357,7 @@
     {
       "id": "sarah-jane-nader",
       "name": "Sarah Jane Nader",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Hailey Bills",
       "ownerId": null,
       "ownerName": null,
@@ -687,8 +687,10 @@
             5
           ],
           "average": 4.67,
-          "fantasyPoints": 4,
-          "basePoints": 4
+          "fantasyPoints": 3,
+          "basePoints": 4,
+          "eliminated": true,
+          "eliminationPenalty": -1
         },
         {
           "dancerId": "jenna-dewan",
@@ -810,6 +812,13 @@
       "title": "Women’s-night Lock bonuses awarded",
       "detail": "Payton (Maura Higgins), Squid (Jenna Dewan), Mattie (Amber Glenn), and Jessica (Julia Stiles) each receive +1. Amber and Julia share the third-place cutoff.",
       "date": "September 16, 2026"
+    },
+    {
+      "id": "week1-sarah-jane-eliminated",
+      "type": "elimination",
+      "title": "Sarah Jane Nader eliminated",
+      "detail": "4 base points − 1 elimination penalty = 3 fantasy points. Sarah Jane was unowned, so no team total changed.",
+      "date": "September 16, 2026"
     }
   ],
   "locks": [],
@@ -884,7 +893,6 @@
     },
     "waivers": [
       "tatyana-ali",
-      "sarah-jane-nader",
       "giada-de-laurentiis",
       "guillermo-rodriguez"
     ],
