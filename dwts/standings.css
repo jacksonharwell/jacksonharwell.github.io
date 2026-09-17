@@ -49,3 +49,4 @@
 
 /* Standings use clean, solid team colors without mascot treatments. */
 .owner-colton .hbar-name{color:#e34b4b}
+.eliminated-skull{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:rgba(14,12,17,.82);border:1px solid rgba(255,255,255,.34);font-size:20px;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.7));z-index:2}.dancer-bar:has(.eliminated-skull){filter:saturate(.62)}
