@@ -54,7 +54,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 162,
-      "points": 6,
+      "points": 12,
       "movement": 0
     },
     {
@@ -161,8 +161,8 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 7,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 6,
+      "avgScore": 6,
       "trend": 0,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
@@ -644,6 +644,20 @@
           "average": 5.33,
           "fantasyPoints": 5,
           "basePoints": 5
+        },
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": "jessica",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "fantasyPoints": 6,
+          "basePoints": 6
         }
       ],
       "locks": {
