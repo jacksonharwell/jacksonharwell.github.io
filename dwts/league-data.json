@@ -362,8 +362,8 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 0,
-      "avgScore": null,
+      "seasonPoints": 4,
+      "avgScore": 4.67,
       "trend": 0,
       "image": "https://s42173.pcdn.co/wp-content/uploads/2021/09/Screen-Shot-2021-09-16-at-12.05.40-AM.png",
       "knownFor": "Model • Love Thy Nader",
@@ -672,6 +672,20 @@
           "average": 7,
           "fantasyPoints": 7,
           "basePoints": 7
+        },
+        {
+          "dancerId": "sarah-jane-nader",
+          "dancerName": "Sarah Jane Nader",
+          "proName": "Hailey Bills",
+          "ownerId": null,
+          "judges": [
+            5,
+            4,
+            5
+          ],
+          "average": 4.67,
+          "fantasyPoints": 4,
+          "basePoints": 4
         }
       ],
       "locks": {
