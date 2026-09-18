@@ -1,0 +1,17 @@
+{
+  "name": "Locke House Rental Planner",
+  "short_name": "Locke House",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#173b36",
+  "theme_color": "#173b36",
+  "icons": [
+    {
+      "src": "locke-house-app-icon.png?v=1",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
