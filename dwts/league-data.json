@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-18",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -288,9 +288,9 @@
       "name": "Tatyana Ali",
       "status": "confirmed",
       "pro": "Jan Ravnik",
-      "ownerId": "jackson",
-      "ownerName": "Jackson",
-      "auctionCost": 0,
+      "ownerId": null,
+      "ownerName": null,
+      "auctionCost": null,
       "seasonPoints": 4,
       "avgScore": 4,
       "trend": 0,
@@ -300,9 +300,17 @@
       "bio": "Tatyana grew up on television as Ashley Banks on The Fresh Prince of Bel-Air and is also a singer, producer and Harvard graduate. She brings warmth, musical instincts and years of stage experience, even if ballroom itself is new. Her partnership with Jan has the potential to be charming, joyful and full of personality.",
       "source": "https://ew.com/dancing-with-the-stars-reveals-full-season-35-cast-12076314",
       "proImage": "https://images.plex.tv/photo?scale=1&size=large-1920&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fpeople%2Fa3d12b8a8c7b028a47f01ec7f946ed3b.jpg",
-      "acquisition": "waiver",
-      "acquiredAt": "2026-09-17T11:49:08.553Z",
-      "acquiredWeek": 2
+      "ownershipHistory": [
+        {
+          "ownerId": "jackson",
+          "acquisition": "waiver",
+          "cost": 0,
+          "acquiredAt": "2026-09-17T11:49:08.553Z",
+          "acquiredWeek": 2,
+          "releasedAt": "2026-09-18T02:09:00.771Z",
+          "releasedWeek": 2
+        }
+      ]
     },
     {
       "id": "taylor-hanson",
@@ -457,9 +465,9 @@
       "name": "Guillermo Rodriguez",
       "status": "confirmed",
       "pro": "Witney Carson",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
+      "auctionCost": 0,
       "seasonPoints": 3,
       "avgScore": 3.33,
       "trend": 0,
@@ -468,7 +476,10 @@
       "danceBackground": "No formal dance background publicly established",
       "bio": "Guillermo went from working security at Jimmy Kimmel Live! to becoming one of late night's most recognizable and lovable personalities. He may not have dance training, but he has comic timing, confidence and an audience that already enjoys watching him have fun. Reigning champion Witney has a chance to create the season's happiest crowd-pleasing routines.",
       "source": "https://people.com/dancing-with-the-stars-season-35-contestants-revealed-12065058",
-      "proImage": "https://www.dancemagazine.com/wp-content/uploads/2021/12/img-77.png"
+      "proImage": "https://www.dancemagazine.com/wp-content/uploads/2021/12/img-77.png",
+      "acquisition": "waiver",
+      "acquiredAt": "2026-09-18T02:09:00.771Z",
+      "acquiredWeek": 2
     }
   ],
   "weeks": [
@@ -847,6 +858,19 @@
       "cost": 0,
       "effectiveWeek": 2,
       "createdAt": "2026-09-17T11:49:08.553Z"
+    },
+    {
+      "id": "waiver-guillermo-jackson-20260918",
+      "type": "waiver",
+      "title": "Jackson claimed Guillermo Rodriguez and dropped Tatyana Ali",
+      "detail": "Jackson added Guillermo Rodriguez & Witney Carson for 0 Dancer Bux and returned Tatyana Ali & Jan Ravnik to waivers. Effective Week 2; previously earned points and Bux are unchanged.",
+      "date": "September 18, 2026",
+      "ownerId": "jackson",
+      "dancerId": "guillermo-rodriguez",
+      "droppedDancerId": "tatyana-ali",
+      "cost": 0,
+      "effectiveWeek": 2,
+      "createdAt": "2026-09-18T02:09:00.771Z"
     }
   ],
   "locks": [],
@@ -856,7 +880,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-17-tatyana-jackson",
+    "revision": "2026-09-18-guillermo-jackson",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -918,17 +942,17 @@
         "cost": 46,
         "acquisition": "draft"
       },
-      "tatyana-ali": {
+      "guillermo-rodriguez": {
         "ownerId": "jackson",
         "cost": 0,
         "acquisition": "waiver",
-        "claimedAt": "2026-09-17T11:49:08.553Z",
+        "claimedAt": "2026-09-18T02:09:00.771Z",
         "effectiveWeek": 2
       }
     },
     "waivers": [
       "giada-de-laurentiis",
-      "guillermo-rodriguez"
+      "tatyana-ali"
     ],
     "buxOverrides": {
       "jackson": 208,
@@ -940,7 +964,8 @@
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
-      "tatyana-ali": "jackson"
+      "tatyana-ali": null,
+      "guillermo-rodriguez": "jackson"
     },
     "trades": [],
     "resets": [],
@@ -1076,6 +1101,19 @@
         "cost": 0,
         "effectiveWeek": 2,
         "createdAt": "2026-09-17T11:49:08.553Z"
+      },
+      {
+        "id": "waiver-guillermo-jackson-20260918",
+        "type": "waiver",
+        "title": "Jackson claimed Guillermo Rodriguez and dropped Tatyana Ali",
+        "detail": "Jackson added Guillermo Rodriguez & Witney Carson for 0 Dancer Bux and returned Tatyana Ali & Jan Ravnik to waivers. Effective Week 2; previously earned points and Bux are unchanged.",
+        "date": "September 18, 2026",
+        "ownerId": "jackson",
+        "dancerId": "guillermo-rodriguez",
+        "droppedDancerId": "tatyana-ali",
+        "cost": 0,
+        "effectiveWeek": 2,
+        "createdAt": "2026-09-18T02:09:00.771Z"
       }
     ],
     "locks": {
@@ -1105,7 +1143,7 @@
         "reason": "Commissioner requested immediate lock"
       }
     },
-    "updatedAt": "2026-09-17T11:49:08.553Z"
+    "updatedAt": "2026-09-18T02:09:00.771Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
