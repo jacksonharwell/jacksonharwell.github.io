@@ -871,6 +871,15 @@
       "cost": 0,
       "effectiveWeek": 2,
       "createdAt": "2026-09-18T02:09:00.771Z"
+    },
+    {
+      "id": "week2-picks-20260922",
+      "type": "locks",
+      "title": "Week 2 Lock picks updated",
+      "detail": "Colton: Tyler Cameron; Jessica: Ezra Frech; Mattie: Amber Glenn; Jackson: Taylor Hanson; Payton: Maura Higgins. Squid’s existing Jenna Dewan pick is unchanged.",
+      "date": "September 22, 2026",
+      "week": 2,
+      "createdAt": "2026-09-22T23:57:51.650Z"
     }
   ],
   "locks": [],
@@ -880,7 +889,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-tuesday-lock-deadline",
+    "revision": "2026-09-22-week2-picks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1114,12 +1123,21 @@
         "cost": 0,
         "effectiveWeek": 2,
         "createdAt": "2026-09-18T02:09:00.771Z"
+      },
+      {
+        "id": "week2-picks-20260922",
+        "type": "locks",
+        "title": "Week 2 Lock picks updated",
+        "detail": "Colton: Tyler Cameron; Jessica: Ezra Frech; Mattie: Amber Glenn; Jackson: Taylor Hanson; Payton: Maura Higgins. Squid’s existing Jenna Dewan pick is unchanged.",
+        "date": "September 22, 2026",
+        "week": 2,
+        "createdAt": "2026-09-22T23:57:51.650Z"
       }
     ],
     "locks": {
-      "colton": "ciara-miller",
+      "colton": "tyler-cameron",
       "jackson": "taylor-hanson",
-      "jessica": "julia-stiles",
+      "jessica": "ezra-frech",
       "mattie": "amber-glenn",
       "payton": "maura-higgins",
       "squid": "jenna-dewan"
@@ -1141,9 +1159,22 @@
         "locked": true,
         "lockedAt": "2026-09-16T02:47:44.803Z",
         "reason": "Commissioner requested immediate lock"
+      },
+      "2": {
+        "picks": {
+          "colton": "tyler-cameron",
+          "jackson": "taylor-hanson",
+          "jessica": "ezra-frech",
+          "mattie": "amber-glenn",
+          "payton": "maura-higgins",
+          "squid": "jenna-dewan"
+        },
+        "locked": false,
+        "updatedAt": "2026-09-22T23:57:51.650Z",
+        "deadline": "2026-09-22T19:00:00-05:00"
       }
     },
-    "updatedAt": "2026-09-22T13:04:45.247Z"
+    "updatedAt": "2026-09-22T23:57:51.650Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
