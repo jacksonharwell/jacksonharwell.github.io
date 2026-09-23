@@ -25,7 +25,7 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 208,
+      "bux": 218,
       "points": 8,
       "movement": 0
     },
@@ -33,7 +33,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 255,
-      "points": 16,
+      "points": 21,
       "movement": 0
     },
     {
@@ -238,9 +238,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 15,
-      "seasonPoints": 5,
-      "avgScore": 5.67,
-      "trend": 0,
+      "seasonPoints": 10,
+      "avgScore": 5.5,
+      "trend": -0.33,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
@@ -772,6 +772,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": "colton",
+          "judges": [
+            6,
+            5,
+            5
+          ],
+          "average": 5.33,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -959,6 +974,22 @@
       "detail": "Jessica correctly predicted Ciara Miller’s exact 6–6–6 scores and receives 10 Dancer Bux.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-tyler-score",
+      "type": "scoring",
+      "title": "Tyler Cameron: 6–5–5",
+      "detail": "16 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-tyler-bonus",
+      "type": "bux",
+      "title": "Jackson: +10 Dancer Bux",
+      "detail": "Jackson correctly predicted Tyler Cameron’s exact 6–5–5 scores and receives 10 Dancer Bux.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -968,7 +999,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-ciara",
+    "revision": "2026-09-22-week2-tyler",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1043,7 +1074,7 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 208,
+      "jackson": 218,
       "colton": 255,
       "payton": 123,
       "mattie": 98,
@@ -1201,6 +1232,14 @@
         "reason": "Exact score prediction: Ciara Miller 6–6–6",
         "week": "Week 2",
         "createdAt": "2026-09-23T00:18:51.076Z"
+      },
+      {
+        "id": "week2-exact-tyler-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Tyler Cameron 6–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:27:44.954Z"
       }
     ],
     "transactions": [
@@ -1275,6 +1314,22 @@
         "detail": "Jessica correctly predicted Ciara Miller’s exact 6–6–6 scores and receives 10 Dancer Bux.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-tyler-score",
+        "type": "scoring",
+        "title": "Tyler Cameron: 6–5–5",
+        "detail": "16 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-tyler-bonus",
+        "type": "bux",
+        "title": "Jackson: +10 Dancer Bux",
+        "detail": "Jackson correctly predicted Tyler Cameron’s exact 6–5–5 scores and receives 10 Dancer Bux.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1319,7 +1374,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:18:51.076Z"
+    "updatedAt": "2026-09-23T00:27:44.954Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
