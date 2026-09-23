@@ -47,7 +47,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 98,
-      "points": 12,
+      "points": 18,
       "movement": 0
     },
     {
@@ -344,9 +344,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 97,
-      "seasonPoints": 5,
-      "avgScore": 5,
-      "trend": 0,
+      "seasonPoints": 11,
+      "avgScore": 5.5,
+      "trend": 1,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
       "danceBackground": "Athletic showman — frequent choreographed routines with the Savannah Bananas",
@@ -802,6 +802,21 @@
           "basePoints": 5,
           "fantasyPoints": 5,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "proName": "Emma Slater",
+          "ownerId": "mattie",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1013,6 +1028,14 @@
       "detail": "16 judges’ points; 5 base fantasy points added to Jessica. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-jackson-olson-score",
+      "type": "scoring",
+      "title": "Jackson Olson: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1022,7 +1045,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-julia",
+    "revision": "2026-09-22-week2-jackson-olson",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1361,6 +1384,14 @@
         "detail": "16 judges’ points; 5 base fantasy points added to Jessica. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-jackson-olson-score",
+        "type": "scoring",
+        "title": "Jackson Olson: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1405,7 +1436,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:32:52.025Z"
+    "updatedAt": "2026-09-23T00:41:18.888Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
