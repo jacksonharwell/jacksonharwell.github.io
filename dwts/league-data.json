@@ -32,14 +32,14 @@
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 275,
+      "bux": 285,
       "points": 21,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 153,
+      "bux": 163,
       "points": 20,
       "movement": 0
     },
@@ -47,7 +47,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 108,
-      "points": 18,
+      "points": 25,
       "movement": 0
     },
     {
@@ -132,9 +132,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 45,
-      "seasonPoints": 6,
-      "avgScore": 6,
-      "trend": 0,
+      "seasonPoints": 13,
+      "avgScore": 6.5,
+      "trend": 1,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -877,6 +877,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "mattie",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1152,6 +1167,22 @@
       "detail": "Jackson, Payton, Jessica, and Colton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 6–6–6.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-amber-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Payton and Colton each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 7–7–7.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1161,7 +1192,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-tatyana",
+    "revision": "2026-09-22-week2-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1237,8 +1268,8 @@
     ],
     "buxOverrides": {
       "jackson": 238,
-      "colton": 275,
-      "payton": 153,
+      "colton": 285,
+      "payton": 163,
       "mattie": 108,
       "jessica": 192,
       "squid": 12
@@ -1482,6 +1513,22 @@
         "reason": "Exact score prediction: Tatyana Ali 6–6–6",
         "week": "Week 2",
         "createdAt": "2026-09-23T01:10:28.796Z"
+      },
+      {
+        "id": "week2-exact-amber-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Amber Glenn 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:17:53.099Z"
+      },
+      {
+        "id": "week2-exact-amber-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Amber Glenn 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:17:53.099Z"
       }
     ],
     "transactions": [
@@ -1644,6 +1691,22 @@
         "detail": "Jackson, Payton, Jessica, and Colton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 6–6–6.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-amber-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Payton and Colton each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 7–7–7.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1688,7 +1751,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:10:28.796Z"
+    "updatedAt": "2026-09-23T01:17:53.099Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
