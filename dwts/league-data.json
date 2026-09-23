@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 2,
-    "phase": "Week 2 • live scoring",
+    "phase": "Week 2 complete",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -40,28 +40,28 @@
       "id": "payton",
       "name": "Payton",
       "bux": 173,
-      "points": 26,
-      "movement": 0
+      "points": 27,
+      "movement": -2
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 118,
-      "points": 25,
-      "movement": 0
+      "points": 28,
+      "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 202,
-      "points": 26,
-      "movement": 0
+      "points": 29,
+      "movement": 1
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 30,
+      "points": 33,
       "movement": 0
     }
   ],
@@ -74,7 +74,7 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 107,
-      "seasonPoints": 13,
+      "seasonPoints": 18,
       "avgScore": 6.67,
       "trend": 0.67,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
@@ -103,7 +103,7 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 13,
+      "seasonPoints": 15,
       "avgScore": 6.5,
       "trend": -1,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
@@ -132,7 +132,7 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 45,
-      "seasonPoints": 13,
+      "seasonPoints": 17,
       "avgScore": 6.5,
       "trend": 1,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
@@ -161,7 +161,7 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 7,
-      "seasonPoints": 11,
+      "seasonPoints": 12,
       "avgScore": 5.67,
       "trend": -0.67,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
@@ -214,7 +214,7 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 13,
+      "seasonPoints": 17,
       "avgScore": 6.67,
       "trend": -0.67,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
@@ -262,7 +262,7 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 13,
+      "seasonPoints": 17,
       "avgScore": 6.83,
       "trend": 0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
@@ -373,7 +373,7 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 4,
+      "seasonPoints": 3,
       "avgScore": 4.67,
       "trend": 0,
       "image": "https://s42173.pcdn.co/wp-content/uploads/2021/09/Screen-Shot-2021-09-16-at-12.05.40-AM.png",
@@ -415,7 +415,7 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 46,
-      "seasonPoints": 4,
+      "seasonPoints": 3,
       "avgScore": 4,
       "trend": 0,
       "image": "https://m.media-amazon.com/images/M/MV5BZWNkNzhiODItNjIzNS00NDFjLWEwNDAtOThlNzJjNjNjZTAwXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
@@ -440,12 +440,12 @@
     {
       "id": "giada-de-laurentiis",
       "name": "Giada De Laurentiis",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Alan Bersten",
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 9,
+      "seasonPoints": 8,
       "avgScore": 4.67,
       "trend": -1.33,
       "image": "https://cdn.mos.cms.futurecdn.net/sCezjLZymv5Dw3fVKtZQK8.jpg",
@@ -458,7 +458,8 @@
       "updateTone": "injury",
       "preseasonUpdate": "Giada reported a bruised, swollen middle toe and expects to lose the toenail. She remains in the competition and described it as part of the process, but footwork comfort is now a genuine premiere-week concern.",
       "updateSource": "https://pagesix.com/2026/09/08/celebrity-news/giada-de-laurentiis-reveals-gnarly-injury-ahead-of-dancing-with-the-stars-premiere/",
-      "profileUpdated": "September 9"
+      "profileUpdated": "September 9",
+      "eliminatedWeek": 2
     },
     {
       "id": "guillermo-rodriguez",
@@ -755,8 +756,12 @@
           ],
           "average": 7,
           "basePoints": 7,
-          "fantasyPoints": 7,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "judgesPlacement": 1
         },
         {
           "dancerId": "ciara-miller",
@@ -771,7 +776,10 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -786,7 +794,10 @@
           "average": 5.33,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "julia-stiles",
@@ -801,7 +812,10 @@
           "average": 5.33,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "jackson-olson",
@@ -816,7 +830,10 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "giada-de-laurentiis",
@@ -830,8 +847,12 @@
           ],
           "average": 4,
           "basePoints": 4,
-          "fantasyPoints": 4,
-          "bonusesPending": true
+          "fantasyPoints": 3,
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": -1,
+          "eliminated": true
         },
         {
           "dancerId": "connor-wood",
@@ -846,7 +867,10 @@
           "average": 5,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "ezra-frech",
@@ -860,8 +884,12 @@
           ],
           "average": 7,
           "basePoints": 7,
-          "fantasyPoints": 7,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "judgesPlacement": 1
         },
         {
           "dancerId": "tatyana-ali",
@@ -876,7 +904,10 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -890,8 +921,12 @@
           ],
           "average": 7,
           "basePoints": 7,
-          "fantasyPoints": 7,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "judgesPlacement": 1
         },
         {
           "dancerId": "guillermo-rodriguez",
@@ -906,7 +941,10 @@
           "average": 4,
           "basePoints": 4,
           "fantasyPoints": 4,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "taylor-hanson",
@@ -921,7 +959,10 @@
           "average": 5,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -936,7 +977,10 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "maura-higgins",
@@ -950,8 +994,12 @@
           ],
           "average": 6.33,
           "basePoints": 6,
-          "fantasyPoints": 6,
-          "bonusesPending": true
+          "fantasyPoints": 7,
+          "bonusesPending": false,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "judgesPlacement": 4
         }
       ],
       "locks": {
@@ -963,7 +1011,9 @@
         "squid": "jenna-dewan"
       },
       "locksFinalized": true,
-      "status": "in-progress"
+      "status": "final",
+      "finalizedAt": "2026-09-23T02:03:58.546Z",
+      "scoringNotes": "Jenna, Ezra, and Amber tie for highest judges’ total: +2 each and +1 each as their owners’ Locks. Maura earns +1 for the second-highest distinct judges’ total (fourth dancer rank); no Lock bonus. Giada receives -1 for elimination."
     }
   ],
   "transactions": [
@@ -1291,6 +1341,30 @@
       "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-final-bonuses",
+      "type": "scoring",
+      "title": "Week 2 bonuses finalized",
+      "detail": "Squid (Jenna), Jessica (Ezra), and Mattie (Amber): +3 each, including +2 judges and +1 Lock. Payton (Maura): +1 judges bonus. Jackson and Colton: no scoring bonuses.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-giada-elimination",
+      "type": "elimination",
+      "title": "Giada De Laurentiis eliminated",
+      "detail": "4 base points − 1 elimination penalty = 3 Week 2 fantasy points. Giada was unowned; no team points deducted. Removed from waivers and marked with a skull.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-dancer-totals-reconciled",
+      "type": "scoring",
+      "title": "Dancer standings reconciled",
+      "detail": "Dancer season totals now include all saved weekly judges bonuses, Lock bonuses, and elimination penalties. Historical weekly records and all Bux awards are preserved.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1300,7 +1374,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-maura",
+    "revision": "2026-09-22-week2-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1371,7 +1445,6 @@
       }
     },
     "waivers": [
-      "giada-de-laurentiis",
       "tatyana-ali"
     ],
     "buxOverrides": {
@@ -1919,6 +1992,30 @@
         "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-final-bonuses",
+        "type": "scoring",
+        "title": "Week 2 bonuses finalized",
+        "detail": "Squid (Jenna), Jessica (Ezra), and Mattie (Amber): +3 each, including +2 judges and +1 Lock. Payton (Maura): +1 judges bonus. Jackson and Colton: no scoring bonuses.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-giada-elimination",
+        "type": "elimination",
+        "title": "Giada De Laurentiis eliminated",
+        "detail": "4 base points − 1 elimination penalty = 3 Week 2 fantasy points. Giada was unowned; no team points deducted. Removed from waivers and marked with a skull.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-dancer-totals-reconciled",
+        "type": "scoring",
+        "title": "Dancer standings reconciled",
+        "detail": "Dancer season totals now include all saved weekly judges bonuses, Lock bonuses, and elimination penalties. Historical weekly records and all Bux awards are preserved.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1963,7 +2060,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:53:32.553Z"
+    "updatedAt": "2026-09-23T02:03:58.546Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
