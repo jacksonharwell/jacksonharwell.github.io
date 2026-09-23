@@ -33,7 +33,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 255,
-      "points": 10,
+      "points": 16,
       "movement": 0
     },
     {
@@ -53,7 +53,7 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 162,
+      "bux": 172,
       "points": 14,
       "movement": 0
     },
@@ -190,9 +190,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 0,
-      "seasonPoints": 5,
-      "avgScore": 5,
-      "trend": 0,
+      "seasonPoints": 11,
+      "avgScore": 5.5,
+      "trend": 1,
       "image": "https://media.glamour.com/photos/69e13cd18d7bbac7c87207ea/master/w_2560%2Cc_limit/R825_MBA_20260423_Glamour_Ciara_Cover_Miranda0899_FNL.jpg",
       "knownFor": "Summer House • model • former travel nurse",
       "danceBackground": "Strong foundation — about 10 years of ballet growing up",
@@ -757,6 +757,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ciara-miller",
+          "dancerName": "Ciara Miller",
+          "proName": "Brandon Armstrong",
+          "ownerId": "colton",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -928,6 +943,22 @@
       "detail": "Tonight’s challenge awards 10 Dancer Bux for an exact score prediction. Colton, Mattie, and Payton each correctly predicted Jenna’s 7–7–7 and receive +10.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-ciara-score",
+      "type": "scoring",
+      "title": "Ciara Miller: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-ciara-bonus",
+      "type": "bux",
+      "title": "Jessica: +10 Dancer Bux",
+      "detail": "Jessica correctly predicted Ciara Miller’s exact 6–6–6 scores and receives 10 Dancer Bux.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -937,7 +968,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-jenna",
+    "revision": "2026-09-22-week2-ciara",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1016,7 +1047,7 @@
       "colton": 255,
       "payton": 123,
       "mattie": 98,
-      "jessica": 162,
+      "jessica": 172,
       "squid": 12
     },
     "buxAdjustments": {},
@@ -1162,6 +1193,14 @@
         "reason": "Exact score prediction: Jenna Dewan 7–7–7",
         "week": "Week 2",
         "createdAt": "2026-09-23T00:12:33.814Z"
+      },
+      {
+        "id": "week2-exact-ciara-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Ciara Miller 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:18:51.076Z"
       }
     ],
     "transactions": [
@@ -1220,6 +1259,22 @@
         "detail": "Tonight’s challenge awards 10 Dancer Bux for an exact score prediction. Colton, Mattie, and Payton each correctly predicted Jenna’s 7–7–7 and receive +10.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-ciara-score",
+        "type": "scoring",
+        "title": "Ciara Miller: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-ciara-bonus",
+        "type": "bux",
+        "title": "Jessica: +10 Dancer Bux",
+        "detail": "Jessica correctly predicted Ciara Miller’s exact 6–6–6 scores and receives 10 Dancer Bux.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1264,7 +1319,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:12:33.814Z"
+    "updatedAt": "2026-09-23T00:18:51.076Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
