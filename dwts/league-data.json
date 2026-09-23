@@ -25,21 +25,21 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 228,
+      "bux": 238,
       "points": 8,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 265,
+      "bux": 275,
       "points": 21,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 143,
+      "bux": 153,
       "points": 20,
       "movement": 0
     },
@@ -53,7 +53,7 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 182,
+      "bux": 192,
       "points": 26,
       "movement": 0
     },
@@ -291,9 +291,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 4,
-      "avgScore": 4,
-      "trend": 0,
+      "seasonPoints": 10,
+      "avgScore": 5,
+      "trend": 2,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
       "danceBackground": "Performance background — Broadway-trained actor and recording artist; no ballroom record",
@@ -862,6 +862,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": null,
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1121,6 +1136,22 @@
       "detail": "Payton correctly predicted Ezra Frech’s exact 7–7–7 scores and receives 10 Dancer Bux.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-tatyana-score",
+      "type": "scoring",
+      "title": "Tatyana Ali: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points. Tatyana is unowned, so no team points changed. Placement bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-tatyana-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jackson, Payton, Jessica, and Colton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 6–6–6.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1130,7 +1161,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-ezra",
+    "revision": "2026-09-22-week2-tatyana",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1205,11 +1236,11 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 228,
-      "colton": 265,
-      "payton": 143,
+      "jackson": 238,
+      "colton": 275,
+      "payton": 153,
       "mattie": 108,
-      "jessica": 182,
+      "jessica": 192,
       "squid": 12
     },
     "buxAdjustments": {},
@@ -1419,6 +1450,38 @@
         "reason": "Exact score prediction: Ezra Frech 7–7–7",
         "week": "Week 2",
         "createdAt": "2026-09-23T01:04:42.969Z"
+      },
+      {
+        "id": "week2-exact-tatyana-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Tatyana Ali 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:10:28.796Z"
+      },
+      {
+        "id": "week2-exact-tatyana-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Tatyana Ali 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:10:28.796Z"
+      },
+      {
+        "id": "week2-exact-tatyana-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Tatyana Ali 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:10:28.796Z"
+      },
+      {
+        "id": "week2-exact-tatyana-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Tatyana Ali 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:10:28.796Z"
       }
     ],
     "transactions": [
@@ -1565,6 +1628,22 @@
         "detail": "Payton correctly predicted Ezra Frech’s exact 7–7–7 scores and receives 10 Dancer Bux.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-tatyana-score",
+        "type": "scoring",
+        "title": "Tatyana Ali: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points. Tatyana is unowned, so no team points changed. Placement bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-tatyana-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jackson, Payton, Jessica, and Colton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 6–6–6.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1609,7 +1688,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:04:42.969Z"
+    "updatedAt": "2026-09-23T01:10:28.796Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
