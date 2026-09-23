@@ -25,35 +25,35 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 238,
-      "points": 12,
+      "bux": 248,
+      "points": 17,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 285,
+      "bux": 295,
       "points": 21,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 163,
+      "bux": 173,
       "points": 20,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 108,
+      "bux": 118,
       "points": 25,
       "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 192,
+      "bux": 202,
       "points": 26,
       "movement": 0
     },
@@ -320,9 +320,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 1,
-      "seasonPoints": 5,
-      "avgScore": 5.33,
-      "trend": 0,
+      "seasonPoints": 10,
+      "avgScore": 5.17,
+      "trend": -0.33,
       "image": "https://www.mastersbywinnclaybaugh.com/wp-content/uploads/2024/05/taylor-hanson.jpg",
       "knownFor": "Hanson • singer, songwriter and musician",
       "danceBackground": "Performance crossover — lifelong musician with strong rhythm; no formal training established",
@@ -907,6 +907,21 @@
           "basePoints": 4,
           "fantasyPoints": 4,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "taylor-hanson",
+          "dancerName": "Taylor Hanson",
+          "proName": "Britt Stewart",
+          "ownerId": "jackson",
+          "judges": [
+            5,
+            5,
+            5
+          ],
+          "average": 5,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1206,6 +1221,22 @@
       "detail": "12 judges’ points; 4 base fantasy points added to Jackson. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-taylor-score",
+      "type": "scoring",
+      "title": "Taylor Hanson: 5–5–5",
+      "detail": "15 judges’ points; 5 base fantasy points added to Jackson. Placement and Lock bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-taylor-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 5–5–5. No Bux awarded to Squid.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1215,7 +1246,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-guillermo",
+    "revision": "2026-09-22-week2-taylor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1290,11 +1321,11 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 238,
-      "colton": 285,
-      "payton": 163,
-      "mattie": 108,
-      "jessica": 192,
+      "jackson": 248,
+      "colton": 295,
+      "payton": 173,
+      "mattie": 118,
+      "jessica": 202,
       "squid": 12
     },
     "buxAdjustments": {},
@@ -1552,6 +1583,46 @@
         "reason": "Exact score prediction: Amber Glenn 7–7–7",
         "week": "Week 2",
         "createdAt": "2026-09-23T01:17:53.099Z"
+      },
+      {
+        "id": "week2-exact-taylor-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:35:54.058Z"
+      },
+      {
+        "id": "week2-exact-taylor-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:35:54.058Z"
+      },
+      {
+        "id": "week2-exact-taylor-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:35:54.058Z"
+      },
+      {
+        "id": "week2-exact-taylor-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:35:54.058Z"
+      },
+      {
+        "id": "week2-exact-taylor-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:35:54.058Z"
       }
     ],
     "transactions": [
@@ -1738,6 +1809,22 @@
         "detail": "12 judges’ points; 4 base fantasy points added to Jackson. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-taylor-score",
+        "type": "scoring",
+        "title": "Taylor Hanson: 5–5–5",
+        "detail": "15 judges’ points; 5 base fantasy points added to Jackson. Placement and Lock bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-taylor-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 5–5–5. No Bux awarded to Squid.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1782,7 +1869,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:26:54.999Z"
+    "updatedAt": "2026-09-23T01:35:54.058Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
