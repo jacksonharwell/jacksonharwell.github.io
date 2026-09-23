@@ -54,7 +54,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 172,
-      "points": 14,
+      "points": 19,
       "movement": 0
     },
     {
@@ -161,9 +161,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 7,
-      "seasonPoints": 6,
-      "avgScore": 6,
-      "trend": 0,
+      "seasonPoints": 11,
+      "avgScore": 5.67,
+      "trend": -0.67,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
       "danceBackground": "Moderate — intensive ballet and hip-hop preparation for Save the Last Dance",
@@ -787,6 +787,21 @@
           "basePoints": 5,
           "fantasyPoints": 5,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": "jessica",
+          "judges": [
+            5,
+            6,
+            5
+          ],
+          "average": 5.33,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -990,6 +1005,14 @@
       "detail": "Jackson correctly predicted Tyler Cameron’s exact 6–5–5 scores and receives 10 Dancer Bux.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-julia-score",
+      "type": "scoring",
+      "title": "Julia Stiles: 5–6–5",
+      "detail": "16 judges’ points; 5 base fantasy points added to Jessica. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -999,7 +1022,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-tyler",
+    "revision": "2026-09-22-week2-julia",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1330,6 +1353,14 @@
         "detail": "Jackson correctly predicted Tyler Cameron’s exact 6–5–5 scores and receives 10 Dancer Bux.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-julia-score",
+        "type": "scoring",
+        "title": "Julia Stiles: 5–6–5",
+        "detail": "16 judges’ points; 5 base fantasy points added to Jessica. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1374,7 +1405,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:27:44.954Z"
+    "updatedAt": "2026-09-23T00:32:52.025Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
