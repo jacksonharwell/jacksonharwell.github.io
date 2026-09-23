@@ -25,35 +25,35 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 218,
+      "bux": 228,
       "points": 8,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 255,
+      "bux": 265,
       "points": 21,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 123,
-      "points": 15,
+      "bux": 133,
+      "points": 20,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 98,
+      "bux": 108,
       "points": 18,
       "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 172,
+      "bux": 182,
       "points": 19,
       "movement": 0
     },
@@ -391,9 +391,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 5,
-      "avgScore": 5.33,
-      "trend": 0,
+      "seasonPoints": 10,
+      "avgScore": 5.17,
+      "trend": -0.33,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -832,6 +832,21 @@
           "basePoints": 4,
           "fantasyPoints": 4,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            5,
+            5,
+            5
+          ],
+          "average": 5,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1059,6 +1074,22 @@
       "detail": "12 judges’ points; 4 base fantasy points. Giada is unowned, so no team points changed. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-connor-wood-score",
+      "type": "scoring",
+      "title": "Connor Wood: 5–5–5",
+      "detail": "15 judges’ points; 5 base fantasy points added to Payton. Placement bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-connor-wood-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Connor Wood’s 5–5–5. No Bux awarded to Squid.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1068,7 +1099,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-giada",
+    "revision": "2026-09-22-week2-connor-wood",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1143,11 +1174,11 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 218,
-      "colton": 255,
-      "payton": 123,
-      "mattie": 98,
-      "jessica": 172,
+      "jackson": 228,
+      "colton": 265,
+      "payton": 133,
+      "mattie": 108,
+      "jessica": 182,
       "squid": 12
     },
     "buxAdjustments": {},
@@ -1309,6 +1340,46 @@
         "reason": "Exact score prediction: Tyler Cameron 6–5–5",
         "week": "Week 2",
         "createdAt": "2026-09-23T00:27:44.954Z"
+      },
+      {
+        "id": "week2-exact-connor-wood-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Connor Wood 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:56:13.043Z"
+      },
+      {
+        "id": "week2-exact-connor-wood-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Connor Wood 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:56:13.043Z"
+      },
+      {
+        "id": "week2-exact-connor-wood-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Connor Wood 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:56:13.043Z"
+      },
+      {
+        "id": "week2-exact-connor-wood-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Connor Wood 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:56:13.043Z"
+      },
+      {
+        "id": "week2-exact-connor-wood-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Connor Wood 5–5–5",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:56:13.043Z"
       }
     ],
     "transactions": [
@@ -1423,6 +1494,22 @@
         "detail": "12 judges’ points; 4 base fantasy points. Giada is unowned, so no team points changed. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-connor-wood-score",
+        "type": "scoring",
+        "title": "Connor Wood: 5–5–5",
+        "detail": "15 judges’ points; 5 base fantasy points added to Payton. Placement bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-connor-wood-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Connor Wood’s 5–5–5. No Bux awarded to Squid.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1467,7 +1554,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:46:49.957Z"
+    "updatedAt": "2026-09-23T00:56:13.043Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
