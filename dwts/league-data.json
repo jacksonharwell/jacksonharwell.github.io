@@ -25,14 +25,14 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 248,
+      "bux": 258,
       "points": 17,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 295,
+      "bux": 305,
       "points": 21,
       "movement": 0
     },
@@ -61,7 +61,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 24,
+      "points": 30,
       "movement": 0
     }
   ],
@@ -103,9 +103,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 7,
-      "avgScore": 7,
-      "trend": 0,
+      "seasonPoints": 13,
+      "avgScore": 6.5,
+      "trend": -1,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -922,6 +922,21 @@
           "basePoints": 5,
           "fantasyPoints": 5,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "squid",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1237,6 +1252,22 @@
       "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 5–5–5. No Bux awarded to Squid.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Squid. Placement bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-harry-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Colton and Jackson each receive 10 Dancer Bux for correctly predicting Harry Shum Jr.’s 6–6–6.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1246,7 +1277,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-taylor",
+    "revision": "2026-09-22-week2-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1321,8 +1352,8 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 248,
-      "colton": 295,
+      "jackson": 258,
+      "colton": 305,
       "payton": 173,
       "mattie": 118,
       "jessica": 202,
@@ -1623,6 +1654,22 @@
         "reason": "Exact score prediction: Taylor Hanson 5–5–5",
         "week": "Week 2",
         "createdAt": "2026-09-23T01:35:54.058Z"
+      },
+      {
+        "id": "week2-exact-harry-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:48:18.279Z"
+      },
+      {
+        "id": "week2-exact-harry-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 6–6–6",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:48:18.279Z"
       }
     ],
     "transactions": [
@@ -1825,6 +1872,22 @@
         "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 5–5–5. No Bux awarded to Squid.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Squid. Placement bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-harry-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Colton and Jackson each receive 10 Dancer Bux for correctly predicting Harry Shum Jr.’s 6–6–6.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1869,7 +1932,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:35:54.058Z"
+    "updatedAt": "2026-09-23T01:48:18.279Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
