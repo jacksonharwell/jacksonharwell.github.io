@@ -40,7 +40,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 173,
-      "points": 20,
+      "points": 26,
       "movement": 0
     },
     {
@@ -214,9 +214,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 7,
-      "avgScore": 7,
-      "trend": 0,
+      "seasonPoints": 13,
+      "avgScore": 6.67,
+      "trend": -0.67,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -937,6 +937,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "payton",
+          "judges": [
+            6,
+            6,
+            7
+          ],
+          "average": 6.33,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1268,6 +1283,14 @@
       "detail": "Colton and Jackson each receive 10 Dancer Bux for correctly predicting Harry Shum Jr.’s 6–6–6.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 6–6–7",
+      "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1277,7 +1300,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-harry",
+    "revision": "2026-09-22-week2-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1888,6 +1911,14 @@
         "detail": "Colton and Jackson each receive 10 Dancer Bux for correctly predicting Harry Shum Jr.’s 6–6–6.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 6–6–7",
+        "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1932,7 +1963,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:48:18.279Z"
+    "updatedAt": "2026-09-23T01:53:32.553Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
