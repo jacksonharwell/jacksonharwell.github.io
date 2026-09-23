@@ -445,9 +445,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": null,
-      "seasonPoints": 5,
-      "avgScore": 5.33,
-      "trend": 0,
+      "seasonPoints": 9,
+      "avgScore": 4.67,
+      "trend": -1.33,
       "image": "https://cdn.mos.cms.futurecdn.net/sCezjLZymv5Dw3fVKtZQK8.jpg",
       "knownFor": "Food Network • chef • author",
       "danceBackground": "No formal dance background publicly established",
@@ -817,6 +817,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "giada-de-laurentiis",
+          "dancerName": "Giada De Laurentiis",
+          "proName": "Alan Bersten",
+          "ownerId": null,
+          "judges": [
+            4,
+            4,
+            4
+          ],
+          "average": 4,
+          "basePoints": 4,
+          "fantasyPoints": 4,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1036,6 +1051,14 @@
       "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-giada-score",
+      "type": "scoring",
+      "title": "Giada De Laurentiis: 4–4–4",
+      "detail": "12 judges’ points; 4 base fantasy points. Giada is unowned, so no team points changed. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1045,7 +1068,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-jackson-olson",
+    "revision": "2026-09-22-week2-giada",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1392,6 +1415,14 @@
         "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement bonuses pending the full night’s results. No exact-score Dancer Bux awarded.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-giada-score",
+        "type": "scoring",
+        "title": "Giada De Laurentiis: 4–4–4",
+        "detail": "12 judges’ points; 4 base fantasy points. Giada is unowned, so no team points changed. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1436,7 +1467,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:41:18.888Z"
+    "updatedAt": "2026-09-23T00:46:49.957Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
