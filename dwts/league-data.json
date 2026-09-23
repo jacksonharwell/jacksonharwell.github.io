@@ -39,7 +39,7 @@
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 133,
+      "bux": 143,
       "points": 20,
       "movement": 0
     },
@@ -54,7 +54,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 182,
-      "points": 19,
+      "points": 26,
       "movement": 0
     },
     {
@@ -262,9 +262,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 6,
-      "avgScore": 6.67,
-      "trend": 0,
+      "seasonPoints": 13,
+      "avgScore": 6.83,
+      "trend": 0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -847,6 +847,21 @@
           "basePoints": 5,
           "fantasyPoints": 5,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1090,6 +1105,22 @@
       "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Connor Wood’s 5–5–5. No Bux awarded to Squid.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-ezra-bonus",
+      "type": "bux",
+      "title": "Payton: +10 Dancer Bux",
+      "detail": "Payton correctly predicted Ezra Frech’s exact 7–7–7 scores and receives 10 Dancer Bux.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1099,7 +1130,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-connor-wood",
+    "revision": "2026-09-22-week2-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1176,7 +1207,7 @@
     "buxOverrides": {
       "jackson": 228,
       "colton": 265,
-      "payton": 133,
+      "payton": 143,
       "mattie": 108,
       "jessica": 182,
       "squid": 12
@@ -1380,6 +1411,14 @@
         "reason": "Exact score prediction: Connor Wood 5–5–5",
         "week": "Week 2",
         "createdAt": "2026-09-23T00:56:13.043Z"
+      },
+      {
+        "id": "week2-exact-ezra-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T01:04:42.969Z"
       }
     ],
     "transactions": [
@@ -1510,6 +1549,22 @@
         "detail": "Jackson, Colton, Payton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Connor Wood’s 5–5–5. No Bux awarded to Squid.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-ezra-bonus",
+        "type": "bux",
+        "title": "Payton: +10 Dancer Bux",
+        "detail": "Payton correctly predicted Ezra Frech’s exact 7–7–7 scores and receives 10 Dancer Bux.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1554,7 +1609,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T00:56:13.043Z"
+    "updatedAt": "2026-09-23T01:04:42.969Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
