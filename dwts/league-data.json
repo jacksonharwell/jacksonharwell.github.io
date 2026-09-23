@@ -26,7 +26,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 238,
-      "points": 8,
+      "points": 12,
       "movement": 0
     },
     {
@@ -468,9 +468,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 3,
-      "avgScore": 3.33,
-      "trend": 0,
+      "seasonPoints": 7,
+      "avgScore": 3.67,
+      "trend": 0.67,
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/L5RFDFSIFFAWVBAZF26CUC4TSY.jpg",
       "knownFor": "Jimmy Kimmel Live! • comedy personality",
       "danceBackground": "No formal dance background publicly established",
@@ -892,6 +892,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "guillermo-rodriguez",
+          "dancerName": "Guillermo Rodriguez",
+          "proName": "Witney Carson",
+          "ownerId": "jackson",
+          "judges": [
+            4,
+            4,
+            4
+          ],
+          "average": 4,
+          "basePoints": 4,
+          "fantasyPoints": 4,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1183,6 +1198,14 @@
       "detail": "Payton and Colton each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 7–7–7.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week2-guillermo-score",
+      "type": "scoring",
+      "title": "Guillermo Rodriguez: 4–4–4",
+      "detail": "12 judges’ points; 4 base fantasy points added to Jackson. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -1192,7 +1215,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-amber",
+    "revision": "2026-09-22-week2-guillermo",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1707,6 +1730,14 @@
         "detail": "Payton and Colton each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 7–7–7.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week2-guillermo-score",
+        "type": "scoring",
+        "title": "Guillermo Rodriguez: 4–4–4",
+        "detail": "12 judges’ points; 4 base fantasy points added to Jackson. Placement bonuses pending the full night’s results. No Dancer Bux awarded.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1751,7 +1782,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T01:17:53.099Z"
+    "updatedAt": "2026-09-23T01:26:54.999Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
