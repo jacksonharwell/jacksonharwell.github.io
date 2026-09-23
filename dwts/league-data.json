@@ -2,8 +2,8 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 1,
-    "phase": "Premiere night",
+    "week": 2,
+    "phase": "Week 2 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -32,21 +32,21 @@
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 245,
+      "bux": 255,
       "points": 10,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 113,
+      "bux": 123,
       "points": 15,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 88,
+      "bux": 98,
       "points": 12,
       "movement": 0
     },
@@ -61,7 +61,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 12,
-      "points": 17,
+      "points": 24,
       "movement": 0
     }
   ],
@@ -74,9 +74,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 107,
-      "seasonPoints": 6,
-      "avgScore": 6.33,
-      "trend": 0,
+      "seasonPoints": 13,
+      "avgScore": 6.67,
+      "trend": 0.67,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -737,6 +737,38 @@
         "squid": "jenna-dewan"
       },
       "locksFinalized": true
+    },
+    {
+      "week": 2,
+      "label": "Week 2",
+      "date": "2026-09-22",
+      "performances": [
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "squid",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {
+        "colton": "tyler-cameron",
+        "jackson": "taylor-hanson",
+        "jessica": "ezra-frech",
+        "mattie": "amber-glenn",
+        "payton": "maura-higgins",
+        "squid": "jenna-dewan"
+      },
+      "locksFinalized": true,
+      "status": "in-progress"
     }
   ],
   "transactions": [
@@ -880,6 +912,22 @@
       "date": "September 22, 2026",
       "week": 2,
       "createdAt": "2026-09-22T23:57:51.650Z"
+    },
+    {
+      "id": "week2-jenna-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending the full night’s results.",
+      "date": "September 22, 2026",
+      "week": 2
+    },
+    {
+      "id": "week2-exact-jenna-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Tonight’s challenge awards 10 Dancer Bux for an exact score prediction. Colton, Mattie, and Payton each correctly predicted Jenna’s 7–7–7 and receive +10.",
+      "date": "September 22, 2026",
+      "week": 2
     }
   ],
   "locks": [],
@@ -889,7 +937,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-picks",
+    "revision": "2026-09-22-week2-jenna",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -965,9 +1013,9 @@
     ],
     "buxOverrides": {
       "jackson": 208,
-      "colton": 245,
-      "payton": 113,
-      "mattie": 88,
+      "colton": 255,
+      "payton": 123,
+      "mattie": 98,
       "jessica": 162,
       "squid": 12
     },
@@ -1090,6 +1138,30 @@
         "reason": "Premiere-night bonus",
         "week": "Week 1",
         "createdAt": "2026-09-15T20:29:05-05:00"
+      },
+      {
+        "id": "week2-exact-jenna-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:12:33.814Z"
+      },
+      {
+        "id": "week2-exact-jenna-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:12:33.814Z"
+      },
+      {
+        "id": "week2-exact-jenna-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 7–7–7",
+        "week": "Week 2",
+        "createdAt": "2026-09-23T00:12:33.814Z"
       }
     ],
     "transactions": [
@@ -1132,6 +1204,22 @@
         "date": "September 22, 2026",
         "week": 2,
         "createdAt": "2026-09-22T23:57:51.650Z"
+      },
+      {
+        "id": "week2-jenna-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending the full night’s results.",
+        "date": "September 22, 2026",
+        "week": 2
+      },
+      {
+        "id": "week2-exact-jenna-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Tonight’s challenge awards 10 Dancer Bux for an exact score prediction. Colton, Mattie, and Payton each correctly predicted Jenna’s 7–7–7 and receive +10.",
+        "date": "September 22, 2026",
+        "week": 2
       }
     ],
     "locks": {
@@ -1169,12 +1257,14 @@
           "payton": "maura-higgins",
           "squid": "jenna-dewan"
         },
-        "locked": false,
+        "locked": true,
         "updatedAt": "2026-09-22T23:57:51.650Z",
-        "deadline": "2026-09-22T19:00:00-05:00"
+        "deadline": "2026-09-22T19:00:00-05:00",
+        "lockedAt": "2026-09-22T19:00:00-05:00",
+        "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-22T23:57:51.650Z"
+    "updatedAt": "2026-09-23T00:12:33.814Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
