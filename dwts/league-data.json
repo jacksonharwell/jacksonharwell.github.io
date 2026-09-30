@@ -26,21 +26,21 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 288,
+      "bux": 298,
       "points": 28,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 355,
+      "bux": 365,
       "points": 32,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 203,
+      "bux": 213,
       "points": 40,
       "movement": -2
     },
@@ -55,7 +55,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 262,
-      "points": 35,
+      "points": 42,
       "movement": 1
     },
     {
@@ -263,9 +263,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 13,
-      "avgScore": 6.83,
-      "trend": 0.33,
+      "seasonPoints": 20,
+      "avgScore": 6.89,
+      "trend": 0,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -1200,6 +1200,21 @@
           "basePoints": 5,
           "fantasyPoints": 5,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1707,6 +1722,22 @@
       "detail": "17 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-ezra-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Payton, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 7–7–7.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1716,7 +1747,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-tyler",
+    "revision": "2026-09-29-week3-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1790,9 +1821,9 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 288,
-      "colton": 355,
-      "payton": 203,
+      "jackson": 298,
+      "colton": 365,
+      "payton": 213,
       "mattie": 148,
       "jessica": 262,
       "squid": 42
@@ -2292,6 +2323,30 @@
         "reason": "Exact score prediction: Jackson Olson 6–6–6",
         "week": "Week 3",
         "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-ezra-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 7–7–7",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:53:27.006Z"
+      },
+      {
+        "id": "week3-exact-ezra-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 7–7–7",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:53:27.006Z"
+      },
+      {
+        "id": "week3-exact-ezra-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 7–7–7",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:53:27.006Z"
       }
     ],
     "transactions": [
@@ -2686,6 +2741,22 @@
         "detail": "17 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-ezra-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Payton, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 7–7–7.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2730,7 +2801,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:45:32.829Z"
+    "updatedAt": "2026-09-30T01:53:27.006Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
