@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 3,
-    "phase": "Week 3 • live scoring",
+    "phase": "Week 3 complete",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -27,7 +27,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 298,
-      "points": 28,
+      "points": 26,
       "movement": 0
     },
     {
@@ -41,14 +41,14 @@
       "id": "payton",
       "name": "Payton",
       "bux": 213,
-      "points": 40,
-      "movement": -2
+      "points": 42,
+      "movement": 1
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 148,
-      "points": 42,
+      "points": 45,
       "movement": 1
     },
     {
@@ -56,13 +56,13 @@
       "name": "Jessica",
       "bux": 262,
       "points": 42,
-      "movement": 1
+      "movement": -1
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 42,
-      "points": 48,
+      "points": 50,
       "movement": 0
     }
   ],
@@ -316,7 +316,7 @@
     {
       "id": "taylor-hanson",
       "name": "Taylor Hanson",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Britt Stewart",
       "ownerId": "jackson",
       "ownerName": "Jackson",
@@ -335,7 +335,8 @@
         "cost": 1,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "eliminatedWeek": 3
     },
     {
       "id": "jackson-olson",
@@ -1033,8 +1034,13 @@
           ],
           "average": 8,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 11,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "julia-stiles",
@@ -1049,7 +1055,12 @@
           "average": 6.33,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 8,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "guillermo-rodriguez",
@@ -1064,7 +1075,12 @@
           "average": 5,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 13,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -1079,7 +1095,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -1093,8 +1114,13 @@
           ],
           "average": 8,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "taylor-hanson",
@@ -1108,8 +1134,14 @@
           ],
           "average": 6,
           "basePoints": 6,
-          "fantasyPoints": 6,
-          "bonusesPending": true
+          "fantasyPoints": 4,
+          "bonusesPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": -1,
+          "lockPenalty": -1,
+          "eliminated": true
         },
         {
           "dancerId": "maura-higgins",
@@ -1123,8 +1155,13 @@
           ],
           "average": 7.33,
           "basePoints": 7,
-          "fantasyPoints": 7,
-          "bonusesPending": true
+          "fantasyPoints": 9,
+          "bonusesPending": false,
+          "judgesPlacement": 3,
+          "judgesBonus": 1,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "ciara-miller",
@@ -1139,7 +1176,12 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jackson-olson",
@@ -1154,7 +1196,12 @@
           "average": 6,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -1169,7 +1216,12 @@
           "average": 6.67,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -1184,7 +1236,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -1199,7 +1256,12 @@
           "average": 5.67,
           "basePoints": 5,
           "fantasyPoints": 5,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 12,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "ezra-frech",
@@ -1214,7 +1276,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         }
       ],
       "locks": {
@@ -1225,8 +1292,10 @@
         "payton": "maura-higgins",
         "squid": "jenna-dewan"
       },
-      "locksFinalized": false,
-      "status": "in-progress"
+      "locksFinalized": true,
+      "status": "final",
+      "finalizedAt": "2026-09-30T02:01:02.358Z",
+      "scoringNotes": "Amber and Harry tie at 24: +2 judges bonus each. Maura has the second-highest distinct total (22): +1. Amber and Maura qualify for +1 Lock bonuses. Taylor: -1 elimination and -1 eliminated Lock. Uses the existing saved Lock selections carried into Week 3."
     }
   ],
   "transactions": [
@@ -1738,6 +1807,22 @@
       "detail": "Payton, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 7–7–7.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-final-bonuses",
+      "type": "scoring",
+      "title": "Week 3 bonuses finalized",
+      "detail": "Mattie: +3 for Amber (+2 judges, +1 Lock). Squid: +2 for Harry’s judges score. Payton: +2 for Maura (+1 judges, +1 Lock). No scoring bonuses for Jessica or Colton. Uses existing saved Locks.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-taylor-elimination",
+      "type": "elimination",
+      "title": "Taylor Hanson & Britt Stewart eliminated",
+      "detail": "Jackson: -1 elimination and -1 eliminated Lock. Taylor’s 6 base points count as 4 team points this week. Removed from the active roster; historical ownership, tan color, purchase cost, base-score bar, and skull retained.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1747,7 +1832,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-ezra",
+    "revision": "2026-09-29-week3-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2757,6 +2842,22 @@
         "detail": "Payton, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 7–7–7.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-final-bonuses",
+        "type": "scoring",
+        "title": "Week 3 bonuses finalized",
+        "detail": "Mattie: +3 for Amber (+2 judges, +1 Lock). Squid: +2 for Harry’s judges score. Payton: +2 for Maura (+1 judges, +1 Lock). No scoring bonuses for Jessica or Colton. Uses existing saved Locks.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-taylor-elimination",
+        "type": "elimination",
+        "title": "Taylor Hanson & Britt Stewart eliminated",
+        "detail": "Jackson: -1 elimination and -1 eliminated Lock. Taylor’s 6 base points count as 4 team points this week. Removed from the active roster; historical ownership, tan color, purchase cost, base-score bar, and skull retained.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2799,9 +2900,23 @@
         "deadline": "2026-09-22T19:00:00-05:00",
         "lockedAt": "2026-09-22T19:00:00-05:00",
         "reason": "Tuesday 7 PM Central deadline"
+      },
+      "3": {
+        "picks": {
+          "colton": "tyler-cameron",
+          "jackson": "taylor-hanson",
+          "jessica": "ezra-frech",
+          "mattie": "amber-glenn",
+          "payton": "maura-higgins",
+          "squid": "jenna-dewan"
+        },
+        "locked": true,
+        "lockedAt": "2026-09-29T19:00:00-05:00",
+        "finalizedAt": "2026-09-30T02:01:02.358Z",
+        "reason": "Existing saved picks carried into Week 3; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:53:27.006Z"
+    "updatedAt": "2026-09-30T02:01:02.358Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
