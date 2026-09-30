@@ -26,14 +26,14 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 258,
-      "points": 17,
+      "bux": 268,
+      "points": 22,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 305,
+      "bux": 315,
       "points": 21,
       "movement": 0
     },
@@ -54,7 +54,7 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 212,
+      "bux": 222,
       "points": 35,
       "movement": 1
     },
@@ -470,9 +470,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 7,
-      "avgScore": 3.67,
-      "trend": 0.67,
+      "seasonPoints": 12,
+      "avgScore": 4.11,
+      "trend": 1,
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/L5RFDFSIFFAWVBAZF26CUC4TSY.jpg",
       "knownFor": "Jimmy Kimmel Live! • comedy personality",
       "danceBackground": "No formal dance background publicly established",
@@ -1050,6 +1050,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "guillermo-rodriguez",
+          "dancerName": "Guillermo Rodriguez",
+          "proName": "Witney Carson",
+          "ownerId": "jackson",
+          "judges": [
+            5,
+            5,
+            5
+          ],
+          "average": 5,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1437,6 +1452,22 @@
       "detail": "19 judges’ points; 6 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-guillermo-score",
+      "type": "scoring",
+      "title": "Guillermo Rodriguez: 5–5–5",
+      "detail": "15 judges’ points; 5 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-guillermo-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jessica, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Guillermo Rodriguez’s 5–5–5.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1446,7 +1477,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-julia",
+    "revision": "2026-09-29-week3-guillermo",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1520,11 +1551,11 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 258,
-      "colton": 305,
+      "jackson": 268,
+      "colton": 315,
       "payton": 173,
       "mattie": 118,
-      "jessica": 212,
+      "jessica": 222,
       "squid": 22
     },
     "buxAdjustments": {},
@@ -1854,6 +1885,30 @@
         "reason": "Exact score prediction: Amber Glenn 8–8–8",
         "week": "Week 3",
         "createdAt": "2026-09-30T00:15:05.172Z"
+      },
+      {
+        "id": "week3-exact-guillermo-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Guillermo Rodriguez 5–5–5",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:26:26.837Z"
+      },
+      {
+        "id": "week3-exact-guillermo-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Guillermo Rodriguez 5–5–5",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:26:26.837Z"
+      },
+      {
+        "id": "week3-exact-guillermo-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Guillermo Rodriguez 5–5–5",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:26:26.837Z"
       }
     ],
     "transactions": [
@@ -2128,6 +2183,22 @@
         "detail": "19 judges’ points; 6 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-guillermo-score",
+        "type": "scoring",
+        "title": "Guillermo Rodriguez: 5–5–5",
+        "detail": "15 judges’ points; 5 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-guillermo-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jessica, Colton, and Jackson each receive 10 Dancer Bux for correctly predicting Guillermo Rodriguez’s 5–5–5.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2172,7 +2243,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T00:25:16.053Z"
+    "updatedAt": "2026-09-30T00:26:26.837Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
