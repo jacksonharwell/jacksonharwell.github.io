@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 2,
-    "phase": "Week 2 complete",
+    "week": 3,
+    "phase": "Week 3 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-22",
+    "lastUpdated": "2026-09-29",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -48,20 +48,20 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 118,
-      "points": 28,
+      "points": 36,
       "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 202,
+      "bux": 212,
       "points": 29,
       "movement": 1
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 12,
+      "bux": 22,
       "points": 33,
       "movement": 0
     }
@@ -133,8 +133,8 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 45,
-      "seasonPoints": 13,
-      "avgScore": 6.5,
+      "seasonPoints": 21,
+      "avgScore": 7,
       "trend": 1,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
@@ -1015,6 +1015,38 @@
       "status": "final",
       "finalizedAt": "2026-09-23T02:03:58.546Z",
       "scoringNotes": "Jenna, Ezra, and Amber tie for highest judges’ total: +2 each and +1 each as their owners’ Locks. Maura earns +1 for the second-highest distinct judges’ total (fourth dancer rank); no Lock bonus. Giada receives -1 for elimination."
+    },
+    {
+      "week": 3,
+      "label": "Week 3",
+      "date": "2026-09-29",
+      "performances": [
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "mattie",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {
+        "colton": "tyler-cameron",
+        "jackson": "taylor-hanson",
+        "jessica": "ezra-frech",
+        "mattie": "amber-glenn",
+        "payton": "maura-higgins",
+        "squid": "jenna-dewan"
+      },
+      "locksFinalized": false,
+      "status": "in-progress"
     }
   ],
   "transactions": [
@@ -1366,6 +1398,22 @@
       "detail": "Individual dancer season totals show base dance points only. Judges bonuses, Lock bonuses, and elimination penalties are recorded separately and included only in participant totals. Bux awards and historical weekly records are preserved.",
       "date": "September 22, 2026",
       "week": 2
+    },
+    {
+      "id": "week3-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 8–8–8",
+      "detail": "24 judges’ points; 8 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-amber-bonuses",
+      "type": "bux",
+      "title": "Squid and Jessica: +10 Dancer Bux each",
+      "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 8–8–8.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1375,7 +1423,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-22-week2-final-base-dancer-bars",
+    "revision": "2026-09-29-week3-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1453,8 +1501,8 @@
       "colton": 305,
       "payton": 173,
       "mattie": 118,
-      "jessica": 202,
-      "squid": 12
+      "jessica": 212,
+      "squid": 22
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
@@ -1767,6 +1815,22 @@
         "reason": "Exact score prediction: Harry Shum Jr. 6–6–6",
         "week": "Week 2",
         "createdAt": "2026-09-23T01:48:18.279Z"
+      },
+      {
+        "id": "week3-exact-amber-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Amber Glenn 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:15:05.172Z"
+      },
+      {
+        "id": "week3-exact-amber-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Amber Glenn 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:15:05.172Z"
       }
     ],
     "transactions": [
@@ -2017,6 +2081,22 @@
         "detail": "Individual dancer season totals show base dance points only. Judges bonuses, Lock bonuses, and elimination penalties are recorded separately and included only in participant totals. Bux awards and historical weekly records are preserved.",
         "date": "September 22, 2026",
         "week": 2
+      },
+      {
+        "id": "week3-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 8–8–8",
+        "detail": "24 judges’ points; 8 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-amber-bonuses",
+        "type": "bux",
+        "title": "Squid and Jessica: +10 Dancer Bux each",
+        "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Amber Glenn’s 8–8–8.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2061,7 +2141,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-23T02:04:19.920Z"
+    "updatedAt": "2026-09-30T00:15:05.172Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
