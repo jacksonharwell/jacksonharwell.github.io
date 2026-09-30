@@ -41,7 +41,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 193,
-      "points": 27,
+      "points": 34,
       "movement": -2
     },
     {
@@ -215,9 +215,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 13,
-      "avgScore": 6.67,
-      "trend": -0.67,
+      "seasonPoints": 20,
+      "avgScore": 6.89,
+      "trend": 1,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -1110,6 +1110,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "payton",
+          "judges": [
+            7,
+            7,
+            8
+          ],
+          "average": 7.33,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1561,6 +1576,14 @@
       "detail": "Colton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 6–6–6.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 7–7–8",
+      "detail": "22 judges’ points; 7 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1570,7 +1593,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-taylor",
+    "revision": "2026-09-29-week3-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2436,6 +2459,14 @@
         "detail": "Colton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 6–6–6.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 7–7–8",
+        "detail": "22 judges’ points; 7 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2480,7 +2511,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T00:55:37.702Z"
+    "updatedAt": "2026-09-30T01:04:54.340Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
