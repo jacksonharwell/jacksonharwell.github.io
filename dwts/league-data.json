@@ -26,43 +26,43 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 268,
+      "bux": 278,
       "points": 22,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 325,
+      "bux": 335,
       "points": 21,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 183,
+      "bux": 193,
       "points": 27,
       "movement": -2
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 118,
+      "bux": 128,
       "points": 36,
       "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 232,
+      "bux": 242,
       "points": 35,
       "movement": 1
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 22,
-      "points": 33,
+      "bux": 32,
+      "points": 41,
       "movement": 0
     }
   ],
@@ -104,9 +104,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 13,
-      "avgScore": 6.5,
-      "trend": -1,
+      "seasonPoints": 21,
+      "avgScore": 7,
+      "trend": 2,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -1080,6 +1080,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "squid",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1499,6 +1514,22 @@
       "detail": "Colton, Jessica, and Payton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 7–7–7.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 8–8–8",
+      "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-harry-bonuses",
+      "type": "bux",
+      "title": "Everyone: +10 Dancer Bux",
+      "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Harry Shum Jr.’s 8–8–8.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1508,7 +1539,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-tatyana",
+    "revision": "2026-09-29-week3-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1582,12 +1613,12 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 268,
-      "colton": 325,
-      "payton": 183,
-      "mattie": 118,
-      "jessica": 232,
-      "squid": 22
+      "jackson": 278,
+      "colton": 335,
+      "payton": 193,
+      "mattie": 128,
+      "jessica": 242,
+      "squid": 32
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
@@ -1964,6 +1995,54 @@
         "reason": "Exact score prediction: Tatyana Ali 7–7–7",
         "week": "Week 3",
         "createdAt": "2026-09-30T00:35:56.674Z"
+      },
+      {
+        "id": "week3-exact-harry-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-harry-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-harry-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-harry-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-harry-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-harry-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:45:56.837Z"
       }
     ],
     "transactions": [
@@ -2270,6 +2349,22 @@
         "detail": "Colton, Jessica, and Payton each receive 10 Dancer Bux for correctly predicting Tatyana Ali’s 7–7–7.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 8–8–8",
+        "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-harry-bonuses",
+        "type": "bux",
+        "title": "Everyone: +10 Dancer Bux",
+        "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Harry Shum Jr.’s 8–8–8.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2314,7 +2409,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T00:35:56.674Z"
+    "updatedAt": "2026-09-30T00:45:56.837Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
