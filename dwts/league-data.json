@@ -41,7 +41,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 203,
-      "points": 34,
+      "points": 40,
       "movement": -2
     },
     {
@@ -392,9 +392,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 10,
-      "avgScore": 5.17,
-      "trend": -0.33,
+      "seasonPoints": 16,
+      "avgScore": 5.67,
+      "trend": 1.67,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -1155,6 +1155,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            7,
+            6,
+            7
+          ],
+          "average": 6.67,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1638,6 +1653,14 @@
       "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Jackson Olson’s 6–6–6.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-connor-wood-score",
+      "type": "scoring",
+      "title": "Connor Wood: 7–6–7",
+      "detail": "20 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1647,7 +1670,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-jackson-olson",
+    "revision": "2026-09-29-week3-connor-wood",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2593,6 +2616,14 @@
         "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Jackson Olson’s 6–6–6.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-connor-wood-score",
+        "type": "scoring",
+        "title": "Connor Wood: 7–6–7",
+        "detail": "20 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2637,7 +2668,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:19:13.477Z"
+    "updatedAt": "2026-09-30T01:31:24.147Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
