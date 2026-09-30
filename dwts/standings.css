@@ -50,3 +50,14 @@
 /* Standings use clean, solid team colors without mascot treatments. */
 .owner-colton .hbar-name{color:#e34b4b}
 .eliminated-skull{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:rgba(14,12,17,.82);border:1px solid rgba(255,255,255,.34);font-size:20px;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.7));z-index:2}.dancer-bar:has(.eliminated-skull){filter:saturate(.62)}
+
+/* Weekly base-point slices: earliest week at the bottom, newest at the top. */
+.dancer-chart{grid-template-rows:calc(var(--weekly-chart-height,230px) + 60px)}
+.dancer-bar-wrap{height:calc(var(--weekly-chart-height,230px) + 60px);grid-template-rows:var(--weekly-chart-height,230px) 53px}
+.dancer-week-stack{display:flex;flex-direction:column-reverse;height:100%;width:100%;overflow:hidden;border-radius:inherit}
+.dancer-week-segment{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-basis:0;min-height:0;box-sizing:border-box;box-shadow:inset 0 1px 0 #17131d88;color:#100c16;font-size:10px;font-weight:850;line-height:1.25;letter-spacing:-.3px}
+.dancer-week-segment:nth-child(even){background:#ffffff26}
+.dancer-week-segment small{font-size:8px;letter-spacing:.3px;font-weight:700}
+.dancer-week-segment:focus{outline:2px solid white;outline-offset:-2px}
+.dancer-bar:has(.eliminated-skull) .eliminated-skull{top:-15px;left:100%;width:22px;height:22px;font-size:14px}
+.dancer-chart-note{color:var(--muted);font-size:.78rem;margin:0 0 8px}
