@@ -26,42 +26,42 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 278,
+      "bux": 288,
       "points": 28,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 345,
+      "bux": 355,
       "points": 27,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 193,
+      "bux": 203,
       "points": 34,
       "movement": -2
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 138,
-      "points": 36,
+      "bux": 148,
+      "points": 42,
       "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 252,
+      "bux": 262,
       "points": 35,
       "movement": 1
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 32,
+      "bux": 42,
       "points": 41,
       "movement": 0
     }
@@ -345,9 +345,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 97,
-      "seasonPoints": 11,
-      "avgScore": 5.5,
-      "trend": 1,
+      "seasonPoints": 17,
+      "avgScore": 5.67,
+      "trend": 0,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
       "danceBackground": "Athletic showman — frequent choreographed routines with the Savannah Bananas",
@@ -1140,6 +1140,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "proName": "Emma Slater",
+          "ownerId": "mattie",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1607,6 +1622,22 @@
       "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-jackson-olson-score",
+      "type": "scoring",
+      "title": "Jackson Olson: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-jackson-olson-bonuses",
+      "type": "bux",
+      "title": "Everyone: +10 Dancer Bux",
+      "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Jackson Olson’s 6–6–6.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1616,7 +1647,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-ciara",
+    "revision": "2026-09-29-week3-jackson-olson",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1690,12 +1721,12 @@
       "tatyana-ali"
     ],
     "buxOverrides": {
-      "jackson": 278,
-      "colton": 345,
-      "payton": 193,
-      "mattie": 138,
-      "jessica": 252,
-      "squid": 32
+      "jackson": 288,
+      "colton": 355,
+      "payton": 203,
+      "mattie": 148,
+      "jessica": 262,
+      "squid": 42
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
@@ -2144,6 +2175,54 @@
         "reason": "Exact score prediction: Taylor Hanson 6–6–6",
         "week": "Week 3",
         "createdAt": "2026-09-30T00:55:37.702Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-payton",
+        "ownerId": "payton",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
+      },
+      {
+        "id": "week3-exact-jackson-olson-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Jackson Olson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T01:19:13.477Z"
       }
     ],
     "transactions": [
@@ -2498,6 +2577,22 @@
         "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-jackson-olson-score",
+        "type": "scoring",
+        "title": "Jackson Olson: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-jackson-olson-bonuses",
+        "type": "bux",
+        "title": "Everyone: +10 Dancer Bux",
+        "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Jackson Olson’s 6–6–6.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2542,7 +2637,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:10:10.829Z"
+    "updatedAt": "2026-09-30T01:19:13.477Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
