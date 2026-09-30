@@ -27,13 +27,13 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 278,
-      "points": 22,
+      "points": 28,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 335,
+      "bux": 345,
       "points": 21,
       "movement": 0
     },
@@ -47,14 +47,14 @@
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 128,
+      "bux": 138,
       "points": 36,
       "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 242,
+      "bux": 252,
       "points": 35,
       "movement": 1
     },
@@ -321,9 +321,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 1,
-      "seasonPoints": 10,
-      "avgScore": 5.17,
-      "trend": -0.33,
+      "seasonPoints": 16,
+      "avgScore": 5.44,
+      "trend": 1,
       "image": "https://www.mastersbywinnclaybaugh.com/wp-content/uploads/2024/05/taylor-hanson.jpg",
       "knownFor": "Hanson • singer, songwriter and musician",
       "danceBackground": "Performance crossover — lifelong musician with strong rhythm; no formal training established",
@@ -1095,6 +1095,21 @@
           "basePoints": 8,
           "fantasyPoints": 8,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "taylor-hanson",
+          "dancerName": "Taylor Hanson",
+          "proName": "Britt Stewart",
+          "ownerId": "jackson",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1530,6 +1545,22 @@
       "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Harry Shum Jr.’s 8–8–8.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-taylor-score",
+      "type": "scoring",
+      "title": "Taylor Hanson: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
+    },
+    {
+      "id": "week3-exact-taylor-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Colton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 6–6–6.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1539,7 +1570,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-harry",
+    "revision": "2026-09-29-week3-taylor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1614,10 +1645,10 @@
     ],
     "buxOverrides": {
       "jackson": 278,
-      "colton": 335,
+      "colton": 345,
       "payton": 193,
-      "mattie": 128,
-      "jessica": 242,
+      "mattie": 138,
+      "jessica": 252,
       "squid": 32
     },
     "buxAdjustments": {},
@@ -2043,6 +2074,30 @@
         "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
         "week": "Week 3",
         "createdAt": "2026-09-30T00:45:56.837Z"
+      },
+      {
+        "id": "week3-exact-taylor-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:55:37.702Z"
+      },
+      {
+        "id": "week3-exact-taylor-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:55:37.702Z"
+      },
+      {
+        "id": "week3-exact-taylor-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Taylor Hanson 6–6–6",
+        "week": "Week 3",
+        "createdAt": "2026-09-30T00:55:37.702Z"
       }
     ],
     "transactions": [
@@ -2365,6 +2420,22 @@
         "detail": "All six participants receive 10 Dancer Bux each for correctly predicting Harry Shum Jr.’s 8–8–8.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-taylor-score",
+        "type": "scoring",
+        "title": "Taylor Hanson: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
+      },
+      {
+        "id": "week3-exact-taylor-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Colton, Mattie, and Jessica each receive 10 Dancer Bux for correctly predicting Taylor Hanson’s 6–6–6.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2409,7 +2480,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T00:45:56.837Z"
+    "updatedAt": "2026-09-30T00:55:37.702Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
