@@ -34,7 +34,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 345,
-      "points": 21,
+      "points": 27,
       "movement": 0
     },
     {
@@ -191,9 +191,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 0,
-      "seasonPoints": 11,
-      "avgScore": 5.5,
-      "trend": 1,
+      "seasonPoints": 17,
+      "avgScore": 5.67,
+      "trend": 0,
       "image": "https://media.glamour.com/photos/69e13cd18d7bbac7c87207ea/master/w_2560%2Cc_limit/R825_MBA_20260423_Glamour_Ciara_Cover_Miranda0899_FNL.jpg",
       "knownFor": "Summer House • model • former travel nurse",
       "danceBackground": "Strong foundation — about 10 years of ballet growing up",
@@ -1125,6 +1125,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ciara-miller",
+          "dancerName": "Ciara Miller",
+          "proName": "Brandon Armstrong",
+          "ownerId": "colton",
+          "judges": [
+            6,
+            6,
+            6
+          ],
+          "average": 6,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1584,6 +1599,14 @@
       "detail": "22 judges’ points; 7 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-ciara-score",
+      "type": "scoring",
+      "title": "Ciara Miller: 6–6–6",
+      "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1593,7 +1616,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-maura",
+    "revision": "2026-09-29-week3-ciara",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2467,6 +2490,14 @@
         "detail": "22 judges’ points; 7 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-ciara-score",
+        "type": "scoring",
+        "title": "Ciara Miller: 6–6–6",
+        "detail": "18 judges’ points; 6 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2511,7 +2542,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:04:54.340Z"
+    "updatedAt": "2026-09-30T01:10:10.829Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
