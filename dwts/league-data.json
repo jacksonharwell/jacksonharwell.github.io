@@ -34,7 +34,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 355,
-      "points": 27,
+      "points": 32,
       "movement": 0
     },
     {
@@ -239,9 +239,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 15,
-      "seasonPoints": 10,
-      "avgScore": 5.5,
-      "trend": -0.33,
+      "seasonPoints": 15,
+      "avgScore": 5.56,
+      "trend": 0.33,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
@@ -1185,6 +1185,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": "colton",
+          "judges": [
+            5,
+            6,
+            6
+          ],
+          "average": 5.67,
+          "basePoints": 5,
+          "fantasyPoints": 5,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1684,6 +1699,14 @@
       "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-tyler-score",
+      "type": "scoring",
+      "title": "Tyler Cameron: 5–6–6",
+      "detail": "17 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1693,7 +1716,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-jenna",
+    "revision": "2026-09-29-week3-tyler",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2655,6 +2678,14 @@
         "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-tyler-score",
+        "type": "scoring",
+        "title": "Tyler Cameron: 5–6–6",
+        "detail": "17 judges’ points; 5 base fantasy points added to Colton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2699,7 +2730,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:37:32.440Z"
+    "updatedAt": "2026-09-30T01:45:32.829Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
