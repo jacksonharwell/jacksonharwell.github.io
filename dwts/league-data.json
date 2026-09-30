@@ -62,7 +62,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 42,
-      "points": 41,
+      "points": 48,
       "movement": 0
     }
   ],
@@ -75,9 +75,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 107,
-      "seasonPoints": 13,
-      "avgScore": 6.67,
-      "trend": 0.67,
+      "seasonPoints": 20,
+      "avgScore": 6.78,
+      "trend": 0,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -1170,6 +1170,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "squid",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1661,6 +1676,14 @@
       "detail": "20 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week3-jenna-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "September 29, 2026",
+      "week": 3
     }
   ],
   "locks": [],
@@ -1670,7 +1693,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-connor-wood",
+    "revision": "2026-09-29-week3-jenna",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2624,6 +2647,14 @@
         "detail": "20 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week3-jenna-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Squid. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "September 29, 2026",
+        "week": 3
       }
     ],
     "locks": {
@@ -2668,7 +2699,7 @@
         "reason": "Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-09-30T01:31:24.147Z"
+    "updatedAt": "2026-09-30T01:37:32.440Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
