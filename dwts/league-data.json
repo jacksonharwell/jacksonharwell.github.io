@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-09-29",
+    "lastUpdated": "2026-10-06",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -289,9 +289,9 @@
       "name": "Tatyana Ali",
       "status": "confirmed",
       "pro": "Jan Ravnik",
-      "ownerId": null,
-      "ownerName": null,
-      "auctionCost": null,
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
+      "auctionCost": 0,
       "seasonPoints": 17,
       "avgScore": 5.67,
       "trend": 1,
@@ -311,7 +311,10 @@
           "releasedAt": "2026-09-18T02:09:00.771Z",
           "releasedWeek": 2
         }
-      ]
+      ],
+      "acquisition": "waiver",
+      "acquiredAt": "2026-10-07T00:03:15.415Z",
+      "acquiredWeek": 4
     },
     {
       "id": "taylor-hanson",
@@ -1823,6 +1826,28 @@
       "detail": "Jackson: -1 elimination and -1 eliminated Lock. Taylor’s 6 base points count as 4 team points this week. Removed from the active roster; historical ownership, tan color, purchase cost, base-score bar, and skull retained.",
       "date": "September 29, 2026",
       "week": 3
+    },
+    {
+      "id": "week4-tatyana-jackson-claim",
+      "type": "waiver",
+      "title": "Jackson claimed Tatyana Ali",
+      "detail": "Tatyana Ali & Jan Ravnik join Jackson for 0 Dancer Bux, effective Week 4. No prior-week points transferred.",
+      "date": "October 6, 2026",
+      "week": 4,
+      "ownerId": "jackson",
+      "dancerId": "tatyana-ali",
+      "cost": 0,
+      "effectiveWeek": 4,
+      "createdAt": "2026-10-07T00:03:15.415Z"
+    },
+    {
+      "id": "week4-locks-jackson-squid",
+      "type": "locks",
+      "title": "Week 4 Locks updated",
+      "detail": "Squid locks Harry Shum Jr.; Jackson locks Tatyana Ali. Other saved picks remain unchanged.",
+      "date": "October 6, 2026",
+      "week": 4,
+      "createdAt": "2026-10-07T00:03:15.415Z"
     }
   ],
   "locks": [],
@@ -1832,7 +1857,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-09-29-week3-final",
+    "revision": "2026-10-06-week4-roster-locks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1900,11 +1925,16 @@
         "acquisition": "waiver",
         "claimedAt": "2026-09-18T02:09:00.771Z",
         "effectiveWeek": 2
+      },
+      "tatyana-ali": {
+        "ownerId": "jackson",
+        "cost": 0,
+        "acquisition": "waiver",
+        "claimedAt": "2026-10-07T00:03:15.415Z",
+        "effectiveWeek": 4
       }
     },
-    "waivers": [
-      "tatyana-ali"
-    ],
+    "waivers": [],
     "buxOverrides": {
       "jackson": 298,
       "colton": 365,
@@ -1915,7 +1945,7 @@
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
-      "tatyana-ali": null,
+      "tatyana-ali": "jackson",
       "guillermo-rodriguez": "jackson"
     },
     "trades": [],
@@ -2858,15 +2888,37 @@
         "detail": "Jackson: -1 elimination and -1 eliminated Lock. Taylor’s 6 base points count as 4 team points this week. Removed from the active roster; historical ownership, tan color, purchase cost, base-score bar, and skull retained.",
         "date": "September 29, 2026",
         "week": 3
+      },
+      {
+        "id": "week4-tatyana-jackson-claim",
+        "type": "waiver",
+        "title": "Jackson claimed Tatyana Ali",
+        "detail": "Tatyana Ali & Jan Ravnik join Jackson for 0 Dancer Bux, effective Week 4. No prior-week points transferred.",
+        "date": "October 6, 2026",
+        "week": 4,
+        "ownerId": "jackson",
+        "dancerId": "tatyana-ali",
+        "cost": 0,
+        "effectiveWeek": 4,
+        "createdAt": "2026-10-07T00:03:15.415Z"
+      },
+      {
+        "id": "week4-locks-jackson-squid",
+        "type": "locks",
+        "title": "Week 4 Locks updated",
+        "detail": "Squid locks Harry Shum Jr.; Jackson locks Tatyana Ali. Other saved picks remain unchanged.",
+        "date": "October 6, 2026",
+        "week": 4,
+        "createdAt": "2026-10-07T00:03:15.415Z"
       }
     ],
     "locks": {
       "colton": "tyler-cameron",
-      "jackson": "taylor-hanson",
+      "jackson": "tatyana-ali",
       "jessica": "ezra-frech",
       "mattie": "amber-glenn",
       "payton": "maura-higgins",
-      "squid": "jenna-dewan"
+      "squid": "harry-shum-jr"
     },
     "tradeStatuses": {
       "taylor-hanson": "available",
@@ -2914,9 +2966,23 @@
         "lockedAt": "2026-09-29T19:00:00-05:00",
         "finalizedAt": "2026-09-30T02:01:02.358Z",
         "reason": "Existing saved picks carried into Week 3; Tuesday 7 PM Central deadline"
+      },
+      "4": {
+        "picks": {
+          "colton": "tyler-cameron",
+          "jackson": "tatyana-ali",
+          "jessica": "ezra-frech",
+          "mattie": "amber-glenn",
+          "payton": "maura-higgins",
+          "squid": "harry-shum-jr"
+        },
+        "locked": true,
+        "lockedAt": "2026-10-07T00:03:15.415Z",
+        "deadline": "2026-10-06T19:00:00-05:00",
+        "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-09-30T02:01:02.358Z"
+    "updatedAt": "2026-10-07T00:03:15.415Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
