@@ -27,7 +27,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 328,
-      "points": 32,
+      "points": 36,
       "movement": 0
     },
     {
@@ -41,7 +41,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 213,
-      "points": 48,
+      "points": 56,
       "movement": 1
     },
     {
@@ -55,7 +55,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 292,
-      "points": 50,
+      "points": 57,
       "movement": -1
     },
     {
@@ -162,9 +162,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 7,
-      "seasonPoints": 17,
-      "avgScore": 5.89,
-      "trend": 1,
+      "seasonPoints": 24,
+      "avgScore": 6.17,
+      "trend": 0.67,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
       "danceBackground": "Moderate — intensive ballet and hip-hop preparation for Save the Last Dance",
@@ -215,8 +215,8 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 20,
-      "avgScore": 6.89,
+      "seasonPoints": 28,
+      "avgScore": 7.25,
       "trend": 1,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
@@ -474,9 +474,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 12,
-      "avgScore": 4.11,
-      "trend": 1,
+      "seasonPoints": 16,
+      "avgScore": 4.17,
+      "trend": -0.67,
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/L5RFDFSIFFAWVBAZF26CUC4TSY.jpg",
       "knownFor": "Jimmy Kimmel Live! • comedy personality",
       "danceBackground": "No formal dance background publicly established",
@@ -1439,6 +1439,51 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": "jessica",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "payton",
+          "judges": [
+            8,
+            8,
+            9
+          ],
+          "average": 8.33,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "guillermo-rodriguez",
+          "dancerName": "Guillermo Rodriguez",
+          "proName": "Witney Carson",
+          "ownerId": "jackson",
+          "judges": [
+            4,
+            4,
+            5
+          ],
+          "average": 4.33,
+          "basePoints": 4,
+          "fantasyPoints": 4,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2112,6 +2157,30 @@
       "detail": "23 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-julia-stiles-score",
+      "type": "scoring",
+      "title": "Julia Stiles: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-maura-higgins-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 8–8–9",
+      "detail": "25 judges’ points; 8 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-guillermo-rodriguez-score",
+      "type": "scoring",
+      "title": "Guillermo Rodriguez: 4–4–5",
+      "detail": "13 judges’ points; 4 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2121,7 +2190,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-amber",
+    "revision": "2026-10-06-week4-all-scores",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3398,6 +3467,30 @@
         "detail": "23 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-julia-stiles-score",
+        "type": "scoring",
+        "title": "Julia Stiles: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-maura-higgins-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 8–8–9",
+        "detail": "25 judges’ points; 8 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-guillermo-rodriguez-score",
+        "type": "scoring",
+        "title": "Guillermo Rodriguez: 4–4–5",
+        "detail": "13 judges’ points; 4 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3470,7 +3563,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T01:52:48.917Z"
+    "updatedAt": "2026-10-07T01:54:34.285Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
