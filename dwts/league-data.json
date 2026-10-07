@@ -26,14 +26,14 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 308,
+      "bux": 328,
       "points": 26,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 365,
+      "bux": 385,
       "points": 39,
       "movement": 0
     },
@@ -47,22 +47,22 @@
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 148,
+      "bux": 168,
       "points": 45,
       "movement": 1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 272,
+      "bux": 292,
       "points": 50,
       "movement": -1
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 52,
-      "points": 50,
+      "bux": 72,
+      "points": 66,
       "movement": 0
     }
   ],
@@ -75,9 +75,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 107,
-      "seasonPoints": 20,
-      "avgScore": 6.78,
-      "trend": 0,
+      "seasonPoints": 28,
+      "avgScore": 7.08,
+      "trend": 1,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -104,9 +104,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 21,
-      "avgScore": 7,
-      "trend": 2,
+      "seasonPoints": 29,
+      "avgScore": 7.25,
+      "trend": 0,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -1334,6 +1334,36 @@
           "basePoints": 8,
           "fantasyPoints": 8,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "squid",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "squid",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1927,6 +1957,38 @@
       "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 8–8–8.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-jenna-dewan-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 8–8–8",
+      "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-exact-jenna-dewan-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Jenna Dewan’s 8–8–8. No Bux awarded to Payton.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-harry-shum-jr-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 8–8–8",
+      "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-exact-harry-shum-jr-bonuses",
+      "type": "bux",
+      "title": "Exact-score challenge: +10 Dancer Bux",
+      "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Harry Shum Jr.’s 8–8–8. No Bux awarded to Payton.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -1936,7 +1998,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-ezra",
+    "revision": "2026-10-06-week4-jenna-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2015,12 +2077,12 @@
     },
     "waivers": [],
     "buxOverrides": {
-      "jackson": 308,
-      "colton": 365,
+      "jackson": 328,
+      "colton": 385,
       "payton": 213,
-      "mattie": 148,
-      "jessica": 272,
-      "squid": 52
+      "mattie": 168,
+      "jessica": 292,
+      "squid": 72
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
@@ -2565,6 +2627,86 @@
         "reason": "Exact score prediction: Ezra Frech 8–8–8",
         "week": "Week 4",
         "createdAt": "2026-10-07T00:21:52.809Z"
+      },
+      {
+        "id": "week4-exact-jenna-dewan-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-jenna-dewan-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-jenna-dewan-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-jenna-dewan-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-jenna-dewan-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Jenna Dewan 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-mattie",
+        "ownerId": "mattie",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:40:40.270Z"
       }
     ],
     "transactions": [
@@ -3045,6 +3187,38 @@
         "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 8–8–8.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-jenna-dewan-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 8–8–8",
+        "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-exact-jenna-dewan-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Jenna Dewan’s 8–8–8. No Bux awarded to Payton.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-harry-shum-jr-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 8–8–8",
+        "detail": "24 judges’ points; 8 base fantasy points added to Squid. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-exact-harry-shum-jr-bonuses",
+        "type": "bux",
+        "title": "Exact-score challenge: +10 Dancer Bux",
+        "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Harry Shum Jr.’s 8–8–8. No Bux awarded to Payton.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3117,7 +3291,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T00:21:52.809Z"
+    "updatedAt": "2026-10-07T00:40:40.270Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
