@@ -48,7 +48,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 168,
-      "points": 52,
+      "points": 59,
       "movement": 1
     },
     {
@@ -133,9 +133,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 45,
-      "seasonPoints": 21,
-      "avgScore": 7,
-      "trend": 1,
+      "seasonPoints": 28,
+      "avgScore": 7.17,
+      "trend": -0.33,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -1424,6 +1424,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "mattie",
+          "judges": [
+            7,
+            8,
+            8
+          ],
+          "average": 7.67,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2089,6 +2104,14 @@
       "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 7–8–8",
+      "detail": "23 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2098,7 +2121,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-connor-wood",
+    "revision": "2026-10-06-week4-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3367,6 +3390,14 @@
         "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 7–8–8",
+        "detail": "23 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3439,7 +3470,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T01:34:28.857Z"
+    "updatedAt": "2026-10-07T01:52:48.917Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
