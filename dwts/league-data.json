@@ -54,14 +54,14 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 262,
-      "points": 42,
+      "bux": 272,
+      "points": 50,
       "movement": -1
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 42,
+      "bux": 52,
       "points": 50,
       "movement": 0
     }
@@ -263,9 +263,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 20,
-      "avgScore": 6.89,
-      "trend": 0,
+      "seasonPoints": 28,
+      "avgScore": 7.17,
+      "trend": 1,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -1319,6 +1319,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1896,6 +1911,22 @@
       "detail": "Jackson alone receives 10 Dancer Bux for correctly predicting Ciara Miller’s 7–7–7.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 8–8–8",
+      "detail": "24 judges’ points; 8 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-exact-ezra-bonuses",
+      "type": "bux",
+      "title": "Squid and Jessica: +10 Dancer Bux each",
+      "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 8–8–8.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -1905,7 +1936,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-ciara",
+    "revision": "2026-10-06-week4-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1988,8 +2019,8 @@
       "colton": 365,
       "payton": 213,
       "mattie": 148,
-      "jessica": 262,
-      "squid": 42
+      "jessica": 272,
+      "squid": 52
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
@@ -2518,6 +2549,22 @@
         "reason": "Exact score prediction: Ciara Miller 7–7–7",
         "week": "Week 4",
         "createdAt": "2026-10-07T00:12:48.565Z"
+      },
+      {
+        "id": "week4-exact-ezra-squid",
+        "ownerId": "squid",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:21:52.809Z"
+      },
+      {
+        "id": "week4-exact-ezra-jessica",
+        "ownerId": "jessica",
+        "amount": 10,
+        "reason": "Exact score prediction: Ezra Frech 8–8–8",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:21:52.809Z"
       }
     ],
     "transactions": [
@@ -2982,6 +3029,22 @@
         "detail": "Jackson alone receives 10 Dancer Bux for correctly predicting Ciara Miller’s 7–7–7.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 8–8–8",
+        "detail": "24 judges’ points; 8 base fantasy points added to Jessica. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-exact-ezra-bonuses",
+        "type": "bux",
+        "title": "Squid and Jessica: +10 Dancer Bux each",
+        "detail": "Squid and Jessica each receive 10 Dancer Bux for correctly predicting Ezra Frech’s 8–8–8.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3054,7 +3117,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T00:12:48.565Z"
+    "updatedAt": "2026-10-07T00:21:52.809Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
