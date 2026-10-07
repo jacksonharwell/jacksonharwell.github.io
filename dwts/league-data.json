@@ -2,8 +2,8 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 3,
-    "phase": "Week 3 complete",
+    "week": 4,
+    "phase": "Week 4 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -26,7 +26,7 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 298,
+      "bux": 308,
       "points": 26,
       "movement": 0
     },
@@ -34,7 +34,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 365,
-      "points": 32,
+      "points": 39,
       "movement": 0
     },
     {
@@ -191,9 +191,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 0,
-      "seasonPoints": 17,
-      "avgScore": 5.67,
-      "trend": 0,
+      "seasonPoints": 24,
+      "avgScore": 6,
+      "trend": 1,
       "image": "https://media.glamour.com/photos/69e13cd18d7bbac7c87207ea/master/w_2560%2Cc_limit/R825_MBA_20260423_Glamour_Ciara_Cover_Miranda0899_FNL.jpg",
       "knownFor": "Summer House • model • former travel nurse",
       "danceBackground": "Strong foundation — about 10 years of ballet growing up",
@@ -1299,6 +1299,38 @@
       "status": "final",
       "finalizedAt": "2026-09-30T02:01:02.358Z",
       "scoringNotes": "Amber and Harry tie at 24: +2 judges bonus each. Maura has the second-highest distinct total (22): +1. Amber and Maura qualify for +1 Lock bonuses. Taylor: -1 elimination and -1 eliminated Lock. Uses the existing saved Lock selections carried into Week 3."
+    },
+    {
+      "week": 4,
+      "label": "Week 4",
+      "date": "2026-10-06",
+      "performances": [
+        {
+          "dancerId": "ciara-miller",
+          "dancerName": "Ciara Miller",
+          "proName": "Brandon Armstrong",
+          "ownerId": "colton",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {
+        "colton": "tyler-cameron",
+        "jackson": "tatyana-ali",
+        "jessica": "ezra-frech",
+        "mattie": "amber-glenn",
+        "payton": "maura-higgins",
+        "squid": "harry-shum-jr"
+      },
+      "locksFinalized": true,
+      "status": "in-progress"
     }
   ],
   "transactions": [
@@ -1848,6 +1880,22 @@
       "date": "October 6, 2026",
       "week": 4,
       "createdAt": "2026-10-07T00:03:15.415Z"
+    },
+    {
+      "id": "week4-ciara-score",
+      "type": "scoring",
+      "title": "Ciara Miller: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Colton. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-exact-ciara-bonus",
+      "type": "bux",
+      "title": "Jackson: +10 Dancer Bux",
+      "detail": "Jackson alone receives 10 Dancer Bux for correctly predicting Ciara Miller’s 7–7–7.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -1857,7 +1905,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-roster-locks",
+    "revision": "2026-10-06-week4-ciara",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -1936,7 +1984,7 @@
     },
     "waivers": [],
     "buxOverrides": {
-      "jackson": 298,
+      "jackson": 308,
       "colton": 365,
       "payton": 213,
       "mattie": 148,
@@ -2462,6 +2510,14 @@
         "reason": "Exact score prediction: Ezra Frech 7–7–7",
         "week": "Week 3",
         "createdAt": "2026-09-30T01:53:27.006Z"
+      },
+      {
+        "id": "week4-exact-ciara-jackson",
+        "ownerId": "jackson",
+        "amount": 10,
+        "reason": "Exact score prediction: Ciara Miller 7–7–7",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:12:48.565Z"
       }
     ],
     "transactions": [
@@ -2910,6 +2966,22 @@
         "date": "October 6, 2026",
         "week": 4,
         "createdAt": "2026-10-07T00:03:15.415Z"
+      },
+      {
+        "id": "week4-ciara-score",
+        "type": "scoring",
+        "title": "Ciara Miller: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Colton. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-exact-ciara-bonus",
+        "type": "bux",
+        "title": "Jackson: +10 Dancer Bux",
+        "detail": "Jackson alone receives 10 Dancer Bux for correctly predicting Ciara Miller’s 7–7–7.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -2982,7 +3054,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T00:03:15.415Z"
+    "updatedAt": "2026-10-07T00:12:48.565Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
