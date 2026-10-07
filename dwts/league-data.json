@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 4,
-    "phase": "Week 4 • live scoring",
+    "phase": "Week 4 complete",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -34,14 +34,14 @@
       "id": "colton",
       "name": "Colton",
       "bux": 395,
-      "points": 46,
+      "points": 45,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
       "bux": 213,
-      "points": 56,
+      "points": 59,
       "movement": 1
     },
     {
@@ -49,20 +49,20 @@
       "name": "Mattie",
       "bux": 168,
       "points": 59,
-      "movement": 1
+      "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 292,
-      "points": 57,
-      "movement": -1
+      "points": 59,
+      "movement": 1
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 72,
-      "points": 66,
+      "points": 69,
       "movement": 0
     }
   ],
@@ -186,7 +186,7 @@
     {
       "id": "ciara-miller",
       "name": "Ciara Miller",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Brandon Armstrong",
       "ownerId": "colton",
       "ownerName": "Colton",
@@ -205,7 +205,8 @@
         "cost": 0,
         "acquisition": "waiver",
         "date": "2026-09-13"
-      }
+      },
+      "eliminatedWeek": 4
     },
     {
       "id": "maura-higgins",
@@ -1317,8 +1318,14 @@
           ],
           "average": 7,
           "basePoints": 7,
-          "fantasyPoints": 7,
-          "bonusesPending": true
+          "fantasyPoints": 6,
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": -1,
+          "lockPenalty": 0,
+          "eliminated": true
         },
         {
           "dancerId": "ezra-frech",
@@ -1332,8 +1339,13 @@
           ],
           "average": 8,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -1347,8 +1359,13 @@
           ],
           "average": 8,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 9,
+          "bonusesPending": false,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -1362,8 +1379,13 @@
           ],
           "average": 8,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -1378,7 +1400,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jackson-olson",
@@ -1393,7 +1420,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -1408,7 +1440,12 @@
           "average": 6.67,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 10,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -1423,7 +1460,12 @@
           "average": 6.33,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 11,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -1438,7 +1480,12 @@
           "average": 7.67,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 5,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "julia-stiles",
@@ -1453,7 +1500,12 @@
           "average": 7,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "maura-higgins",
@@ -1467,8 +1519,13 @@
           ],
           "average": 8.33,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 11,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "guillermo-rodriguez",
@@ -1483,7 +1540,12 @@
           "average": 4.33,
           "basePoints": 4,
           "fantasyPoints": 4,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 12,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         }
       ],
       "locks": {
@@ -1495,7 +1557,9 @@
         "squid": "harry-shum-jr"
       },
       "locksFinalized": true,
-      "status": "in-progress"
+      "status": "final",
+      "finalizedAt": "2026-10-07T02:00:21.557Z",
+      "scoringNotes": "Maura: +2 judges and +1 Lock. Ezra, Jenna, and Harry tie for second: +1 judges each; Ezra and Harry also +1 Lock. Tied dancers at the Top 3 cutoff qualify. Ciara: -1 elimination; she was not Colton’s Lock."
     }
   ],
   "transactions": [
@@ -2181,6 +2245,22 @@
       "detail": "13 judges’ points; 4 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-final-bonuses",
+      "type": "scoring",
+      "title": "Week 4 bonuses finalized",
+      "detail": "Payton +3 (Maura: +2 judges, +1 Lock); Jessica +2 (Ezra: +1 judges, +1 Lock); Squid +3 (Jenna +1 judges; Harry +1 judges and +1 Lock). Mattie and Jackson receive no scoring bonuses.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-ciara-elimination",
+      "type": "elimination",
+      "title": "Ciara Miller & Brandon Armstrong eliminated",
+      "detail": "Colton receives -1 elimination penalty; Tyler was his Lock, so no additional Lock penalty. Ciara leaves the active roster but keeps team color, skull, purchase history, and base-only dancer scores.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2190,7 +2270,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-all-scores",
+    "revision": "2026-10-06-week4-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3491,6 +3571,22 @@
         "detail": "13 judges’ points; 4 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Bux changes requested with this score entry. Individual dancer scores remain base-only.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-final-bonuses",
+        "type": "scoring",
+        "title": "Week 4 bonuses finalized",
+        "detail": "Payton +3 (Maura: +2 judges, +1 Lock); Jessica +2 (Ezra: +1 judges, +1 Lock); Squid +3 (Jenna +1 judges; Harry +1 judges and +1 Lock). Mattie and Jackson receive no scoring bonuses.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-ciara-elimination",
+        "type": "elimination",
+        "title": "Ciara Miller & Brandon Armstrong eliminated",
+        "detail": "Colton receives -1 elimination penalty; Tyler was his Lock, so no additional Lock penalty. Ciara leaves the active roster but keeps team color, skull, purchase history, and base-only dancer scores.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3560,10 +3656,11 @@
         "locked": true,
         "lockedAt": "2026-10-07T00:03:15.415Z",
         "deadline": "2026-10-06T19:00:00-05:00",
-        "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
+        "reason": "Commissioner-authorized Week 4 picks recorded at start of show",
+        "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-07T01:54:34.285Z"
+    "updatedAt": "2026-10-07T02:00:21.557Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
