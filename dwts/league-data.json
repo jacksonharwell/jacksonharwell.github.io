@@ -48,7 +48,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 168,
-      "points": 45,
+      "points": 52,
       "movement": 1
     },
     {
@@ -349,9 +349,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 97,
-      "seasonPoints": 17,
-      "avgScore": 5.67,
-      "trend": 0,
+      "seasonPoints": 24,
+      "avgScore": 6,
+      "trend": 1,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
       "danceBackground": "Athletic showman — frequent choreographed routines with the Savannah Bananas",
@@ -1379,6 +1379,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "proName": "Emma Slater",
+          "ownerId": "mattie",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2020,6 +2035,14 @@
       "detail": "Colton receives 10 Dancer Bux for correctly predicting Tyler Cameron’s 7–7–7.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-jackson-olson-score",
+      "type": "scoring",
+      "title": "Jackson Olson: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2029,7 +2052,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-tyler",
+    "revision": "2026-10-06-week4-jackson-olson",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3274,6 +3297,14 @@
         "detail": "Colton receives 10 Dancer Bux for correctly predicting Tyler Cameron’s 7–7–7.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-jackson-olson-score",
+        "type": "scoring",
+        "title": "Jackson Olson: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3346,7 +3377,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T00:47:55.822Z"
+    "updatedAt": "2026-10-07T01:15:19.882Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
