@@ -33,8 +33,8 @@
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 385,
-      "points": 39,
+      "bux": 395,
+      "points": 46,
       "movement": 0
     },
     {
@@ -239,9 +239,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 15,
-      "seasonPoints": 15,
-      "avgScore": 5.56,
-      "trend": 0.33,
+      "seasonPoints": 22,
+      "avgScore": 5.92,
+      "trend": 1.33,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
@@ -1364,6 +1364,21 @@
           "basePoints": 8,
           "fantasyPoints": 8,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": "colton",
+          "judges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -1989,6 +2004,22 @@
       "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Harry Shum Jr.’s 8–8–8. No Bux awarded to Payton.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-tyler-score",
+      "type": "scoring",
+      "title": "Tyler Cameron: 7–7–7",
+      "detail": "21 judges’ points; 7 base fantasy points added to Colton. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
+    },
+    {
+      "id": "week4-exact-tyler-bonus",
+      "type": "bux",
+      "title": "Colton: +10 Dancer Bux",
+      "detail": "Colton receives 10 Dancer Bux for correctly predicting Tyler Cameron’s 7–7–7.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -1998,7 +2029,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-jenna-harry",
+    "revision": "2026-10-06-week4-tyler",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2078,7 +2109,7 @@
     "waivers": [],
     "buxOverrides": {
       "jackson": 328,
-      "colton": 385,
+      "colton": 395,
       "payton": 213,
       "mattie": 168,
       "jessica": 292,
@@ -2707,6 +2738,14 @@
         "reason": "Exact score prediction: Harry Shum Jr. 8–8–8",
         "week": "Week 4",
         "createdAt": "2026-10-07T00:40:40.270Z"
+      },
+      {
+        "id": "week4-exact-tyler-colton",
+        "ownerId": "colton",
+        "amount": 10,
+        "reason": "Exact score prediction: Tyler Cameron 7–7–7",
+        "week": "Week 4",
+        "createdAt": "2026-10-07T00:47:55.822Z"
       }
     ],
     "transactions": [
@@ -3219,6 +3258,22 @@
         "detail": "Jackson, Colton, Mattie, Jessica, and Squid each receive 10 Dancer Bux for Harry Shum Jr.’s 8–8–8. No Bux awarded to Payton.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-tyler-score",
+        "type": "scoring",
+        "title": "Tyler Cameron: 7–7–7",
+        "detail": "21 judges’ points; 7 base fantasy points added to Colton. Placement and Lock bonuses pending final results. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
+      },
+      {
+        "id": "week4-exact-tyler-bonus",
+        "type": "bux",
+        "title": "Colton: +10 Dancer Bux",
+        "detail": "Colton receives 10 Dancer Bux for correctly predicting Tyler Cameron’s 7–7–7.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3291,7 +3346,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T00:40:40.270Z"
+    "updatedAt": "2026-10-07T00:47:55.822Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
