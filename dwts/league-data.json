@@ -41,7 +41,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 213,
-      "points": 42,
+      "points": 48,
       "movement": 1
     },
     {
@@ -396,9 +396,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 16,
-      "avgScore": 5.67,
-      "trend": 1.67,
+      "seasonPoints": 22,
+      "avgScore": 5.83,
+      "trend": -0.33,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -1409,6 +1409,21 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            6,
+            6,
+            7
+          ],
+          "average": 6.33,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2066,6 +2081,14 @@
       "detail": "20 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-connor-wood-score",
+      "type": "scoring",
+      "title": "Connor Wood: 6–6–7",
+      "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2075,7 +2098,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-tatyana",
+    "revision": "2026-10-06-week4-connor-wood",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3336,6 +3359,14 @@
         "detail": "20 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-connor-wood-score",
+        "type": "scoring",
+        "title": "Connor Wood: 6–6–7",
+        "detail": "19 judges’ points; 6 base fantasy points added to Payton. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3408,7 +3439,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T01:33:35.045Z"
+    "updatedAt": "2026-10-07T01:34:28.857Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
