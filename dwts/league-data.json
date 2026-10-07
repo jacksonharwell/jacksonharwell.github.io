@@ -27,7 +27,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 328,
-      "points": 26,
+      "points": 32,
       "movement": 0
     },
     {
@@ -292,9 +292,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 17,
-      "avgScore": 5.67,
-      "trend": 1,
+      "seasonPoints": 23,
+      "avgScore": 5.92,
+      "trend": -0.33,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
       "danceBackground": "Performance background — Broadway-trained actor and recording artist; no ballroom record",
@@ -1394,6 +1394,21 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": "jackson",
+          "judges": [
+            6,
+            7,
+            7
+          ],
+          "average": 6.67,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2043,6 +2058,14 @@
       "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week4-tatyana-score",
+      "type": "scoring",
+      "title": "Tatyana Ali: 6–7–7",
+      "detail": "20 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+      "date": "October 6, 2026",
+      "week": 4
     }
   ],
   "locks": [],
@@ -2052,7 +2075,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-jackson-olson",
+    "revision": "2026-10-06-week4-tatyana",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3305,6 +3328,14 @@
         "detail": "21 judges’ points; 7 base fantasy points added to Mattie. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week4-tatyana-score",
+        "type": "scoring",
+        "title": "Tatyana Ali: 6–7–7",
+        "detail": "20 judges’ points; 6 base fantasy points added to Jackson. Placement and Lock bonuses pending final results. No Dancer Bux awarded. Individual dancer scores remain base-only.",
+        "date": "October 6, 2026",
+        "week": 4
       }
     ],
     "locks": {
@@ -3377,7 +3408,7 @@
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show"
       }
     },
-    "updatedAt": "2026-10-07T01:15:19.882Z"
+    "updatedAt": "2026-10-07T01:33:35.045Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
