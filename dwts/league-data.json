@@ -26,7 +26,7 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 348,
+      "bux": 368,
       "points": 43,
       "movement": 0
     },
@@ -62,7 +62,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 112,
-      "points": 78,
+      "points": 86,
       "movement": 0
     }
   ],
@@ -104,9 +104,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 81,
-      "seasonPoints": 29,
-      "avgScore": 7.25,
-      "trend": 0,
+      "seasonPoints": 37,
+      "avgScore": 7.47,
+      "trend": 0.33,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -1733,6 +1733,27 @@
           "basePoints": 9,
           "fantasyPoints": 9,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "squid",
+          "judges": [
+            8,
+            8,
+            9,
+            8
+          ],
+          "countedJudges": [
+            9,
+            8,
+            8
+          ],
+          "average": 8.33,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2544,6 +2565,14 @@
       "detail": "36 total judges’ points. Highest three scores (9, 9, 9) average 9, giving Squid 9 base fantasy points. Payton, Mattie, Jessica, and Squid each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 8–8–9–8",
+      "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Squid 8 base fantasy points. Jackson receives 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2553,7 +2582,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-jenna",
+    "revision": "2026-10-13-week5-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2632,7 +2661,7 @@
     },
     "waivers": [],
     "buxOverrides": {
-      "jackson": 348,
+      "jackson": 368,
       "colton": 455,
       "payton": 273,
       "mattie": 248,
@@ -3398,6 +3427,14 @@
         "reason": "Jenna Dewan exact-score bonus",
         "week": "Week 5",
         "createdAt": "2026-10-14T01:34:13.440Z"
+      },
+      {
+        "id": "week5-harry-bonus-jackson",
+        "ownerId": "jackson",
+        "amount": 20,
+        "reason": "Harry Shum Jr. exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:44:34.399Z"
       }
     ],
     "transactions": [
@@ -4096,6 +4133,14 @@
         "detail": "36 total judges’ points. Highest three scores (9, 9, 9) average 9, giving Squid 9 base fantasy points. Payton, Mattie, Jessica, and Squid each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 8–8–9–8",
+        "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Squid 8 base fantasy points. Jackson receives 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -4169,7 +4214,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T01:34:13.440Z"
+    "updatedAt": "2026-10-14T01:44:34.399Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
