@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 4,
-    "phase": "Week 4 complete",
+    "week": 5,
+    "phase": "Week 5 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-13",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -41,13 +41,13 @@
       "id": "payton",
       "name": "Payton",
       "bux": 213,
-      "points": 59,
+      "points": 67,
       "movement": 1
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 168,
+      "bux": 188,
       "points": 59,
       "movement": 0
     },
@@ -216,9 +216,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 76,
-      "seasonPoints": 28,
-      "avgScore": 7.25,
-      "trend": 1,
+      "seasonPoints": 36,
+      "avgScore": 7.47,
+      "trend": 0,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -1560,6 +1560,44 @@
       "status": "final",
       "finalizedAt": "2026-10-07T02:00:21.557Z",
       "scoringNotes": "Maura: +2 judges and +1 Lock. Ezra, Jenna, and Harry tie for second: +1 judges each; Ezra and Harry also +1 Lock. Tied dancers at the Top 3 cutoff qualify. Ciara: -1 elimination; she was not Colton’s Lock."
+    },
+    {
+      "week": 5,
+      "label": "Week 5",
+      "date": "2026-10-13",
+      "performances": [
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "payton",
+          "judges": [
+            8,
+            8,
+            9,
+            8
+          ],
+          "countedJudges": [
+            9,
+            8,
+            8
+          ],
+          "average": 8.33,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {
+        "colton": "tyler-cameron",
+        "jackson": "tatyana-ali",
+        "jessica": "ezra-frech",
+        "mattie": "amber-glenn",
+        "payton": "maura-higgins",
+        "squid": "harry-shum-jr"
+      },
+      "locksFinalized": false,
+      "status": "in-progress"
     }
   ],
   "transactions": [
@@ -2261,6 +2299,22 @@
       "detail": "Colton receives -1 elimination penalty; Tyler was his Lock, so no additional Lock penalty. Ciara leaves the active roster but keeps team color, skull, purchase history, and base-only dancer scores.",
       "date": "October 6, 2026",
       "week": 4
+    },
+    {
+      "id": "week5-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 8–8–9–8",
+      "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Payton 8 base fantasy points. Placement and Lock bonuses pending; individual dancer scores remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
+    },
+    {
+      "id": "week5-maura-bux",
+      "type": "bux",
+      "title": "Mattie: +20 Dancer Bux",
+      "detail": "Mattie receives 20 Dancer Bux as awarded for Maura’s performance.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2270,7 +2324,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-06-week4-final",
+    "revision": "2026-10-13-week5-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2352,7 +2406,7 @@
       "jackson": 328,
       "colton": 395,
       "payton": 213,
-      "mattie": 168,
+      "mattie": 188,
       "jessica": 292,
       "squid": 72
     },
@@ -2987,6 +3041,14 @@
         "reason": "Exact score prediction: Tyler Cameron 7–7–7",
         "week": "Week 4",
         "createdAt": "2026-10-07T00:47:55.822Z"
+      },
+      {
+        "id": "week5-maura-bonus-mattie",
+        "ownerId": "mattie",
+        "amount": 20,
+        "reason": "Maura score prediction bonus, awarded by commissioner",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T00:18:58.047Z"
       }
     ],
     "transactions": [
@@ -3587,6 +3649,22 @@
         "detail": "Colton receives -1 elimination penalty; Tyler was his Lock, so no additional Lock penalty. Ciara leaves the active roster but keeps team color, skull, purchase history, and base-only dancer scores.",
         "date": "October 6, 2026",
         "week": 4
+      },
+      {
+        "id": "week5-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 8–8–9–8",
+        "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Payton 8 base fantasy points. Placement and Lock bonuses pending; individual dancer scores remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
+      },
+      {
+        "id": "week5-maura-bux",
+        "type": "bux",
+        "title": "Mattie: +20 Dancer Bux",
+        "detail": "Mattie receives 20 Dancer Bux as awarded for Maura’s performance.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -3660,7 +3738,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-07T02:00:21.557Z"
+    "updatedAt": "2026-10-14T00:18:58.047Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
