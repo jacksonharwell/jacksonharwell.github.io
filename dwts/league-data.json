@@ -54,7 +54,7 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 372,
+      "bux": 352,
       "points": 76,
       "movement": 1
     },
@@ -2602,6 +2602,14 @@
       "detail": "36 total judges’ points. Highest three scores (9, 9, 9) average 9, giving Jessica 9 base fantasy points. Jackson, Colton, Mattie, Jessica, and Squid each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-ezra-bonus-jessica-correction",
+      "type": "adjustment",
+      "title": "Jessica: −20 Bux correction",
+      "detail": "Reversed Jessica’s 20 Bux bonus for Ezra Frech at the commissioner’s request. All dancer scores and participant points remain unchanged.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2611,7 +2619,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-ezra",
+    "revision": "2026-10-13-week5-ezra-jessica-correction",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2694,7 +2702,7 @@
       "colton": 475,
       "payton": 273,
       "mattie": 268,
-      "jessica": 372,
+      "jessica": 352,
       "squid": 132
     },
     "buxAdjustments": {},
@@ -3504,6 +3512,14 @@
         "reason": "Ezra Frech exact-score bonus",
         "week": "Week 5",
         "createdAt": "2026-10-14T01:55:14.594Z"
+      },
+      {
+        "id": "week5-ezra-bonus-jessica-correction",
+        "ownerId": "jessica",
+        "amount": -20,
+        "reason": "Commissioner correction: reverse Jessica’s Ezra Frech Week 5 bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:55:31.811Z"
       }
     ],
     "transactions": [
@@ -4218,6 +4234,14 @@
         "detail": "36 total judges’ points. Highest three scores (9, 9, 9) average 9, giving Jessica 9 base fantasy points. Jackson, Colton, Mattie, Jessica, and Squid each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-ezra-bonus-jessica-correction",
+        "type": "adjustment",
+        "title": "Jessica: −20 Bux correction",
+        "detail": "Reversed Jessica’s 20 Bux bonus for Ezra Frech at the commissioner’s request. All dancer scores and participant points remain unchanged.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -4291,7 +4315,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T01:55:14.594Z"
+    "updatedAt": "2026-10-14T01:55:31.811Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
