@@ -41,7 +41,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 233,
-      "points": 67,
+      "points": 73,
       "movement": 1
     },
     {
@@ -397,9 +397,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 22,
-      "avgScore": 5.83,
-      "trend": -0.33,
+      "seasonPoints": 28,
+      "avgScore": 5.93,
+      "trend": 0,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -1649,6 +1649,27 @@
           "basePoints": 7,
           "fantasyPoints": 7,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            6,
+            6,
+            7,
+            6
+          ],
+          "countedJudges": [
+            7,
+            6,
+            6
+          ],
+          "average": 6.33,
+          "basePoints": 6,
+          "fantasyPoints": 6,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2428,6 +2449,14 @@
       "detail": "30 total judges’ points. Highest three scores (8, 8, 7) average 7.67, giving Colton 7 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-connor-score",
+      "type": "scoring",
+      "title": "Connor Wood: 6–6–7–6",
+      "detail": "25 total judges’ points. Highest three scores (7, 6, 6) average 6.33, giving Payton 6 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2437,7 +2466,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-tyler",
+    "revision": "2026-10-13-week5-connor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3868,6 +3897,14 @@
         "detail": "30 total judges’ points. Highest three scores (8, 8, 7) average 7.67, giving Colton 7 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-connor-score",
+        "type": "scoring",
+        "title": "Connor Wood: 6–6–7–6",
+        "detail": "25 total judges’ points. Highest three scores (7, 6, 6) average 6.33, giving Payton 6 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -3941,7 +3978,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T00:48:25.035Z"
+    "updatedAt": "2026-10-14T00:56:34.335Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
