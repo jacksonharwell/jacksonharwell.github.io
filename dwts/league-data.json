@@ -27,27 +27,27 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 348,
-      "points": 36,
+      "points": 43,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 435,
+      "bux": 455,
       "points": 52,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 233,
+      "bux": 253,
       "points": 73,
       "movement": 1
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 208,
+      "bux": 228,
       "points": 75,
       "movement": 0
     },
@@ -293,9 +293,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 23,
-      "avgScore": 5.92,
-      "trend": -0.33,
+      "seasonPoints": 30,
+      "avgScore": 6.2,
+      "trend": 0.67,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
       "danceBackground": "Performance background — Broadway-trained actor and recording artist; no ballroom record",
@@ -1691,6 +1691,27 @@
           "basePoints": 8,
           "fantasyPoints": 8,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": "jackson",
+          "judges": [
+            7,
+            7,
+            8,
+            7
+          ],
+          "countedJudges": [
+            8,
+            7,
+            7
+          ],
+          "average": 7.33,
+          "basePoints": 7,
+          "fantasyPoints": 7,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2486,6 +2507,14 @@
       "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Jessica 8 base fantasy points. Colton, Jessica, and Jackson each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-tatyana-score",
+      "type": "scoring",
+      "title": "Tatyana Ali: 7–7–8–7",
+      "detail": "29 total judges’ points. Highest three scores (8, 7, 7) average 7.33, giving Jackson 7 base fantasy points. Payton, Colton, and Mattie each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2495,7 +2524,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-julia",
+    "revision": "2026-10-13-week5-tatyana",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2575,9 +2604,9 @@
     "waivers": [],
     "buxOverrides": {
       "jackson": 348,
-      "colton": 435,
-      "payton": 233,
-      "mattie": 208,
+      "colton": 455,
+      "payton": 253,
+      "mattie": 228,
       "jessica": 332,
       "squid": 92
     },
@@ -3284,6 +3313,30 @@
         "reason": "Julia Stiles exact-score bonus",
         "week": "Week 5",
         "createdAt": "2026-10-14T01:08:54.407Z"
+      },
+      {
+        "id": "week5-tatyana-bonus-payton",
+        "ownerId": "payton",
+        "amount": 20,
+        "reason": "Tatyana Ali exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:15:02.859Z"
+      },
+      {
+        "id": "week5-tatyana-bonus-colton",
+        "ownerId": "colton",
+        "amount": 20,
+        "reason": "Tatyana Ali exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:15:02.859Z"
+      },
+      {
+        "id": "week5-tatyana-bonus-mattie",
+        "ownerId": "mattie",
+        "amount": 20,
+        "reason": "Tatyana Ali exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:15:02.859Z"
       }
     ],
     "transactions": [
@@ -3966,6 +4019,14 @@
         "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Jessica 8 base fantasy points. Colton, Jessica, and Jackson each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-tatyana-score",
+        "type": "scoring",
+        "title": "Tatyana Ali: 7–7–8–7",
+        "detail": "29 total judges’ points. Highest three scores (8, 7, 7) average 7.33, giving Jackson 7 base fantasy points. Payton, Colton, and Mattie each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -4039,7 +4100,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T01:08:54.407Z"
+    "updatedAt": "2026-10-14T01:15:02.859Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
