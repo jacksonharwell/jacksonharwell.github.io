@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 5,
-    "phase": "Week 5 • live scoring",
+    "phase": "Week 5 • final results",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -27,7 +27,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 388,
-      "points": 43,
+      "points": 47,
       "movement": 0
     },
     {
@@ -42,27 +42,27 @@
       "name": "Payton",
       "bux": 273,
       "points": 73,
-      "movement": 1
+      "movement": -2
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 268,
-      "points": 75,
-      "movement": 0
+      "points": 77,
+      "movement": -1
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 352,
-      "points": 76,
-      "movement": 1
+      "points": 79,
+      "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 132,
-      "points": 86,
+      "points": 88,
       "movement": 0
     }
   ],
@@ -470,14 +470,14 @@
     {
       "id": "guillermo-rodriguez",
       "name": "Guillermo Rodriguez",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Witney Carson",
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 0,
-      "seasonPoints": 16,
-      "avgScore": 4.17,
-      "trend": -0.67,
+      "seasonPoints": 21,
+      "avgScore": 4.47,
+      "trend": 1.33,
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/L5RFDFSIFFAWVBAZF26CUC4TSY.jpg",
       "knownFor": "Jimmy Kimmel Live! • comedy personality",
       "danceBackground": "No formal dance background publicly established",
@@ -486,7 +486,8 @@
       "proImage": "https://www.dancemagazine.com/wp-content/uploads/2021/12/img-77.png",
       "acquisition": "waiver",
       "acquiredAt": "2026-09-18T02:09:00.771Z",
-      "acquiredWeek": 2
+      "acquiredWeek": 2,
+      "eliminatedWeek": 5
     }
   ],
   "weeks": [
@@ -1585,7 +1586,12 @@
           "average": 8.33,
           "basePoints": 8,
           "fantasyPoints": 8,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jackson-olson",
@@ -1606,7 +1612,12 @@
           "average": 8,
           "basePoints": 8,
           "fantasyPoints": 8,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -1626,8 +1637,13 @@
           ],
           "average": 8.67,
           "basePoints": 8,
-          "fantasyPoints": 8,
-          "bonusesPending": true
+          "fantasyPoints": 10,
+          "bonusesPending": false,
+          "judgesPlacement": 3,
+          "judgesBonus": 1,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -1648,7 +1664,12 @@
           "average": 7.67,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 8,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -1669,7 +1690,12 @@
           "average": 6.33,
           "basePoints": 6,
           "fantasyPoints": 6,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 10,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "julia-stiles",
@@ -1690,7 +1716,12 @@
           "average": 8.33,
           "basePoints": 8,
           "fantasyPoints": 8,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -1711,7 +1742,12 @@
           "average": 7.33,
           "basePoints": 7,
           "fantasyPoints": 7,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -1731,8 +1767,13 @@
           ],
           "average": 9,
           "basePoints": 9,
-          "fantasyPoints": 9,
-          "bonusesPending": true
+          "fantasyPoints": 11,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -1753,7 +1794,12 @@
           "average": 8.33,
           "basePoints": 8,
           "fantasyPoints": 8,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "ezra-frech",
@@ -1773,8 +1819,40 @@
           ],
           "average": 9,
           "basePoints": 9,
-          "fantasyPoints": 9,
-          "bonusesPending": true
+          "fantasyPoints": 12,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 1,
+          "eliminationPenalty": 0,
+          "lockPenalty": 0
+        },
+        {
+          "dancerId": "guillermo-rodriguez",
+          "dancerName": "Guillermo Rodriguez",
+          "proName": "Witney Carson",
+          "ownerId": "jackson",
+          "judges": [
+            6,
+            5,
+            6,
+            5
+          ],
+          "countedJudges": [
+            6,
+            6,
+            5
+          ],
+          "average": 5.67,
+          "basePoints": 5,
+          "fantasyPoints": 4,
+          "bonusesPending": false,
+          "judgesPlacement": 11,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "eliminationPenalty": -1,
+          "lockPenalty": 0,
+          "eliminated": true
         }
       ],
       "locks": {
@@ -1785,8 +1863,10 @@
         "payton": "maura-higgins",
         "squid": "harry-shum-jr"
       },
-      "locksFinalized": false,
-      "status": "in-progress"
+      "locksFinalized": true,
+      "status": "final",
+      "finalizedAt": "2026-10-14T02:02:25.768Z",
+      "scoringNotes": "Jenna and Ezra tie for highest judges total: +2 each; Ezra also +1 Lock. Amber has the second-highest distinct total: +1 judges and +1 Lock (third-place finish). Guillermo: -1 elimination, no Lock penalty. Existing saved Locks carried into Week 5. All four judge scores count toward placement; highest three determine base points."
     }
   ],
   "transactions": [
@@ -2610,6 +2690,30 @@
       "detail": "Reversed Jessica’s 20 Bux bonus for Ezra Frech at the commissioner’s request. All dancer scores and participant points remain unchanged.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-guillermo-score",
+      "type": "scoring",
+      "title": "Guillermo Rodriguez: 6–5–6–5",
+      "detail": "22 total judges’ points. Highest three (6, 6, 5) average 5.67: 5 base points, minus 1 elimination penalty = 4 team points for Jackson. No additional Bux recorded. Individual dancer points remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
+    },
+    {
+      "id": "week5-final-bonuses",
+      "type": "scoring",
+      "title": "Week 5 bonuses finalized",
+      "detail": "Squid +2 (Jenna judges bonus); Jessica +3 (Ezra +2 judges, +1 Lock); Mattie +2 (Amber +1 judges, +1 Lock). Uses existing saved Locks. All scores complete.",
+      "date": "October 13, 2026",
+      "week": 5
+    },
+    {
+      "id": "week5-guillermo-elimination",
+      "type": "elimination",
+      "title": "Guillermo Rodriguez & Witney Carson eliminated",
+      "detail": "Jackson receives -1 elimination penalty. Tatyana was his Lock, so no additional Lock penalty. Guillermo leaves the active roster but keeps Jackson’s team color, skull, acquisition history, and base-only dancer scores. No Bux or roster resets.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2619,7 +2723,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-ezra-jessica-correction",
+    "revision": "2026-10-13-week5-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4242,6 +4346,30 @@
         "detail": "Reversed Jessica’s 20 Bux bonus for Ezra Frech at the commissioner’s request. All dancer scores and participant points remain unchanged.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-guillermo-score",
+        "type": "scoring",
+        "title": "Guillermo Rodriguez: 6–5–6–5",
+        "detail": "22 total judges’ points. Highest three (6, 6, 5) average 5.67: 5 base points, minus 1 elimination penalty = 4 team points for Jackson. No additional Bux recorded. Individual dancer points remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
+      },
+      {
+        "id": "week5-final-bonuses",
+        "type": "scoring",
+        "title": "Week 5 bonuses finalized",
+        "detail": "Squid +2 (Jenna judges bonus); Jessica +3 (Ezra +2 judges, +1 Lock); Mattie +2 (Amber +1 judges, +1 Lock). Uses existing saved Locks. All scores complete.",
+        "date": "October 13, 2026",
+        "week": 5
+      },
+      {
+        "id": "week5-guillermo-elimination",
+        "type": "elimination",
+        "title": "Guillermo Rodriguez & Witney Carson eliminated",
+        "detail": "Jackson receives -1 elimination penalty. Tatyana was his Lock, so no additional Lock penalty. Guillermo leaves the active roster but keeps Jackson’s team color, skull, acquisition history, and base-only dancer scores. No Bux or roster resets.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -4313,9 +4441,24 @@
         "deadline": "2026-10-06T19:00:00-05:00",
         "reason": "Commissioner-authorized Week 4 picks recorded at start of show",
         "finalizedAt": "2026-10-07T02:00:21.557Z"
+      },
+      "5": {
+        "picks": {
+          "colton": "tyler-cameron",
+          "jackson": "tatyana-ali",
+          "jessica": "ezra-frech",
+          "mattie": "amber-glenn",
+          "payton": "maura-higgins",
+          "squid": "harry-shum-jr"
+        },
+        "locked": true,
+        "lockedAt": "2026-10-13T19:00:00-05:00",
+        "deadline": "2026-10-13T19:00:00-05:00",
+        "finalizedAt": "2026-10-14T02:02:25.768Z",
+        "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-14T01:55:31.811Z"
+    "updatedAt": "2026-10-14T02:02:25.768Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
