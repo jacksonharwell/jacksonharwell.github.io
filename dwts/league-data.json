@@ -33,14 +33,14 @@
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 395,
+      "bux": 415,
       "points": 45,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 213,
+      "bux": 233,
       "points": 67,
       "movement": 1
     },
@@ -2361,6 +2361,15 @@
       "date": "October 13, 2026",
       "week": 5,
       "createdAt": "2026-10-14T00:34:39.130Z"
+    },
+    {
+      "id": "week5-bonus-20261013-193552",
+      "type": "bux",
+      "title": "Payton and Colton: +20 Dancer Bux each",
+      "detail": "Commissioner awarded 20 Dancer Bux each to Payton and Colton.",
+      "date": "October 13, 2026",
+      "week": 5,
+      "createdAt": "2026-10-14T00:36:04.316Z"
     }
   ],
   "locks": [],
@@ -2370,7 +2379,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-squid-jessica-bonus",
+    "revision": "2026-10-13-week5-payton-colton-bonus",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2450,8 +2459,8 @@
     "waivers": [],
     "buxOverrides": {
       "jackson": 328,
-      "colton": 395,
-      "payton": 213,
+      "colton": 415,
+      "payton": 233,
       "mattie": 208,
       "jessica": 312,
       "squid": 92
@@ -3119,6 +3128,22 @@
         "reason": "Week 5 bonus awarded by commissioner",
         "week": "Week 5",
         "createdAt": "2026-10-14T00:34:39.130Z"
+      },
+      {
+        "id": "week5-bonus-20261013-193552-payton",
+        "ownerId": "payton",
+        "amount": 20,
+        "reason": "Week 5 bonus awarded by commissioner",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T00:36:04.316Z"
+      },
+      {
+        "id": "week5-bonus-20261013-193552-colton",
+        "ownerId": "colton",
+        "amount": 20,
+        "reason": "Week 5 bonus awarded by commissioner",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T00:36:04.316Z"
       }
     ],
     "transactions": [
@@ -3760,6 +3785,15 @@
         "date": "October 13, 2026",
         "week": 5,
         "createdAt": "2026-10-14T00:34:39.130Z"
+      },
+      {
+        "id": "week5-bonus-20261013-193552",
+        "type": "bux",
+        "title": "Payton and Colton: +20 Dancer Bux each",
+        "detail": "Commissioner awarded 20 Dancer Bux each to Payton and Colton.",
+        "date": "October 13, 2026",
+        "week": 5,
+        "createdAt": "2026-10-14T00:36:04.316Z"
       }
     ],
     "locks": {
@@ -3833,7 +3867,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T00:34:39.130Z"
+    "updatedAt": "2026-10-14T00:36:04.316Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
