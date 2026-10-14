@@ -26,14 +26,14 @@
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 328,
+      "bux": 348,
       "points": 36,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 415,
+      "bux": 435,
       "points": 52,
       "movement": 0
     },
@@ -54,8 +54,8 @@
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 312,
-      "points": 59,
+      "bux": 332,
+      "points": 67,
       "movement": 1
     },
     {
@@ -162,9 +162,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 7,
-      "seasonPoints": 24,
-      "avgScore": 6.17,
-      "trend": 0.67,
+      "seasonPoints": 32,
+      "avgScore": 6.6,
+      "trend": 1.33,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
       "danceBackground": "Moderate — intensive ballet and hip-hop preparation for Save the Last Dance",
@@ -1670,6 +1670,27 @@
           "basePoints": 6,
           "fantasyPoints": 6,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": "jessica",
+          "judges": [
+            8,
+            8,
+            9,
+            8
+          ],
+          "countedJudges": [
+            9,
+            8,
+            8
+          ],
+          "average": 8.33,
+          "basePoints": 8,
+          "fantasyPoints": 8,
+          "bonusesPending": true
         }
       ],
       "locks": {
@@ -2457,6 +2478,14 @@
       "detail": "25 total judges’ points. Highest three scores (7, 6, 6) average 6.33, giving Payton 6 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week5-julia-score",
+      "type": "scoring",
+      "title": "Julia Stiles: 8–8–9–8",
+      "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Jessica 8 base fantasy points. Colton, Jessica, and Jackson each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+      "date": "October 13, 2026",
+      "week": 5
     }
   ],
   "locks": [],
@@ -2466,7 +2495,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-connor",
+    "revision": "2026-10-13-week5-julia",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2545,11 +2574,11 @@
     },
     "waivers": [],
     "buxOverrides": {
-      "jackson": 328,
-      "colton": 415,
+      "jackson": 348,
+      "colton": 435,
       "payton": 233,
       "mattie": 208,
-      "jessica": 312,
+      "jessica": 332,
       "squid": 92
     },
     "buxAdjustments": {},
@@ -3231,6 +3260,30 @@
         "reason": "Week 5 bonus awarded by commissioner",
         "week": "Week 5",
         "createdAt": "2026-10-14T00:36:04.316Z"
+      },
+      {
+        "id": "week5-julia-bonus-colton",
+        "ownerId": "colton",
+        "amount": 20,
+        "reason": "Julia Stiles exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:08:54.407Z"
+      },
+      {
+        "id": "week5-julia-bonus-jessica",
+        "ownerId": "jessica",
+        "amount": 20,
+        "reason": "Julia Stiles exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:08:54.407Z"
+      },
+      {
+        "id": "week5-julia-bonus-jackson",
+        "ownerId": "jackson",
+        "amount": 20,
+        "reason": "Julia Stiles exact-score bonus",
+        "week": "Week 5",
+        "createdAt": "2026-10-14T01:08:54.407Z"
       }
     ],
     "transactions": [
@@ -3905,6 +3958,14 @@
         "detail": "25 total judges’ points. Highest three scores (7, 6, 6) average 6.33, giving Payton 6 base fantasy points. Placement and Lock bonuses pending; no Bux awarded. Individual dancer scores remain base-only.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week5-julia-score",
+        "type": "scoring",
+        "title": "Julia Stiles: 8–8–9–8",
+        "detail": "33 total judges’ points. Highest three scores (9, 8, 8) average 8.33, giving Jessica 8 base fantasy points. Colton, Jessica, and Jackson each receive 20 bonus Bux. Placement and Lock bonuses pending. Individual dancer scores remain base-only.",
+        "date": "October 13, 2026",
+        "week": 5
       }
     ],
     "locks": {
@@ -3978,7 +4039,7 @@
         "finalizedAt": "2026-10-07T02:00:21.557Z"
       }
     },
-    "updatedAt": "2026-10-14T00:56:34.335Z"
+    "updatedAt": "2026-10-14T01:08:54.407Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
