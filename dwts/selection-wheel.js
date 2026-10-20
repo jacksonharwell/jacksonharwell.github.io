@@ -72,13 +72,28 @@ function render(){
  q('selectionOrder').innerHTML=session.order.map((p,i)=>'<li><span class="pick-round">Pick '+(i+1)+'</span><strong>'+escapeSelection(p.name)+'</strong>'+(p.dancerName?'<span class="chosen-dancer">selected '+escapeSelection(p.dancerName)+(p.proName?' & '+escapeSelection(p.proName):'')+'</span>':'<span class="chosen-dancer waiting">choosing now…</span>')+'<small>'+p.tickets+' of '+p.total+' tickets at selection</small></li>').join('');
  q('selectionSpin').disabled=busy||session.pending||!total||!ready||!remaining;
  q('selectionSpin').textContent=busy?'SPINNING':session.pending?'PICK DANCER':!remaining||!total?'DONE':'CLICK TO SPIN';
+ const lastOwner=!busy&&!session.pending&&ready&&remaining&&new Set(tickets).size===1?participants.find(o=>o.id===tickets[0]):null;
+ const wheel=q('selectionSpin').closest('.selection-wheel');
+ wheel.classList.toggle('last-pick-mode',!!lastOwner);
+ if(lastOwner){
+  wheel.style.setProperty('--last-owner-color',selectionColors[lastOwner.id]||'#fff0bd');
+  q('selectionSpin').innerHTML='<span class="last-pick-eyebrow">LAST PICK</span><strong>'+escapeSelection(lastOwner.name)+'</strong><span class="last-pick-action">Choose your dancer →</span>';
+ }
  const remainingNode=q('dancersRemaining');
  if(remainingNode)remainingNode.textContent=remaining+' dancer'+(remaining===1?'':'s')+' available';
 }
-function celebrate(){
+function celebrate(name){
  const layer=q('confettiLayer');
  if(!layer)return;
  layer.innerHTML='';
+ const nameBanner=document.createElement('div');
+ nameBanner.className='confetti-name';
+ nameBanner.setAttribute('aria-hidden','true');
+ Array.from(name||'').forEach((letter,index)=>{
+  const glyph=document.createElement('span');glyph.textContent=letter===' '?'\u00a0':letter;
+  glyph.style.animationDelay=(index*.09)+'s';nameBanner.appendChild(glyph);
+ });
+ layer.appendChild(nameBanner);
  const colors=['#fff0bd','#ef5750','#f5a623','#7fa8ff','#42b883','#c783f4','#ffffff'];
  for(let i=0;i<90;i++){
   const bit=document.createElement('i');
@@ -91,7 +106,7 @@ function celebrate(){
   bit.style.height=(9+Math.random()*13)+'px';
   layer.appendChild(bit);
  }
- window.setTimeout(()=>{layer.innerHTML='';},4500);
+ window.setTimeout(()=>{layer.innerHTML='';},5200);
 }
 function renderDancerPicker(winner){
  const pool=availableDancers();
@@ -117,19 +132,24 @@ async function spinSelection(){
  try{
   await refreshBalances();advanceRoundIfNeeded();rotation=0;draw();
   if(!tickets.length){busy=false;render();q('selectionStatus').textContent='No eligible tickets remain.';return;}
-  const index=randomBelow(tickets.length),owner=participants.find(o=>o.id===tickets[index]),target=360*7+(360-(index+.5)*360/tickets.length);
+  const lastPick=new Set(tickets).size===1;
+  const index=lastPick?0:randomBelow(tickets.length),owner=participants.find(o=>o.id===tickets[index]),target=360*10+(360-(index+.5)*360/tickets.length);
   const previous=structuredClone(session);
   session={...session,order:[...session.order,{ownerId:owner.id,name:owner.name,tickets:owner.bux,total:tickets.length,round:1,dancerId:null,dancerName:null,proName:null,pickNumber:session.order.length+1,createdAt:new Date().toISOString(),selectedAt:null}],pending:true};
   try{saveSession();}catch(error){session=previous;throw Error('Could not save this result. Enable browser storage before spinning.');}
+  if(lastPick){
+   busy=false;tickets=makeTickets(participants,session.order,session.round);
+   rotation=0;draw();render();showPending();return;
+  }
   q('selectionStatus').textContent='The wheel is spinning…';
-  const start=performance.now(),duration=6500;
+  const start=performance.now(),duration=10500;
   function animate(now){
-   const t=Math.min(1,(now-start)/duration);rotation=target*(1-Math.pow(1-t,5));draw();
+   const t=Math.min(1,(now-start)/duration);rotation=target*(1-Math.pow(1-t,3));draw();
    if(t<1)requestAnimationFrame(animate);
    else{
     q('selectionResult').textContent=owner.name+'!';
-    celebrate();
-    window.setTimeout(()=>{busy=false;tickets=makeTickets(participants,session.order,session.round);rotation=0;draw();render();showPending();},650);
+    celebrate(owner.name);
+    window.setTimeout(()=>{busy=false;tickets=makeTickets(participants,session.order,session.round);rotation=0;draw();render();showPending();},3000);
    }
   }
   requestAnimationFrame(animate);
