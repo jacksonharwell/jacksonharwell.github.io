@@ -20,7 +20,22 @@
       "reopenTime": "06:00"
     },
     "premiereISODate": "2026-09-15",
-    "individualDancerScoring": "basePointsOnly"
+    "individualDancerScoring": "basePointsOnly",
+    "shakeupPolicy": {
+      "week": 6,
+      "timing": "before episode",
+      "rosterSize": 1,
+      "selectionMethod": "Bux-weighted wheel",
+      "pointsCarryForward": true,
+      "buxSpentOnSpin": false
+    },
+    "secondHalfScoring": {
+      "startsWeek": 6,
+      "countedJudges": 3,
+      "rounding": "up",
+      "baseScoreMultiplier": 2,
+      "modifiersMultiplier": 1
+    }
   },
   "owners": [
     {
