@@ -25,10 +25,13 @@ function weeklyDancerSegments(dancer,weeks){
  if(!performances.length)return null;
  const points=performances.reduce((sum,p)=>sum+(p.basePoints??Math.floor(p.judges.slice().sort((a,b)=>b-a).slice(0,3).reduce((a,b)=>a+b,0)/Math.min(3,p.judges.length))),0);
  const scores=performances.map(p=>p.judges.join('–')).join(' / ');
- return {week:week.week,points,scores};
+ const ownerId=performances.find(p=>p.ownerId)?.ownerId||dancer.ownerId||null;
+ const ownerColor=fixedColors[ownerId]||'#716778';
+ return {week:week.week,points,scores,ownerId,ownerColor};
  }).filter(Boolean);
  return '<div class="dancer-week-stack">'+rows.map(row=>{
- const label='Week '+row.week+': '+row.scores+'; '+row.points+' base points';
- return '<span class="dancer-week-segment" style="flex-grow:'+row.points+'" tabindex="0" role="img" aria-label="'+esc(label)+'" title="'+esc(label)+'"><small>W'+row.week+'</small><span>'+esc(row.scores)+'</span></span>';
+ const ownerName=row.ownerId?row.ownerId.charAt(0).toUpperCase()+row.ownerId.slice(1):'Unowned';
+ const label='Week '+row.week+': '+row.scores+'; '+row.points+' base points for '+ownerName;
+ return '<span class="dancer-week-segment" style="flex-grow:'+row.points+';background:'+row.ownerColor+'" tabindex="0" role="img" aria-label="'+esc(label)+'" title="'+esc(label)+'"><small>W'+row.week+'</small><span>'+esc(row.scores)+'</span></span>';
  }).join('')+'</div>';
 }
