@@ -53,15 +53,9 @@ async function refreshBalances(){
  tickets=makeTickets(participants,session.order,session.round);
 }
 function advanceRoundIfNeeded(){
- if(session.pending||!availableDancers().length)return false;
- tickets=makeTickets(participants,session.order,session.round);
- const eligible=participants.filter(o=>o.bux>0),picked=selectedOwners();
- if(!tickets.length&&eligible.length&&eligible.every(o=>picked.has(o.id))){
-  session.round+=1;
-  saveSession();
-  tickets=makeTickets(participants,session.order,session.round);
-  return true;
- }
+ if(session.pending)return false;
+ session.round=1;
+ tickets=makeTickets(participants,session.order,1);
  return false;
 }
 function draw(){
@@ -73,11 +67,11 @@ function draw(){
 }
 function render(){
  const selected=selectedOwners(),total=tickets.length,remaining=availableDancers().length;
- q('ticketTotal').textContent=total+' tickets remaining · Round '+session.round;
- q('selectionChances').innerHTML=participants.map(o=>'<div class="chance-row'+(selected.has(o.id)?' selected':'')+'" style="--participant-color:'+selectionColors[o.id]+'"><div><strong>'+escapeSelection(o.name)+'</strong><small>'+o.bux+' Bux'+(selected.has(o.id)?' · picked this round':o.bux===0?' · no tickets':'')+'</small></div><b>'+(selected.has(o.id)?'Removed':((total?o.bux/total*100:0).toFixed(2))+'%')+'</b></div>').join('');
- q('selectionOrder').innerHTML=session.order.map((p,i)=>'<li><span class="pick-round">Round '+Number(p.round||1)+' · Pick '+(i+1)+'</span><strong>'+escapeSelection(p.name)+'</strong>'+(p.dancerName?'<span class="chosen-dancer">selected '+escapeSelection(p.dancerName)+(p.proName?' & '+escapeSelection(p.proName):'')+'</span>':'<span class="chosen-dancer waiting">choosing now…</span>')+'<small>'+p.tickets+' of '+p.total+' tickets at selection</small></li>').join('');
+ q('ticketTotal').textContent=total+' tickets remaining · one dancer each';
+ q('selectionChances').innerHTML=participants.map(o=>'<div class="chance-row'+(selected.has(o.id)?' selected':'')+'" style="--participant-color:'+selectionColors[o.id]+'"><div><strong>'+escapeSelection(o.name)+'</strong><small>'+o.bux+' Bux'+(selected.has(o.id)?' · dancer selected':o.bux===0?' · no tickets':'')+'</small></div><b>'+(selected.has(o.id)?'Removed':((total?o.bux/total*100:0).toFixed(2))+'%')+'</b></div>').join('');
+ q('selectionOrder').innerHTML=session.order.map((p,i)=>'<li><span class="pick-round">Pick '+(i+1)+'</span><strong>'+escapeSelection(p.name)+'</strong>'+(p.dancerName?'<span class="chosen-dancer">selected '+escapeSelection(p.dancerName)+(p.proName?' & '+escapeSelection(p.proName):'')+'</span>':'<span class="chosen-dancer waiting">choosing now…</span>')+'<small>'+p.tickets+' of '+p.total+' tickets at selection</small></li>').join('');
  q('selectionSpin').disabled=busy||session.pending||!total||!ready||!remaining;
- q('selectionSpin').textContent=busy?'SPINNING':session.pending?'PICK DANCER':!remaining?'DONE':!total?'ROUND DONE':'CLICK TO SPIN';
+ q('selectionSpin').textContent=busy?'SPINNING':session.pending?'PICK DANCER':!remaining||!total?'DONE':'CLICK TO SPIN';
  const remainingNode=q('dancersRemaining');
  if(remainingNode)remainingNode.textContent=remaining+' dancer'+(remaining===1?'':'s')+' available';
 }
@@ -102,7 +96,7 @@ function celebrate(){
 function renderDancerPicker(winner){
  const pool=availableDancers();
  q('pickerOwner').textContent=winner.name;
- q('pickerMeta').textContent='Round '+winner.round+' · '+pool.length+' dancers still available';
+ q('pickerMeta').textContent='Pick #'+winner.pickNumber+' · '+pool.length+' dancers still available';
  q('pickerError').textContent='';
  q('dancerOptions').innerHTML=pool.map(d=>'<label class="dancer-option"><input type="radio" name="shakeupDancer" value="'+escapeSelection(d.id)+'"><span><strong>'+escapeSelection(d.name)+'</strong><small>'+escapeSelection(d.pro||'Pro TBD')+' · '+Number(d.seasonPoints||0)+' season pts · '+(d.avgScore==null?'—':Number(d.avgScore).toFixed(2))+' avg</small></span></label>').join('');
  q('recordDancerPick').disabled=true;
@@ -114,7 +108,7 @@ function showPending(){
  const winner=session.order[session.order.length-1];
  if(!winner)return;
  q('selectionResult').textContent=winner.name+' gets pick #'+session.order.length+'!';
- q('selectionStatus').textContent='All '+winner.tickets+' of '+winner.name+'’s tickets are removed for Round '+winner.round+'. Record the dancer choice to continue.';
+ q('selectionStatus').textContent='All '+winner.tickets+' of '+winner.name+'’s tickets are removed. Record the dancer choice to continue.';
  renderDancerPicker(winner);
 }
 async function spinSelection(){
@@ -125,7 +119,7 @@ async function spinSelection(){
   if(!tickets.length){busy=false;render();q('selectionStatus').textContent='No eligible tickets remain.';return;}
   const index=randomBelow(tickets.length),owner=participants.find(o=>o.id===tickets[index]),target=360*7+(360-(index+.5)*360/tickets.length);
   const previous=structuredClone(session);
-  session={...session,order:[...session.order,{ownerId:owner.id,name:owner.name,tickets:owner.bux,total:tickets.length,round:session.round,dancerId:null,dancerName:null,proName:null,pickNumber:session.order.length+1,createdAt:new Date().toISOString(),selectedAt:null}],pending:true};
+  session={...session,order:[...session.order,{ownerId:owner.id,name:owner.name,tickets:owner.bux,total:tickets.length,round:1,dancerId:null,dancerName:null,proName:null,pickNumber:session.order.length+1,createdAt:new Date().toISOString(),selectedAt:null}],pending:true};
   try{saveSession();}catch(error){session=previous;throw Error('Could not save this result. Enable browser storage before spinning.');}
   q('selectionStatus').textContent='The wheel is spinning…';
   const start=performance.now(),duration=6500;
@@ -154,10 +148,9 @@ async function recordDancerSelection(){
  q('selectionResult').textContent=winner.name+' selected '+dancer.name+'!';
  try{
   await refreshBalances();
-  const newRound=advanceRoundIfNeeded();
+  advanceRoundIfNeeded();
   rotation=0;draw();render();
-  if(!availableDancers().length)q('selectionStatus').textContent='Shakeup selection complete. Every surviving dancer has been selected.';
-  else if(newRound)q('selectionStatus').textContent='Round '+(session.round-1)+' is complete. Round '+session.round+' is ready with refreshed Bux-weighted chances.';
+  if(!tickets.length)q('selectionStatus').textContent='Shakeup selection complete. Every participant has one dancer; '+availableDancers().length+' surviving dancers remain unselected.';
   else q('selectionStatus').textContent=dancer.name+' is off the board. Ready for the next Bux-weighted spin.';
  }catch(error){ready=false;render();q('selectionStatus').textContent=error.message;}
 }
@@ -180,14 +173,14 @@ async function initSelection(){
   let legacyReset=false;
   if(saved){
    const raw=JSON.parse(saved);
-   if(Array.isArray(raw.order)&&raw.order.some(x=>!Object.prototype.hasOwnProperty.call(x,'dancerId'))){
+   if(Array.isArray(raw.order)&&raw.order.some(x=>!Object.prototype.hasOwnProperty.call(x,'dancerId')||Number(x.round||1)>1)){
     localStorage.setItem('dwts-bux-selection-backup-'+Date.now(),saved);
     session={order:[],pending:false,round:1};saveSession();legacyReset=true;
    }else session=normalizeSession(raw);
   }
   await refreshBalances();validateSession();advanceRoundIfNeeded();ready=true;draw();render();
   if(session.pending)showPending();
-  else if(!availableDancers().length)q('selectionStatus').textContent='Shakeup selection complete. Every surviving dancer has been selected.';
+  else if(!tickets.length)q('selectionStatus').textContent='Shakeup selection complete. Every participant has one dancer; '+availableDancers().length+' surviving dancers remain unselected.';
   else q('selectionStatus').textContent=(legacyReset?'The earlier practice order was backed up and reset for dancer selection. ':'')+'Each colored sliver is one ticket. The pointer chooses one uniformly at random.';
  }catch(error){q('selectionStatus').textContent=error.message;q('selectionSpin').disabled=true;}
 }
