@@ -35,48 +35,57 @@
       "rounding": "up",
       "baseScoreMultiplier": 2,
       "modifiersMultiplier": 1
+    },
+    "buxPolicy": {
+      "enabled": false,
+      "frozen": true,
+      "balance": 0,
+      "effectiveWeek": 6,
+      "effectiveDate": "2026-10-20",
+      "through": "end of 2026 season",
+      "reason": "Commissioner retired Dancer Bux for the remainder of the season"
     }
   },
   "owners": [
     {
       "id": "jackson",
       "name": "Jackson",
-      "bux": 388,
+      "bux": 0,
       "points": 47,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
-      "bux": 475,
+      "bux": 0,
       "points": 52,
       "movement": 0
     },
     {
       "id": "payton",
       "name": "Payton",
-      "bux": 273,
+      "bux": 0,
       "points": 73,
       "movement": -2
     },
     {
       "id": "mattie",
       "name": "Mattie",
-      "bux": 268,
+      "bux": 0,
       "points": 77,
       "movement": -1
     },
     {
       "id": "jessica",
       "name": "Jessica",
-      "bux": 352,
+      "bux": 0,
       "points": 99,
       "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
-      "bux": 132,
+      "bux": 0,
       "points": 106,
       "movement": 0
     }
@@ -2867,6 +2876,14 @@
       "detail": "Confirmed Squid’s shakeup selection of Maura. 35 judges’ points; top three (9, 9, 9) average 9, doubled to 18 base points for Squid. Earlier points remain with Payton. No Bux spent or awarded. Placement and Lock bonuses pending.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-retire-bux",
+      "type": "bux",
+      "title": "Dancer Bux retired for the season",
+      "detail": "All six balances set to zero by commissioner instruction, effective October 20. No further Bux awards, spending, or transfers through season end. Scores, ownership, and historical transactions preserved.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2876,7 +2893,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-maura",
+    "revision": "2026-10-20-bux-retired",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2955,14 +2972,21 @@
     },
     "waivers": [],
     "buxOverrides": {
-      "jackson": 388,
-      "colton": 475,
-      "payton": 273,
-      "mattie": 268,
-      "jessica": 352,
-      "squid": 132
+      "jackson": 0,
+      "colton": 0,
+      "payton": 0,
+      "mattie": 0,
+      "jessica": 0,
+      "squid": 0
     },
-    "buxAdjustments": {},
+    "buxAdjustments": {
+      "jackson": 0,
+      "colton": 0,
+      "payton": 0,
+      "mattie": 0,
+      "jessica": 0,
+      "squid": 0
+    },
     "ownershipOverrides": {
       "tatyana-ali": null,
       "guillermo-rodriguez": "jackson",
@@ -3779,6 +3803,54 @@
         "reason": "Commissioner correction: reverse Jessica’s Ezra Frech Week 5 bonus",
         "week": "Week 5",
         "createdAt": "2026-10-14T01:55:31.811Z"
+      },
+      {
+        "id": "week6-retire-bux-jackson",
+        "ownerId": "jackson",
+        "amount": -388,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
+      },
+      {
+        "id": "week6-retire-bux-colton",
+        "ownerId": "colton",
+        "amount": -475,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
+      },
+      {
+        "id": "week6-retire-bux-payton",
+        "ownerId": "payton",
+        "amount": -273,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
+      },
+      {
+        "id": "week6-retire-bux-mattie",
+        "ownerId": "mattie",
+        "amount": -268,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
+      },
+      {
+        "id": "week6-retire-bux-jessica",
+        "ownerId": "jessica",
+        "amount": -352,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
+      },
+      {
+        "id": "week6-retire-bux-squid",
+        "ownerId": "squid",
+        "amount": -132,
+        "reason": "Commissioner retired Dancer Bux; balance fixed at zero through season end",
+        "week": "Week 6",
+        "createdAt": "2026-10-21T00:34:40.038Z"
       }
     ],
     "transactions": [
@@ -4562,6 +4634,14 @@
         "detail": "Confirmed Squid’s shakeup selection of Maura. 35 judges’ points; top three (9, 9, 9) average 9, doubled to 18 base points for Squid. Earlier points remain with Payton. No Bux spent or awarded. Placement and Lock bonuses pending.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-retire-bux",
+        "type": "bux",
+        "title": "Dancer Bux retired for the season",
+        "detail": "All six balances set to zero by commissioner instruction, effective October 20. No further Bux awards, spending, or transfers through season end. Scores, ownership, and historical transactions preserved.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4648,7 +4728,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:34:13.855Z",
+    "updatedAt": "2026-10-21T00:34:40.038Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
