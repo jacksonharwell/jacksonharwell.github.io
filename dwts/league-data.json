@@ -96,8 +96,8 @@
       "name": "Jenna Dewan",
       "status": "confirmed",
       "pro": "Val Chmerkovskiy",
-      "ownerId": "squid",
-      "ownerName": "Squid",
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
       "auctionCost": 107,
       "seasonPoints": 37,
       "avgScore": 7.47,
@@ -118,15 +118,29 @@
         "cost": 107,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "squid",
+          "acquisition": "draft",
+          "cost": 107,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ],
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:43:02.849Z"
     },
     {
       "id": "harry-shum-jr",
       "name": "Harry Shum Jr.",
       "status": "confirmed",
       "pro": "Jenna Johnson",
-      "ownerId": "squid",
-      "ownerName": "Squid",
+      "ownerId": "mattie",
+      "ownerName": "Mattie",
       "auctionCost": 81,
       "seasonPoints": 37,
       "avgScore": 7.47,
@@ -147,15 +161,29 @@
         "cost": 81,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "squid",
+          "acquisition": "draft",
+          "cost": 81,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ],
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:43:02.849Z"
     },
     {
       "id": "amber-glenn",
       "name": "Amber Glenn",
       "status": "confirmed",
       "pro": "Pasha Pashkov",
-      "ownerId": "mattie",
-      "ownerName": "Mattie",
+      "ownerId": "colton",
+      "ownerName": "Colton",
       "auctionCost": 45,
       "seasonPoints": 36,
       "avgScore": 7.47,
@@ -176,15 +204,29 @@
         "cost": 45,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "mattie",
+          "acquisition": "draft",
+          "cost": 45,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ],
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:43:02.849Z"
     },
     {
       "id": "julia-stiles",
       "name": "Julia Stiles",
       "status": "confirmed",
       "pro": "Ezra Sosa",
-      "ownerId": "jessica",
-      "ownerName": "Jessica",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 7,
       "seasonPoints": 32,
       "avgScore": 6.6,
@@ -205,7 +247,18 @@
         "cost": 7,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "jessica",
+          "acquisition": "draft",
+          "cost": 7,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ]
     },
     {
       "id": "ciara-miller",
@@ -275,8 +328,8 @@
       "name": "Tyler Cameron",
       "status": "confirmed",
       "pro": "Sharna Burgess",
-      "ownerId": "colton",
-      "ownerName": "Colton",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 15,
       "seasonPoints": 29,
       "avgScore": 6.27,
@@ -292,7 +345,18 @@
         "cost": 15,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "colton",
+          "acquisition": "draft",
+          "cost": 15,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ]
     },
     {
       "id": "ezra-frech",
@@ -395,8 +459,8 @@
       "name": "Jackson Olson",
       "status": "confirmed",
       "pro": "Emma Slater",
-      "ownerId": "mattie",
-      "ownerName": "Mattie",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 97,
       "seasonPoints": 32,
       "avgScore": 6.4,
@@ -417,7 +481,18 @@
         "cost": 97,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "mattie",
+          "acquisition": "draft",
+          "cost": 97,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ]
     },
     {
       "id": "sarah-jane-nader",
@@ -459,7 +534,21 @@
         "cost": 41,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "payton",
+          "acquisition": "draft",
+          "cost": 41,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:43:02.849Z",
+          "reason": "Midseason shakeup"
+        }
+      ],
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:43:02.849Z"
     },
     {
       "id": "conner-leavitt",
@@ -1991,7 +2080,7 @@
       "locks": {},
       "locksFinalized": false,
       "status": "in-progress",
-      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Confirmed shakeup selections: Jessica—Ezra; Squid—Maura. Tatyana confirmed unowned. Other selections and Lock picks await confirmation. Placement and Lock bonuses pending."
+      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. All six shakeup picks confirmed, one dancer per participant. Earlier points stay with their original owners. Placement and Lock bonuses pending; Week 6 Lock picks not yet confirmed."
     }
   ],
   "transactions": [
@@ -2884,6 +2973,14 @@
       "detail": "All six balances set to zero by commissioner instruction, effective October 20. No further Bux awards, spending, or transfers through season end. Scores, ownership, and historical transactions preserved.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-shakeup-rosters-confirmed",
+      "type": "shakeup",
+      "title": "All six shakeup selections confirmed",
+      "detail": "Colton: Amber Glenn; Mattie: Harry Shum Jr.; Squid: Maura Higgins; Jessica: Ezra Frech; Payton: Connor Wood & Rylee Arnold (corrected selection); Jackson: Jenna Dewan. Julia Stiles, Tyler Cameron, Tatyana Ali, and Jackson Olson are unowned. One active dancer per participant. All earlier points and purchase history preserved; all Bux remain zero.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2893,7 +2990,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-bux-retired",
+    "revision": "2026-10-20-shakeup-rosters-confirmed",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2991,7 +3088,14 @@
       "tatyana-ali": null,
       "guillermo-rodriguez": "jackson",
       "ezra-frech": "jessica",
-      "maura-higgins": "squid"
+      "maura-higgins": "squid",
+      "jenna-dewan": "jackson",
+      "harry-shum-jr": "mattie",
+      "amber-glenn": "colton",
+      "julia-stiles": null,
+      "tyler-cameron": null,
+      "jackson-olson": null,
+      "connor-wood": "payton"
     },
     "trades": [],
     "resets": [],
@@ -4642,13 +4746,18 @@
         "detail": "All six balances set to zero by commissioner instruction, effective October 20. No further Bux awards, spending, or transfers through season end. Scores, ownership, and historical transactions preserved.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-shakeup-rosters-confirmed",
+        "type": "shakeup",
+        "title": "All six shakeup selections confirmed",
+        "detail": "Colton: Amber Glenn; Mattie: Harry Shum Jr.; Squid: Maura Higgins; Jessica: Ezra Frech; Payton: Connor Wood & Rylee Arnold (corrected selection); Jackson: Jenna Dewan. Julia Stiles, Tyler Cameron, Tatyana Ali, and Jackson Olson are unowned. One active dancer per participant. All earlier points and purchase history preserved; all Bux remain zero.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
-      "colton": "tyler-cameron",
-      "jessica": "ezra-frech",
-      "mattie": "amber-glenn",
-      "squid": "harry-shum-jr"
+      "jessica": "ezra-frech"
     },
     "tradeStatuses": {
       "taylor-hanson": "available",
@@ -4728,19 +4837,43 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:34:40.038Z",
+    "updatedAt": "2026-10-21T00:43:02.849Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
         "week": 6,
         "cost": 0,
-        "confirmedAt": "2026-10-21T00:13:46.027Z"
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
       },
       "squid": {
         "dancerId": "maura-higgins",
         "week": 6,
         "cost": 0,
-        "confirmedAt": "2026-10-21T00:34:13.855Z"
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
+      },
+      "colton": {
+        "dancerId": "amber-glenn",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
+      },
+      "mattie": {
+        "dancerId": "harry-shum-jr",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
+      },
+      "payton": {
+        "dancerId": "connor-wood",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
+      },
+      "jackson": {
+        "dancerId": "jenna-dewan",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:43:02.849Z"
       }
     }
   },
