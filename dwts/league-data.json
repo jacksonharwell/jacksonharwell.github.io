@@ -70,7 +70,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 352,
-      "points": 79,
+      "points": 99,
       "movement": 0
     },
     {
@@ -298,7 +298,10 @@
         "cost": 51,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:13:46.027Z"
     },
     {
       "id": "tatyana-ali",
@@ -1892,8 +1895,8 @@
           "dancerId": "ezra-frech",
           "dancerName": "Ezra Frech",
           "proName": "Daniella Karagach",
-          "ownerId": null,
-          "ownershipPending": true,
+          "ownerId": "jessica",
+          "ownershipPending": false,
           "judges": [
             9,
             9,
@@ -1914,7 +1917,7 @@
       "locks": {},
       "locksFinalized": false,
       "status": "in-progress",
-      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Shakeup selections not yet recorded in the shared data; team allocation pending confirmation."
+      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Jessica’s shakeup selection of Ezra confirmed; other shakeup selections await confirmation. Placement and Lock bonuses pending."
     }
   ],
   "transactions": [
@@ -2770,6 +2773,19 @@
       "detail": "37 judges’ points. Top three average 9.33, rounded up to 10 and doubled to 20 base points under Week 6 rules. Team credit pending shakeup ownership confirmation. Placement and Lock bonuses pending; no Bux changes requested.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-shakeup-jessica-ezra",
+      "type": "shakeup",
+      "title": "Jessica selected Ezra Frech",
+      "detail": "Commissioner confirmed Jessica’s Week 6 shakeup selection. Ezra’s 9–9–10–9 earns Jessica 20 base points, bringing her season total to 99. No Bux spent; Weeks 1–5 scores and original purchase history preserved.",
+      "date": "October 20, 2026",
+      "week": 6,
+      "ownerId": "jessica",
+      "dancerId": "ezra-frech",
+      "cost": 0,
+      "effectiveWeek": 6,
+      "createdAt": "2026-10-21T00:13:46.027Z"
     }
   ],
   "locks": [],
@@ -2779,7 +2795,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-ezra",
+    "revision": "2026-10-20-week6-jessica-ezra-confirmed",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2868,7 +2884,8 @@
     "buxAdjustments": {},
     "ownershipOverrides": {
       "tatyana-ali": "jackson",
-      "guillermo-rodriguez": "jackson"
+      "guillermo-rodriguez": "jackson",
+      "ezra-frech": "jessica"
     },
     "trades": [],
     "resets": [],
@@ -4434,6 +4451,19 @@
         "detail": "37 judges’ points. Top three average 9.33, rounded up to 10 and doubled to 20 base points under Week 6 rules. Team credit pending shakeup ownership confirmation. Placement and Lock bonuses pending; no Bux changes requested.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-shakeup-jessica-ezra",
+        "type": "shakeup",
+        "title": "Jessica selected Ezra Frech",
+        "detail": "Commissioner confirmed Jessica’s Week 6 shakeup selection. Ezra’s 9–9–10–9 earns Jessica 20 base points, bringing her season total to 99. No Bux spent; Weeks 1–5 scores and original purchase history preserved.",
+        "date": "October 20, 2026",
+        "week": 6,
+        "ownerId": "jessica",
+        "dancerId": "ezra-frech",
+        "cost": 0,
+        "effectiveWeek": 6,
+        "createdAt": "2026-10-21T00:13:46.027Z"
       }
     ],
     "locks": {
@@ -4522,7 +4552,15 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:13:09.155Z"
+    "updatedAt": "2026-10-21T00:13:46.027Z",
+    "shakeupSelections": {
+      "jessica": {
+        "dancerId": "ezra-frech",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:13:46.027Z"
+      }
+    }
   },
   "draftArchive": {
     "date": "2026-09-13",
