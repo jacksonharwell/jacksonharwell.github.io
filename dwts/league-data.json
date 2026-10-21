@@ -77,7 +77,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 132,
-      "points": 88,
+      "points": 106,
       "movement": 0
     }
   ],
@@ -228,12 +228,12 @@
       "name": "Maura Higgins",
       "status": "confirmed",
       "pro": "Mark Ballas",
-      "ownerId": "payton",
-      "ownerName": "Payton",
+      "ownerId": "squid",
+      "ownerName": "Squid",
       "auctionCost": 76,
-      "seasonPoints": 36,
-      "avgScore": 7.47,
-      "trend": 0,
+      "seasonPoints": 54,
+      "avgScore": 7.72,
+      "trend": 0.67,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -245,7 +245,21 @@
         "cost": 76,
         "acquisition": "draft",
         "date": "2026-09-13"
-      }
+      },
+      "ownershipHistory": [
+        {
+          "ownerId": "payton",
+          "acquisition": "draft",
+          "cost": 76,
+          "acquiredWeek": 1,
+          "releasedWeek": 6,
+          "releasedAt": "2026-10-21T00:34:13.855Z",
+          "reason": "Midseason shakeup"
+        }
+      ],
+      "acquisition": "shakeup",
+      "acquiredWeek": 6,
+      "acquiredAt": "2026-10-21T00:34:13.855Z"
     },
     {
       "id": "tyler-cameron",
@@ -1941,12 +1955,34 @@
           "basePoints": 16,
           "fantasyPoints": 16,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "squid",
+          "ownershipPending": false,
+          "judges": [
+            8,
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
       "locksFinalized": false,
       "status": "in-progress",
-      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Jessica’s shakeup selection of Ezra confirmed; other shakeup selections await confirmation. Placement and Lock bonuses pending."
+      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Confirmed shakeup selections: Jessica—Ezra; Squid—Maura. Tatyana confirmed unowned. Other selections and Lock picks await confirmation. Placement and Lock bonuses pending."
     }
   ],
   "transactions": [
@@ -2823,6 +2859,14 @@
       "detail": "32 judges’ points; top-three average 8, rounded up and doubled to 16 base points. Confirmed unowned after the shakeup: no participant points credited. Jackson’s historical points and Bux remain unchanged. No Bux award requested.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 8–9–9–9 • Squid",
+      "detail": "Confirmed Squid’s shakeup selection of Maura. 35 judges’ points; top three (9, 9, 9) average 9, doubled to 18 base points for Squid. Earlier points remain with Payton. No Bux spent or awarded. Placement and Lock bonuses pending.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2832,7 +2876,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-tatyana",
+    "revision": "2026-10-20-week6-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2922,7 +2966,8 @@
     "ownershipOverrides": {
       "tatyana-ali": null,
       "guillermo-rodriguez": "jackson",
-      "ezra-frech": "jessica"
+      "ezra-frech": "jessica",
+      "maura-higgins": "squid"
     },
     "trades": [],
     "resets": [],
@@ -4509,13 +4554,20 @@
         "detail": "32 judges’ points; top-three average 8, rounded up and doubled to 16 base points. Confirmed unowned after the shakeup: no participant points credited. Jackson’s historical points and Bux remain unchanged. No Bux award requested.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 8–9–9–9 • Squid",
+        "detail": "Confirmed Squid’s shakeup selection of Maura. 35 judges’ points; top three (9, 9, 9) average 9, doubled to 18 base points for Squid. Earlier points remain with Payton. No Bux spent or awarded. Placement and Lock bonuses pending.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
       "colton": "tyler-cameron",
       "jessica": "ezra-frech",
       "mattie": "amber-glenn",
-      "payton": "maura-higgins",
       "squid": "harry-shum-jr"
     },
     "tradeStatuses": {
@@ -4596,13 +4648,19 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:28:44.199Z",
+    "updatedAt": "2026-10-21T00:34:13.855Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
         "week": 6,
         "cost": 0,
         "confirmedAt": "2026-10-21T00:13:46.027Z"
+      },
+      "squid": {
+        "dancerId": "maura-higgins",
+        "week": 6,
+        "cost": 0,
+        "confirmedAt": "2026-10-21T00:34:13.855Z"
       }
     }
   },
