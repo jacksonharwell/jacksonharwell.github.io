@@ -228,9 +228,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 7,
-      "seasonPoints": 32,
-      "avgScore": 6.6,
-      "trend": 1.33,
+      "seasonPoints": 50,
+      "avgScore": 7,
+      "trend": 0.67,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
       "danceBackground": "Moderate — intensive ballet and hip-hop preparation for Save the Last Dance",
@@ -2185,6 +2185,28 @@
           "basePoints": 16,
           "fantasyPoints": 16,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": null,
+          "ownershipPending": false,
+          "judges": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3131,6 +3153,14 @@
       "detail": "32 total judges’ points. Highest three average 8, doubled to 16 base points. Tyler is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-julia-score",
+      "type": "scoring",
+      "title": "Julia Stiles: 9–9–9–9 • unowned",
+      "detail": "36 total judges’ points. Highest three average 9, doubled to 18 base points. Julia is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3140,7 +3170,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-tyler",
+    "revision": "2026-10-20-week6-julia",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4944,6 +4974,14 @@
         "detail": "32 total judges’ points. Highest three average 8, doubled to 16 base points. Tyler is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-julia-score",
+        "type": "scoring",
+        "title": "Julia Stiles: 9–9–9–9 • unowned",
+        "detail": "36 total judges’ points. Highest three average 9, doubled to 18 base points. Julia is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -5027,7 +5065,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T01:41:59.937Z",
+    "updatedAt": "2026-10-21T01:55:37.258Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
