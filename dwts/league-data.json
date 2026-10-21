@@ -65,7 +65,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 73,
+      "points": 89,
       "movement": -2
     },
     {
@@ -520,9 +520,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 28,
-      "avgScore": 5.93,
-      "trend": 0,
+      "seasonPoints": 44,
+      "avgScore": 6.28,
+      "trend": 1.67,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -2141,6 +2141,28 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "ownershipPending": false,
+          "judges": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3071,6 +3093,14 @@
       "detail": "36 total judges’ points. Highest three (9, 9, 9) average 9, doubled to 18 base points for Mattie. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-connor-score",
+      "type": "scoring",
+      "title": "Connor Wood: 8–8–8–8",
+      "detail": "32 total judges’ points. Highest three (8, 8, 8) average 8, doubled to 16 base points for Payton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3080,7 +3110,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-harry",
+    "revision": "2026-10-20-week6-connor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4868,6 +4898,14 @@
         "detail": "36 total judges’ points. Highest three (9, 9, 9) average 9, doubled to 18 base points for Mattie. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-connor-score",
+        "type": "scoring",
+        "title": "Connor Wood: 8–8–8–8",
+        "detail": "32 total judges’ points. Highest three (8, 8, 8) average 8, doubled to 16 base points for Payton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4951,7 +4989,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T01:17:45.537Z",
+    "updatedAt": "2026-10-21T01:33:44.622Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
