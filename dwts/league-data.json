@@ -308,11 +308,11 @@
       "name": "Tatyana Ali",
       "status": "confirmed",
       "pro": "Jan Ravnik",
-      "ownerId": "jackson",
-      "ownerName": "Jackson",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 0,
-      "seasonPoints": 30,
-      "avgScore": 6.2,
+      "seasonPoints": 46,
+      "avgScore": 6.5,
       "trend": 0.67,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
@@ -329,11 +329,18 @@
           "acquiredWeek": 2,
           "releasedAt": "2026-09-18T02:09:00.771Z",
           "releasedWeek": 2
+        },
+        {
+          "ownerId": "jackson",
+          "acquisition": "waiver",
+          "cost": 0,
+          "acquiredAt": "2026-10-07T00:03:15.415Z",
+          "acquiredWeek": 4,
+          "releasedAt": "2026-10-21T00:28:44.199Z",
+          "releasedWeek": 6,
+          "reason": "Midseason shakeup; confirmed unowned"
         }
-      ],
-      "acquisition": "waiver",
-      "acquiredAt": "2026-10-07T00:03:15.415Z",
-      "acquiredWeek": 4
+      ]
     },
     {
       "id": "taylor-hanson",
@@ -1912,6 +1919,28 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": null,
+          "ownershipPending": false,
+          "judges": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -2786,6 +2815,14 @@
       "cost": 0,
       "effectiveWeek": 6,
       "createdAt": "2026-10-21T00:13:46.027Z"
+    },
+    {
+      "id": "week6-tatyana-score",
+      "type": "scoring",
+      "title": "Tatyana Ali: 8–8–8–8 • unowned",
+      "detail": "32 judges’ points; top-three average 8, rounded up and doubled to 16 base points. Confirmed unowned after the shakeup: no participant points credited. Jackson’s historical points and Bux remain unchanged. No Bux award requested.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2795,7 +2832,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-jessica-ezra-confirmed",
+    "revision": "2026-10-20-week6-tatyana",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -2883,7 +2920,7 @@
     },
     "buxAdjustments": {},
     "ownershipOverrides": {
-      "tatyana-ali": "jackson",
+      "tatyana-ali": null,
       "guillermo-rodriguez": "jackson",
       "ezra-frech": "jessica"
     },
@@ -4464,11 +4501,18 @@
         "cost": 0,
         "effectiveWeek": 6,
         "createdAt": "2026-10-21T00:13:46.027Z"
+      },
+      {
+        "id": "week6-tatyana-score",
+        "type": "scoring",
+        "title": "Tatyana Ali: 8–8–8–8 • unowned",
+        "detail": "32 judges’ points; top-three average 8, rounded up and doubled to 16 base points. Confirmed unowned after the shakeup: no participant points credited. Jackson’s historical points and Bux remain unchanged. No Bux award requested.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
       "colton": "tyler-cameron",
-      "jackson": "tatyana-ali",
       "jessica": "ezra-frech",
       "mattie": "amber-glenn",
       "payton": "maura-higgins",
@@ -4552,7 +4596,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:13:46.027Z",
+    "updatedAt": "2026-10-21T00:28:44.199Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
