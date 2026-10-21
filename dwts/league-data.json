@@ -58,7 +58,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 52,
+      "points": 72,
       "movement": 0
     },
     {
@@ -185,8 +185,8 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 45,
-      "seasonPoints": 36,
-      "avgScore": 7.47,
+      "seasonPoints": 56,
+      "avgScore": 7.83,
       "trend": 1,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
@@ -2075,6 +2075,28 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "colton",
+          "ownershipPending": false,
+          "judges": [
+            10,
+            9,
+            10,
+            9
+          ],
+          "countedJudges": [
+            10,
+            10,
+            9
+          ],
+          "average": 9.67,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -2981,6 +3003,14 @@
       "detail": "Colton: Amber Glenn; Mattie: Harry Shum Jr.; Squid: Maura Higgins; Jessica: Ezra Frech; Payton: Connor Wood & Rylee Arnold (corrected selection); Jackson: Jenna Dewan. Julia Stiles, Tyler Cameron, Tatyana Ali, and Jackson Olson are unowned. One active dancer per participant. All earlier points and purchase history preserved; all Bux remain zero.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 10–9–10–9",
+      "detail": "38 total judges’ points. Highest three (10, 10, 9) average 9.67, rounded up to 10 and doubled to 20 base points for Colton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2990,7 +3020,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-shakeup-rosters-confirmed",
+    "revision": "2026-10-20-week6-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4754,6 +4784,14 @@
         "detail": "Colton: Amber Glenn; Mattie: Harry Shum Jr.; Squid: Maura Higgins; Jessica: Ezra Frech; Payton: Connor Wood & Rylee Arnold (corrected selection); Jackson: Jenna Dewan. Julia Stiles, Tyler Cameron, Tatyana Ali, and Jackson Olson are unowned. One active dancer per participant. All earlier points and purchase history preserved; all Bux remain zero.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 10–9–10–9",
+        "detail": "38 total judges’ points. Highest three (10, 10, 9) average 9.67, rounded up to 10 and doubled to 20 base points for Colton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4837,7 +4875,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T00:43:02.849Z",
+    "updatedAt": "2026-10-21T00:56:04.663Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
