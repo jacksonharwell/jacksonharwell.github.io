@@ -331,9 +331,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 15,
-      "seasonPoints": 29,
-      "avgScore": 6.27,
-      "trend": 0.67,
+      "seasonPoints": 45,
+      "avgScore": 6.56,
+      "trend": 0.33,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
@@ -2163,6 +2163,28 @@
           "basePoints": 16,
           "fantasyPoints": 16,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": null,
+          "ownershipPending": false,
+          "judges": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3101,6 +3123,14 @@
       "detail": "32 total judges’ points. Highest three (8, 8, 8) average 8, doubled to 16 base points for Payton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-tyler-score",
+      "type": "scoring",
+      "title": "Tyler Cameron: 8–8–8–8 • unowned",
+      "detail": "32 total judges’ points. Highest three average 8, doubled to 16 base points. Tyler is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3110,7 +3140,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-connor",
+    "revision": "2026-10-20-week6-tyler",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4906,6 +4936,14 @@
         "detail": "32 total judges’ points. Highest three (8, 8, 8) average 8, doubled to 16 base points for Payton. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-tyler-score",
+        "type": "scoring",
+        "title": "Tyler Cameron: 8–8–8–8 • unowned",
+        "detail": "32 total judges’ points. Highest three average 8, doubled to 16 base points. Tyler is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4989,7 +5027,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T01:33:44.622Z",
+    "updatedAt": "2026-10-21T01:41:59.937Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
