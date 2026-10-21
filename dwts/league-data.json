@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 6,
-    "phase": "Week 6 • live scoring",
+    "phase": "Week 6 • scores complete; Locks pending",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -51,14 +51,14 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 67,
+      "points": 68,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 72,
+      "points": 74,
       "movement": 0
     },
     {
@@ -79,7 +79,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 99,
+      "points": 100,
       "movement": 0
     },
     {
@@ -462,9 +462,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 97,
-      "seasonPoints": 32,
-      "avgScore": 6.4,
-      "trend": 1,
+      "seasonPoints": 48,
+      "avgScore": 6.67,
+      "trend": 0,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
       "danceBackground": "Athletic showman — frequent choreographed routines with the Savannah Bananas",
@@ -2029,8 +2029,13 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -2052,7 +2057,12 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "maura-higgins",
@@ -2074,7 +2084,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -2095,8 +2110,13 @@
           ],
           "average": 9.67,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 22,
+          "bonusesPending": true,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -2117,8 +2137,13 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -2140,7 +2165,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -2162,7 +2192,12 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -2184,7 +2219,12 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "julia-stiles",
@@ -2206,13 +2246,48 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": true,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
+        },
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "proName": "Emma Slater",
+          "ownerId": null,
+          "ownershipPending": false,
+          "judges": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         }
       ],
       "locks": {},
       "locksFinalized": false,
-      "status": "in-progress",
-      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. All six shakeup picks confirmed, one dancer per participant. Earlier points stay with their original owners. Placement and Lock bonuses pending; Week 6 Lock picks not yet confirmed."
+      "status": "pending-lock-confirmation",
+      "scoringNotes": "All 10 scores recorded. No elimination in Week 6; two eliminations expected Week 7 per commissioner. Judges bonuses applied: Amber +2; Ezra and Jenna +1 each. Week 6 Lock treatment awaits confirmation following the one-dancer shakeup.",
+      "eliminations": [],
+      "scoresComplete": true,
+      "judgesBonusesFinalized": true
     }
   ],
   "transactions": [
@@ -3161,6 +3236,22 @@
       "detail": "36 total judges’ points. Highest three average 9, doubled to 18 base points. Julia is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-jackson-olson-score",
+      "title": "Jackson Olson: 8–8–8–8 • unowned",
+      "detail": "Top three average 8, doubled to 16 base points. Unowned: no team points credited.",
+      "type": "scoring",
+      "date": "October 20, 2026",
+      "week": 6
+    },
+    {
+      "id": "week6-judges-bonuses",
+      "title": "Week 6 judges bonuses • no elimination",
+      "detail": "Colton +2 for Amber; Jessica +1 for Ezra; Jackson +1 for Jenna. All 10 performances recorded. No one eliminated; two eliminations expected next week. Lock bonuses pending commissioner confirmation. Bux remain zero.",
+      "type": "scoring",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3170,7 +3261,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-julia",
+    "revision": "2026-10-20-week6-scores-complete",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4982,6 +5073,22 @@
         "detail": "36 total judges’ points. Highest three average 9, doubled to 18 base points. Julia is unowned; no participant points credited. Placement bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-jackson-olson-score",
+        "title": "Jackson Olson: 8–8–8–8 • unowned",
+        "detail": "Top three average 8, doubled to 16 base points. Unowned: no team points credited.",
+        "type": "scoring",
+        "date": "October 20, 2026",
+        "week": 6
+      },
+      {
+        "id": "week6-judges-bonuses",
+        "title": "Week 6 judges bonuses • no elimination",
+        "detail": "Colton +2 for Amber; Jessica +1 for Ezra; Jackson +1 for Jenna. All 10 performances recorded. No one eliminated; two eliminations expected next week. Lock bonuses pending commissioner confirmation. Bux remain zero.",
+        "type": "scoring",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -5065,7 +5172,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T01:55:37.258Z",
+    "updatedAt": "2026-10-21T02:21:41.228Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
