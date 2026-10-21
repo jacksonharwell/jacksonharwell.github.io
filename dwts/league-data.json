@@ -72,7 +72,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 77,
+      "points": 95,
       "movement": -1
     },
     {
@@ -142,9 +142,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 81,
-      "seasonPoints": 37,
-      "avgScore": 7.47,
-      "trend": 0.33,
+      "seasonPoints": 55,
+      "avgScore": 7.72,
+      "trend": 0.67,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -2119,6 +2119,28 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "mattie",
+          "ownershipPending": false,
+          "judges": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3041,6 +3063,14 @@
       "detail": "37 total judges’ points. Highest three (10, 9, 9) average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 9–9–9–9",
+      "detail": "36 total judges’ points. Highest three (9, 9, 9) average 9, doubled to 18 base points for Mattie. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3050,7 +3080,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-jenna",
+    "revision": "2026-10-20-week6-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4830,6 +4860,14 @@
         "detail": "37 total judges’ points. Highest three (10, 9, 9) average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 9–9–9–9",
+        "detail": "36 total judges’ points. Highest three (9, 9, 9) average 9, doubled to 18 base points for Mattie. Placement and Lock bonuses pending. All Bux remain zero; individual dancer points remain bonus-free.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4913,7 +4951,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-21T01:06:01.252Z",
+    "updatedAt": "2026-10-21T01:17:45.537Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
