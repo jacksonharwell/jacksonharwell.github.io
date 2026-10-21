@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 6,
-    "phase": "Week 6 • scores complete; Locks pending",
+    "phase": "Week 6 • final results",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -17,7 +17,10 @@
       "time": "19:00",
       "timeZone": "America/Chicago",
       "reopenDay": "Wednesday",
-      "reopenTime": "06:00"
+      "reopenTime": "06:00",
+      "enabled": false,
+      "retiredFromWeek": 6,
+      "reason": "No Locks or Lock points after the midseason shakeup"
     },
     "premiereISODate": "2026-09-15",
     "individualDancerScoring": "basePointsOnly",
@@ -66,14 +69,14 @@
       "name": "Payton",
       "bux": 0,
       "points": 89,
-      "movement": -2
+      "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
       "points": 95,
-      "movement": -1
+      "movement": 0
     },
     {
       "id": "jessica",
@@ -2030,7 +2033,7 @@
           "average": 9.33,
           "basePoints": 20,
           "fantasyPoints": 21,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 2,
           "judgesBonus": 1,
           "lockBonus": 0,
@@ -2057,7 +2060,7 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 7,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2084,7 +2087,7 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 6,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2111,7 +2114,7 @@
           "average": 9.67,
           "basePoints": 20,
           "fantasyPoints": 22,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 1,
           "judgesBonus": 2,
           "lockBonus": 0,
@@ -2138,7 +2141,7 @@
           "average": 9.33,
           "basePoints": 20,
           "fantasyPoints": 21,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 2,
           "judgesBonus": 1,
           "lockBonus": 0,
@@ -2165,7 +2168,7 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 4,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2192,7 +2195,7 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 7,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2219,7 +2222,7 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 7,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2246,7 +2249,7 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 4,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2273,7 +2276,7 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true,
+          "bonusesPending": false,
           "judgesPlacement": 7,
           "judgesBonus": 0,
           "lockBonus": 0,
@@ -2282,12 +2285,13 @@
         }
       ],
       "locks": {},
-      "locksFinalized": false,
-      "status": "pending-lock-confirmation",
-      "scoringNotes": "All 10 scores recorded. No elimination in Week 6; two eliminations expected Week 7 per commissioner. Judges bonuses applied: Amber +2; Ezra and Jenna +1 each. Week 6 Lock treatment awaits confirmation following the one-dancer shakeup.",
+      "locksFinalized": true,
+      "status": "final",
+      "scoringNotes": "All 10 scores final. No elimination in Week 6; two eliminations expected Week 7. Judges bonuses: Amber +2; Ezra and Jenna +1 each. Locks and all Lock bonuses/penalties retired from Week 6 onward. Individual dancer scores remain base-only.",
       "eliminations": [],
       "scoresComplete": true,
-      "judgesBonusesFinalized": true
+      "judgesBonusesFinalized": true,
+      "finalizedAt": "2026-10-21T02:24:13.619Z"
     }
   ],
   "transactions": [
@@ -3252,6 +3256,14 @@
       "type": "scoring",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week6-locks-retired-final",
+      "type": "scoring",
+      "title": "Week 6 finalized • Locks retired",
+      "detail": "No more Locks, Lock bonuses, or Lock penalties beginning Week 6. Earlier weeks retain their original scoring. Final standings: Squid 106, Jessica 100, Mattie 95, Payton 89, Colton 74, Jackson 68. No elimination this week; all Bux remain zero.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -3261,7 +3273,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-scores-complete",
+    "revision": "2026-10-20-week6-final-no-locks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5089,11 +5101,17 @@
         "type": "scoring",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week6-locks-retired-final",
+        "type": "scoring",
+        "title": "Week 6 finalized • Locks retired",
+        "detail": "No more Locks, Lock bonuses, or Lock penalties beginning Week 6. Earlier weeks retain their original scoring. Final standings: Squid 106, Jessica 100, Mattie 95, Payton 89, Colton 74, Jackson 68. No elimination this week; all Bux remain zero.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
-    "locks": {
-      "jessica": "ezra-frech"
-    },
+    "locks": {},
     "tradeStatuses": {
       "taylor-hanson": "available",
       "conner-leavitt": "available"
@@ -5170,9 +5188,15 @@
         "deadline": "2026-10-13T19:00:00-05:00",
         "finalizedAt": "2026-10-14T02:02:25.768Z",
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
+      },
+      "6": {
+        "picks": {},
+        "disabled": true,
+        "finalizedAt": "2026-10-21T02:24:13.619Z",
+        "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-21T02:21:41.228Z",
+    "updatedAt": "2026-10-21T02:24:13.619Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
