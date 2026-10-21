@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 5,
-    "phase": "Week 5 • final results",
+    "week": 6,
+    "phase": "Week 6 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-10-13",
+    "lastUpdated": "2026-10-20",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -279,9 +279,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 37,
-      "avgScore": 7.53,
-      "trend": 1,
+      "seasonPoints": 57,
+      "avgScore": 7.83,
+      "trend": 0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -1882,6 +1882,39 @@
       "status": "final",
       "finalizedAt": "2026-10-14T02:02:25.768Z",
       "scoringNotes": "Jenna and Ezra tie for highest judges total: +2 each; Ezra also +1 Lock. Amber has the second-highest distinct total: +1 judges and +1 Lock (third-place finish). Guillermo: -1 elimination, no Lock penalty. Existing saved Locks carried into Week 5. All four judge scores count toward placement; highest three determine base points."
+    },
+    {
+      "week": 6,
+      "label": "Week 6",
+      "date": "2026-10-20",
+      "performances": [
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": null,
+          "ownershipPending": true,
+          "judges": [
+            9,
+            9,
+            10,
+            9
+          ],
+          "countedJudges": [
+            10,
+            9,
+            9
+          ],
+          "average": 9.33,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {},
+      "locksFinalized": false,
+      "status": "in-progress",
+      "scoringNotes": "Week 6: top three judges averaged, rounded up, then doubled. Shakeup selections not yet recorded in the shared data; team allocation pending confirmation."
     }
   ],
   "transactions": [
@@ -2729,6 +2762,14 @@
       "detail": "Jackson receives -1 elimination penalty. Tatyana was his Lock, so no additional Lock penalty. Guillermo leaves the active roster but keeps Jackson’s team color, skull, acquisition history, and base-only dancer scores. No Bux or roster resets.",
       "date": "October 13, 2026",
       "week": 5
+    },
+    {
+      "id": "week6-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 9–9–10–9",
+      "detail": "37 judges’ points. Top three average 9.33, rounded up to 10 and doubled to 20 base points under Week 6 rules. Team credit pending shakeup ownership confirmation. Placement and Lock bonuses pending; no Bux changes requested.",
+      "date": "October 20, 2026",
+      "week": 6
     }
   ],
   "locks": [],
@@ -2738,7 +2779,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-13-week5-final",
+    "revision": "2026-10-20-week6-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4385,6 +4426,14 @@
         "detail": "Jackson receives -1 elimination penalty. Tatyana was his Lock, so no additional Lock penalty. Guillermo leaves the active roster but keeps Jackson’s team color, skull, acquisition history, and base-only dancer scores. No Bux or roster resets.",
         "date": "October 13, 2026",
         "week": 5
+      },
+      {
+        "id": "week6-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 9–9–10–9",
+        "detail": "37 judges’ points. Top three average 9.33, rounded up to 10 and doubled to 20 base points under Week 6 rules. Team credit pending shakeup ownership confirmation. Placement and Lock bonuses pending; no Bux changes requested.",
+        "date": "October 20, 2026",
+        "week": 6
       }
     ],
     "locks": {
@@ -4473,7 +4522,7 @@
         "reason": "Existing saved picks carried into Week 5; Tuesday 7 PM Central deadline"
       }
     },
-    "updatedAt": "2026-10-14T02:02:25.768Z"
+    "updatedAt": "2026-10-21T00:13:09.155Z"
   },
   "draftArchive": {
     "date": "2026-09-13",
