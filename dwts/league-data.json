@@ -75,7 +75,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 95,
+      "points": 115,
       "movement": 0
     },
     {
@@ -145,9 +145,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 81,
-      "seasonPoints": 55,
-      "avgScore": 7.72,
-      "trend": 0.67,
+      "seasonPoints": 75,
+      "avgScore": 8.05,
+      "trend": 1,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -2329,6 +2329,27 @@
           "fantasyPoints": 16,
           "bonusesPending": true,
           "teamCreditPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "mattie",
+          "judges": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3355,6 +3376,14 @@
       "detail": "26 judges’ points. Top three (8, 7, 7) average 7.33, rounded up to 8 and doubled to 16 base points. Payton’s team credit is held pending the highest-eligible-dancer result. Individual dancer points remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 10–10–10–10",
+      "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer scores remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3364,7 +3393,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-julia-payton-exception",
+    "revision": "2026-10-27-week7-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5230,6 +5259,14 @@
         "detail": "26 judges’ points. Top three (8, 7, 7) average 7.33, rounded up to 8 and doubled to 16 base points. Payton’s team credit is held pending the highest-eligible-dancer result. Individual dancer points remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 10–10–10–10",
+        "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer scores remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5317,7 +5354,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T00:45:17.111Z",
+    "updatedAt": "2026-10-28T00:46:46.886Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
