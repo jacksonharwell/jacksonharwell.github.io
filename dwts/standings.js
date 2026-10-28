@@ -25,7 +25,7 @@ function weeklyDancerSegments(dancer,weeks){
  if(!performances.length)return null;
  const points=performances.reduce((sum,p)=>sum+(p.basePoints??Math.floor(p.judges.slice().sort((a,b)=>b-a).slice(0,3).reduce((a,b)=>a+b,0)/Math.min(3,p.judges.length))),0);
  const scores=performances.map(p=>p.judges.join('–')).join(' / ');
- const ownerId=performances.find(p=>p.ownerId)?.ownerId||dancer.ownerId||null;
+ const attributed=performances.find(p=>Object.prototype.hasOwnProperty.call(p,'scoringOwnerId'))||performances.find(p=>Object.prototype.hasOwnProperty.call(p,'ownerId')); const ownerId=attributed?(Object.prototype.hasOwnProperty.call(attributed,'scoringOwnerId')?attributed.scoringOwnerId:attributed.ownerId):(dancer.ownerId||null);
  const ownerColor=fixedColors[ownerId]||'#716778';
  return {week:week.week,points,scores,ownerId,ownerColor};
  }).filter(Boolean);
