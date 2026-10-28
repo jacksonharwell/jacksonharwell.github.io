@@ -89,7 +89,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 106,
+      "points": 124,
       "movement": 0
     }
   ],
@@ -299,9 +299,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 76,
-      "seasonPoints": 54,
-      "avgScore": 7.72,
-      "trend": 0.67,
+      "seasonPoints": 72,
+      "avgScore": 7.81,
+      "trend": -0.67,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -2476,6 +2476,27 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "squid",
+          "judges": [
+            9,
+            8,
+            7,
+            8
+          ],
+          "countedJudges": [
+            9,
+            8,
+            8
+          ],
+          "average": 8.33,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3560,6 +3581,14 @@
       "detail": "36 judges’ points. Top three average 9, doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 9–8–7–8",
+      "detail": "32 judges’ points. Top three (9, 8, 8) average 8.33, rounded up to 9 and doubled to 18 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3569,7 +3598,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-amber",
+    "revision": "2026-10-27-week7-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5491,6 +5520,14 @@
         "detail": "36 judges’ points. Top three average 9, doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 9–8–7–8",
+        "detail": "32 judges’ points. Top three (9, 8, 8) average 8.33, rounded up to 9 and doubled to 18 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5578,7 +5615,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T01:48:24.481Z",
+    "updatedAt": "2026-10-28T01:57:19.552Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
