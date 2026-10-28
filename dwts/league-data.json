@@ -337,9 +337,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 15,
-      "seasonPoints": 45,
-      "avgScore": 6.56,
-      "trend": 0.33,
+      "seasonPoints": 59,
+      "avgScore": 6.62,
+      "trend": -1,
       "image": "https://s.yimg.com/ny/api/res/1.2/rAZxXOE7Yty5VaoRBXcNJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTE0Mzk7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/realtor_com_468/f54164f272c6d6401596c5b026747833",
       "knownFor": "The Bachelorette • model • Special Forces",
       "danceBackground": "Some crossover — competed on The Real Dirty Dancing; former college football player",
@@ -2434,6 +2434,27 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tyler-cameron",
+          "dancerName": "Tyler Cameron",
+          "proName": "Sharna Burgess",
+          "ownerId": null,
+          "judges": [
+            7,
+            7,
+            5,
+            7
+          ],
+          "countedJudges": [
+            7,
+            7,
+            7
+          ],
+          "average": 7,
+          "basePoints": 14,
+          "fantasyPoints": 14,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -2454,7 +2475,9 @@
           "status": "pending",
           "scope": "Week 7 only",
           "commissionerInstruction": "Payton gets the highest of all unowned dancers tonight, including her current dancer Julia Stiles.",
-          "teamPointsApplied": 0
+          "teamPointsApplied": 0,
+          "eligibleScoresComplete": true,
+          "provisionalLeaderDancerId": "connor-wood"
         }
       ],
       "scoringNotes": "Payton receives only the highest eligible dancer result tonight: Julia, Tyler, Tatyana, Jackson Olson, or Connor. Hold Payton’s team credit until eligible results are complete; do not add multiple dancers. No Locks or Bux."
@@ -3500,6 +3523,14 @@
       "detail": "Top three (9, 9, 9) average 9.00, rounded up and doubled to 18 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-tyler-score",
+      "type": "scoring",
+      "title": "Tyler Cameron: 7–7–5–7",
+      "detail": "26 judges’ points. Top three (7, 7, 7) average 7, doubled to 14 base points. Unowned. Payton’s eligible scores are complete; Connor leads with 20 base points. Final exception credit remains pending placement bonuses and eliminations. No Locks or Bux.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3509,7 +3540,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-four-scores",
+    "revision": "2026-10-27-week7-tyler",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5415,6 +5446,14 @@
         "detail": "Top three (9, 9, 9) average 9.00, rounded up and doubled to 18 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-tyler-score",
+        "type": "scoring",
+        "title": "Tyler Cameron: 7–7–5–7",
+        "detail": "26 judges’ points. Top three (7, 7, 7) average 7, doubled to 14 base points. Unowned. Payton’s eligible scores are complete; Connor leads with 20 base points. Final exception credit remains pending placement bonuses and eliminations. No Locks or Bux.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5502,7 +5541,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T01:30:10.301Z",
+    "updatedAt": "2026-10-28T01:40:27.143Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
