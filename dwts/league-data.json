@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 7,
-    "phase": "Week 7 • live scoring",
+    "phase": "Week 7 • final results",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 88,
+      "points": 89,
       "movement": 0
     },
     {
@@ -68,14 +68,14 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 89,
+      "points": 110,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 115,
+      "points": 117,
       "movement": 0
     },
     {
@@ -332,7 +332,7 @@
     {
       "id": "tyler-cameron",
       "name": "Tyler Cameron",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Sharna Burgess",
       "ownerId": null,
       "ownerName": null,
@@ -362,7 +362,8 @@
           "releasedAt": "2026-10-21T00:43:02.849Z",
           "reason": "Midseason shakeup"
         }
-      ]
+      ],
+      "eliminatedWeek": 7
     },
     {
       "id": "ezra-frech",
@@ -463,7 +464,7 @@
     {
       "id": "jackson-olson",
       "name": "Jackson Olson",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Emma Slater",
       "ownerId": null,
       "ownerName": null,
@@ -498,7 +499,8 @@
           "releasedAt": "2026-10-21T00:43:02.849Z",
           "reason": "Midseason shakeup"
         }
-      ]
+      ],
+      "eliminatedWeek": 7
     },
     {
       "id": "sarah-jane-nader",
@@ -2327,8 +2329,14 @@
           "average": 7.33,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true,
-          "teamCreditPending": true
+          "bonusesPending": false,
+          "teamCreditPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -2348,8 +2356,14 @@
           ],
           "average": 10,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 22,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 22
         },
         {
           "dancerId": "tatyana-ali",
@@ -2370,7 +2384,13 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 8,
+          "judgesBonus": 0,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -2390,8 +2410,14 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": false,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 21
         },
         {
           "dancerId": "connor-wood",
@@ -2411,8 +2437,15 @@
           ],
           "average": 9.67,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": false,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 21,
+          "scoringOwnerId": "payton"
         },
         {
           "dancerId": "jackson-olson",
@@ -2432,8 +2465,15 @@
           ],
           "average": 9,
           "basePoints": 18,
-          "fantasyPoints": 18,
-          "bonusesPending": true
+          "fantasyPoints": 17,
+          "bonusesPending": false,
+          "judgesPlacement": 5,
+          "judgesBonus": 0,
+          "eliminationPenalty": -1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminated": true,
+          "teamPointsCredited": 0
         },
         {
           "dancerId": "tyler-cameron",
@@ -2453,8 +2493,15 @@
           ],
           "average": 7,
           "basePoints": 14,
-          "fantasyPoints": 14,
-          "bonusesPending": true
+          "fantasyPoints": 13,
+          "bonusesPending": false,
+          "judgesPlacement": 9,
+          "judgesBonus": 0,
+          "eliminationPenalty": -1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminated": true,
+          "teamPointsCredited": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -2475,7 +2522,13 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 18
         },
         {
           "dancerId": "maura-higgins",
@@ -2496,7 +2549,13 @@
           "average": 8.33,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 7,
+          "judgesBonus": 0,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 18
         },
         {
           "dancerId": "ezra-frech",
@@ -2517,12 +2576,18 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 5,
+          "judgesBonus": 0,
+          "eliminationPenalty": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "teamPointsCredited": 18
         }
       ],
       "locks": {},
       "locksFinalized": true,
-      "status": "in-progress",
+      "status": "final",
       "scoringExceptions": [
         {
           "ownerId": "payton",
@@ -2535,16 +2600,25 @@
             "connor-wood"
           ],
           "includeCurrentDancer": true,
-          "status": "pending",
+          "status": "final",
           "scope": "Week 7 only",
           "commissionerInstruction": "Payton gets the highest of all unowned dancers tonight, including her current dancer Julia Stiles.",
-          "teamPointsApplied": 0,
+          "teamPointsApplied": 21,
           "eligibleScoresComplete": true,
-          "provisionalLeaderDancerId": "connor-wood"
+          "provisionalLeaderDancerId": "connor-wood",
+          "selectedDancerId": "connor-wood",
+          "eliminationPenaltyWaived": true,
+          "finalizedAt": "2026-10-28T02:05:08.888Z"
         }
       ],
-      "scoringNotes": "Payton receives only the highest eligible dancer result tonight: Julia, Tyler, Tatyana, Jackson Olson, or Connor. Hold Payton’s team credit until eligible results are complete; do not add multiple dancers. No Locks or Bux.",
-      "scoresComplete": true
+      "scoringNotes": "Harry +2 judges; Jenna and Connor tied second +1 each. Payton receives Connor’s 21 points only, with no elimination deductions; Julia’s result is not added. Jackson Olson and Tyler eliminated, both unowned. No Locks or Bux. Individual dancer totals remain base-only.",
+      "scoresComplete": true,
+      "eliminations": [
+        "jackson-olson",
+        "tyler-cameron"
+      ],
+      "finalizedAt": "2026-10-28T02:05:08.888Z",
+      "judgesBonusesFinalized": true
     }
   ],
   "transactions": [
@@ -3619,6 +3693,22 @@
       "detail": "35 judges’ points. Top three (9, 9, 9) average 9, doubled to 18 base points for Jessica. Placement bonuses and eliminations pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-final",
+      "type": "scoring",
+      "title": "Week 7 results finalized",
+      "detail": "Harry +2 judges for Mattie; Jenna +1 judges for Jackson. Payton receives Connor’s 20 base +1 judges =21 points, instead of Julia’s result, with no elimination deduction. All Bux remain zero; no Locks.",
+      "date": "October 27, 2026",
+      "week": 7
+    },
+    {
+      "id": "week7-double-elimination",
+      "type": "elimination",
+      "title": "Jackson Olson and Tyler Cameron eliminated",
+      "detail": "Both leave the available pool and receive skull indicators. Both were unowned; no participant loses points. Dancer base-point totals and all historical ownership records preserved.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3628,7 +3718,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-ezra",
+    "revision": "2026-10-27-week7-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5566,6 +5656,22 @@
         "detail": "35 judges’ points. Top three (9, 9, 9) average 9, doubled to 18 base points for Jessica. Placement bonuses and eliminations pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-final",
+        "type": "scoring",
+        "title": "Week 7 results finalized",
+        "detail": "Harry +2 judges for Mattie; Jenna +1 judges for Jackson. Payton receives Connor’s 20 base +1 judges =21 points, instead of Julia’s result, with no elimination deduction. All Bux remain zero; no Locks.",
+        "date": "October 27, 2026",
+        "week": 7
+      },
+      {
+        "id": "week7-double-elimination",
+        "type": "elimination",
+        "title": "Jackson Olson and Tyler Cameron eliminated",
+        "detail": "Both leave the available pool and receive skull indicators. Both were unowned; no participant loses points. Dancer base-point totals and all historical ownership records preserved.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5653,7 +5759,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T01:59:41.307Z",
+    "updatedAt": "2026-10-28T02:05:08.888Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
