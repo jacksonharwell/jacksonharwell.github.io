@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 68,
+      "points": 88,
       "movement": 0
     },
     {
@@ -102,9 +102,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 107,
-      "seasonPoints": 57,
-      "avgScore": 7.78,
-      "trend": 0.33,
+      "seasonPoints": 77,
+      "avgScore": 8,
+      "trend": 0,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -404,9 +404,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 0,
-      "seasonPoints": 46,
-      "avgScore": 6.5,
-      "trend": 0.67,
+      "seasonPoints": 62,
+      "avgScore": 6.71,
+      "trend": 0,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
       "danceBackground": "Performance background — Broadway-trained actor and recording artist; no ballroom record",
@@ -468,9 +468,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 97,
-      "seasonPoints": 48,
-      "avgScore": 6.67,
-      "trend": 0,
+      "seasonPoints": 66,
+      "avgScore": 7,
+      "trend": 1,
       "image": "https://s.yimg.com/lo/mysterio/api/92F4348682008114FD54E7A764EBF986B69262A8F05A0F8B68C1252A0CB2D89F/subgraphmysterio/resizefill_w976_h549%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_parade_744/e5441dce3c45ec4bfa9772f543e1466c",
       "knownFor": "Savannah Bananas • Banana Ball • social media",
       "danceBackground": "Athletic showman — frequent choreographed routines with the Savannah Bananas",
@@ -526,8 +526,8 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 41,
-      "seasonPoints": 44,
-      "avgScore": 6.28,
+      "seasonPoints": 64,
+      "avgScore": 6.76,
       "trend": 1.67,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
@@ -2350,6 +2350,90 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": null,
+          "judges": [
+            8,
+            8,
+            4,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "jackson",
+          "judges": [
+            9,
+            10,
+            9,
+            9
+          ],
+          "countedJudges": [
+            10,
+            9,
+            9
+          ],
+          "average": 9.33,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": null,
+          "judges": [
+            10,
+            10,
+            8,
+            9
+          ],
+          "countedJudges": [
+            10,
+            10,
+            9
+          ],
+          "average": 9.67,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "jackson-olson",
+          "dancerName": "Jackson Olson",
+          "proName": "Emma Slater",
+          "ownerId": null,
+          "judges": [
+            9,
+            9,
+            8,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3384,6 +3468,38 @@
       "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer scores remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-tatyana-ali-score",
+      "type": "scoring",
+      "title": "Tatyana Ali: 8–8–4–8",
+      "detail": "Top three (8, 8, 8) average 8.00, rounded up and doubled to 16 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
+    },
+    {
+      "id": "week7-jenna-dewan-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 9–10–9–9",
+      "detail": "Top three (10, 9, 9) average 9.33, rounded up and doubled to 20 base points. Credited to Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
+    },
+    {
+      "id": "week7-connor-wood-score",
+      "type": "scoring",
+      "title": "Connor Wood: 10–10–8–9",
+      "detail": "Top three (10, 10, 9) average 9.67, rounded up and doubled to 20 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
+    },
+    {
+      "id": "week7-jackson-olson-score",
+      "type": "scoring",
+      "title": "Jackson Olson: 9–9–8–9",
+      "detail": "Top three (9, 9, 9) average 9.00, rounded up and doubled to 18 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3393,7 +3509,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-harry",
+    "revision": "2026-10-27-week7-four-scores",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5267,6 +5383,38 @@
         "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer scores remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-tatyana-ali-score",
+        "type": "scoring",
+        "title": "Tatyana Ali: 8–8–4–8",
+        "detail": "Top three (8, 8, 8) average 8.00, rounded up and doubled to 16 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
+      },
+      {
+        "id": "week7-jenna-dewan-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 9–10–9–9",
+        "detail": "Top three (10, 9, 9) average 9.33, rounded up and doubled to 20 base points. Credited to Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
+      },
+      {
+        "id": "week7-connor-wood-score",
+        "type": "scoring",
+        "title": "Connor Wood: 10–10–8–9",
+        "detail": "Top three (10, 10, 9) average 9.67, rounded up and doubled to 20 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
+      },
+      {
+        "id": "week7-jackson-olson-score",
+        "type": "scoring",
+        "title": "Jackson Olson: 9–9–8–9",
+        "detail": "Top three (9, 9, 9) average 9.00, rounded up and doubled to 18 base points. Unowned; eligible for Payton’s highest-dancer exception, with team credit pending. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5354,7 +5502,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T00:46:46.886Z",
+    "updatedAt": "2026-10-28T01:30:10.301Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
