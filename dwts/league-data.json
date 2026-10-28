@@ -2,8 +2,8 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 6,
-    "phase": "Week 6 • final results",
+    "week": 7,
+    "phase": "Week 7 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -231,9 +231,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 7,
-      "seasonPoints": 50,
-      "avgScore": 7,
-      "trend": 0.67,
+      "seasonPoints": 66,
+      "avgScore": 7.05,
+      "trend": -1.67,
       "image": "https://www.pixelstalk.net/wp-content/uploads/2025/10/Julia-Stiles-close-up-portrait.jpg",
       "knownFor": "10 Things I Hate About You • Save the Last Dance",
       "danceBackground": "Moderate — intensive ballet and hip-hop preparation for Save the Last Dance",
@@ -2302,6 +2302,57 @@
       "scoresComplete": true,
       "judgesBonusesFinalized": true,
       "finalizedAt": "2026-10-21T02:24:13.619Z"
+    },
+    {
+      "week": 7,
+      "label": "Week 7",
+      "date": "2026-10-27",
+      "performances": [
+        {
+          "dancerId": "julia-stiles",
+          "dancerName": "Julia Stiles",
+          "proName": "Ezra Sosa",
+          "ownerId": "payton",
+          "judges": [
+            7,
+            7,
+            4,
+            8
+          ],
+          "countedJudges": [
+            8,
+            7,
+            7
+          ],
+          "average": 7.33,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true,
+          "teamCreditPending": true
+        }
+      ],
+      "locks": {},
+      "locksFinalized": true,
+      "status": "in-progress",
+      "scoringExceptions": [
+        {
+          "ownerId": "payton",
+          "type": "highestEligibleDancer",
+          "eligibleDancerIds": [
+            "julia-stiles",
+            "tyler-cameron",
+            "tatyana-ali",
+            "jackson-olson",
+            "connor-wood"
+          ],
+          "includeCurrentDancer": true,
+          "status": "pending",
+          "scope": "Week 7 only",
+          "commissionerInstruction": "Payton gets the highest of all unowned dancers tonight, including her current dancer Julia Stiles.",
+          "teamPointsApplied": 0
+        }
+      ],
+      "scoringNotes": "Payton receives only the highest eligible dancer result tonight: Julia, Tyler, Tatyana, Jackson Olson, or Connor. Hold Payton’s team credit until eligible results are complete; do not add multiple dancers. No Locks or Bux."
     }
   ],
   "transactions": [
@@ -3288,6 +3339,22 @@
       "cost": 0,
       "effectiveWeek": 7,
       "createdAt": "2026-10-28T00:09:58.737Z"
+    },
+    {
+      "id": "week7-payton-highest-exception",
+      "type": "rule",
+      "title": "Payton: highest eligible dancer tonight",
+      "detail": "Week 7 only: Payton receives the highest result from Julia Stiles, Tyler Cameron, Tatyana Ali, Jackson Olson, and Connor Wood. Team credit pending completed results; one result only. Roster ownership and earlier points unchanged.",
+      "date": "October 27, 2026",
+      "week": 7
+    },
+    {
+      "id": "week7-julia-score",
+      "type": "scoring",
+      "title": "Julia Stiles: 7–7–4–8",
+      "detail": "26 judges’ points. Top three (8, 7, 7) average 7.33, rounded up to 8 and doubled to 16 base points. Payton’s team credit is held pending the highest-eligible-dancer result. Individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3297,7 +3364,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-payton-julia-waiver",
+    "revision": "2026-10-27-week7-julia-payton-exception",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5147,6 +5214,22 @@
         "cost": 0,
         "effectiveWeek": 7,
         "createdAt": "2026-10-28T00:09:58.737Z"
+      },
+      {
+        "id": "week7-payton-highest-exception",
+        "type": "rule",
+        "title": "Payton: highest eligible dancer tonight",
+        "detail": "Week 7 only: Payton receives the highest result from Julia Stiles, Tyler Cameron, Tatyana Ali, Jackson Olson, and Connor Wood. Team credit pending completed results; one result only. Roster ownership and earlier points unchanged.",
+        "date": "October 27, 2026",
+        "week": 7
+      },
+      {
+        "id": "week7-julia-score",
+        "type": "scoring",
+        "title": "Julia Stiles: 7–7–4–8",
+        "detail": "26 judges’ points. Top three (8, 7, 7) average 7.33, rounded up to 8 and doubled to 16 base points. Payton’s team credit is held pending the highest-eligible-dancer result. Individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5234,7 +5317,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T00:09:58.737Z",
+    "updatedAt": "2026-10-28T00:45:17.111Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
