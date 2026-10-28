@@ -61,7 +61,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 74,
+      "points": 92,
       "movement": 0
     },
     {
@@ -188,9 +188,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 45,
-      "seasonPoints": 56,
-      "avgScore": 7.83,
-      "trend": 1,
+      "seasonPoints": 74,
+      "avgScore": 8,
+      "trend": -0.67,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -2455,6 +2455,27 @@
           "basePoints": 14,
           "fantasyPoints": 14,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "colton",
+          "judges": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3531,6 +3552,14 @@
       "detail": "26 judges’ points. Top three (7, 7, 7) average 7, doubled to 14 base points. Unowned. Payton’s eligible scores are complete; Connor leads with 20 base points. Final exception credit remains pending placement bonuses and eliminations. No Locks or Bux.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 9–9–9–9",
+      "detail": "36 judges’ points. Top three average 9, doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3540,7 +3569,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-tyler",
+    "revision": "2026-10-27-week7-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5454,6 +5483,14 @@
         "detail": "26 judges’ points. Top three (7, 7, 7) average 7, doubled to 14 base points. Unowned. Payton’s eligible scores are complete; Connor leads with 20 base points. Final exception credit remains pending placement bonuses and eliminations. No Locks or Bux.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 9–9–9–9",
+        "detail": "36 judges’ points. Top three average 9, doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5541,7 +5578,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T01:40:27.143Z",
+    "updatedAt": "2026-10-28T01:48:24.481Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
