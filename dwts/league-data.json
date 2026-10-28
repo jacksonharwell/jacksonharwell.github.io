@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-10-27",
+    "lastUpdated": "2026-10-28",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -228,8 +228,8 @@
       "name": "Julia Stiles",
       "status": "confirmed",
       "pro": "Ezra Sosa",
-      "ownerId": "payton",
-      "ownerName": "Payton",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 7,
       "seasonPoints": 66,
       "avgScore": 7.05,
@@ -260,11 +260,18 @@
           "releasedWeek": 6,
           "releasedAt": "2026-10-21T00:43:02.849Z",
           "reason": "Midseason shakeup"
+        },
+        {
+          "ownerId": "payton",
+          "acquisition": "waiver",
+          "cost": 0,
+          "acquiredAt": "2026-10-28T00:09:58.737Z",
+          "acquiredWeek": 7,
+          "releasedWeek": 7,
+          "releasedAt": "2026-10-28T14:15:36.236Z",
+          "reason": "Commissioner correction: Connor is Payton’s selected dancer"
         }
-      ],
-      "acquisition": "waiver",
-      "acquiredAt": "2026-10-28T00:09:58.737Z",
-      "acquiredWeek": 7
+      ]
     },
     {
       "id": "ciara-miller",
@@ -525,8 +532,8 @@
       "name": "Connor Wood",
       "status": "confirmed",
       "pro": "Rylee Arnold",
-      "ownerId": null,
-      "ownerName": null,
+      "ownerId": "payton",
+      "ownerName": "Payton",
       "auctionCost": 41,
       "seasonPoints": 64,
       "avgScore": 6.76,
@@ -563,7 +570,10 @@
           "releasedWeek": 7,
           "reason": "Dropped to claim Julia Stiles"
         }
-      ]
+      ],
+      "acquisition": "commissioner-selection",
+      "acquiredWeek": 7,
+      "acquiredAt": "2026-10-28T14:15:36.236Z"
     },
     {
       "id": "conner-leavitt",
@@ -2314,7 +2324,7 @@
           "dancerId": "julia-stiles",
           "dancerName": "Julia Stiles",
           "proName": "Ezra Sosa",
-          "ownerId": "payton",
+          "ownerId": null,
           "judges": [
             7,
             7,
@@ -2336,7 +2346,9 @@
           "eliminationPenalty": 0,
           "lockBonus": 0,
           "lockPenalty": 0,
-          "teamPointsCredited": 0
+          "teamPointsCredited": 0,
+          "originalRosterOwnerId": "payton",
+          "scoringOwnerId": null
         },
         {
           "dancerId": "harry-shum-jr",
@@ -2423,7 +2435,7 @@
           "dancerId": "connor-wood",
           "dancerName": "Connor Wood",
           "proName": "Rylee Arnold",
-          "ownerId": null,
+          "ownerId": "payton",
           "judges": [
             10,
             10,
@@ -3709,6 +3721,14 @@
       "detail": "Both leave the available pool and receive skull indicators. Both were unowned; no participant loses points. Dancer base-point totals and all historical ownership records preserved.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-payton-connor-roster-correction",
+      "type": "waiver",
+      "title": "Payton’s dancer corrected to Connor Wood",
+      "detail": "Connor & Rylee are Payton’s active pair, effective Week 7. Julia returns to waivers. Connor’s 21 Week 7 points were already credited: Payton remains at 110, with no double counting. Graph ownership corrected; earlier scores preserved.",
+      "date": "October 28, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3718,7 +3738,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-final",
+    "revision": "2026-10-28-payton-connor-correction",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3820,10 +3840,10 @@
       "jenna-dewan": "jackson",
       "harry-shum-jr": "mattie",
       "amber-glenn": "colton",
-      "julia-stiles": "payton",
+      "julia-stiles": null,
       "tyler-cameron": null,
       "jackson-olson": null,
-      "connor-wood": null
+      "connor-wood": "payton"
     },
     "trades": [],
     "resets": [],
@@ -5672,6 +5692,14 @@
         "detail": "Both leave the available pool and receive skull indicators. Both were unowned; no participant loses points. Dancer base-point totals and all historical ownership records preserved.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-payton-connor-roster-correction",
+        "type": "waiver",
+        "title": "Payton’s dancer corrected to Connor Wood",
+        "detail": "Connor & Rylee are Payton’s active pair, effective Week 7. Julia returns to waivers. Connor’s 21 Week 7 points were already credited: Payton remains at 110, with no double counting. Graph ownership corrected; earlier scores preserved.",
+        "date": "October 28, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5759,7 +5787,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T02:05:08.888Z",
+    "updatedAt": "2026-10-28T14:15:36.236Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
