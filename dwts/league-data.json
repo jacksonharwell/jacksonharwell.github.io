@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-27",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -228,8 +228,8 @@
       "name": "Julia Stiles",
       "status": "confirmed",
       "pro": "Ezra Sosa",
-      "ownerId": null,
-      "ownerName": null,
+      "ownerId": "payton",
+      "ownerName": "Payton",
       "auctionCost": 7,
       "seasonPoints": 50,
       "avgScore": 7,
@@ -261,7 +261,10 @@
           "releasedAt": "2026-10-21T00:43:02.849Z",
           "reason": "Midseason shakeup"
         }
-      ]
+      ],
+      "acquisition": "waiver",
+      "acquiredAt": "2026-10-28T00:09:58.737Z",
+      "acquiredWeek": 7
     },
     {
       "id": "ciara-miller",
@@ -520,8 +523,8 @@
       "name": "Connor Wood",
       "status": "confirmed",
       "pro": "Rylee Arnold",
-      "ownerId": "payton",
-      "ownerName": "Payton",
+      "ownerId": null,
+      "ownerName": null,
       "auctionCost": 41,
       "seasonPoints": 44,
       "avgScore": 6.28,
@@ -547,11 +550,18 @@
           "releasedWeek": 6,
           "releasedAt": "2026-10-21T00:43:02.849Z",
           "reason": "Midseason shakeup"
+        },
+        {
+          "ownerId": "payton",
+          "acquisition": "shakeup",
+          "cost": 0,
+          "acquiredAt": "2026-10-21T00:43:02.849Z",
+          "acquiredWeek": 6,
+          "releasedAt": "2026-10-28T00:09:58.737Z",
+          "releasedWeek": 7,
+          "reason": "Dropped to claim Julia Stiles"
         }
-      ],
-      "acquisition": "shakeup",
-      "acquiredWeek": 6,
-      "acquiredAt": "2026-10-21T00:43:02.849Z"
+      ]
     },
     {
       "id": "conner-leavitt",
@@ -3264,6 +3274,20 @@
       "detail": "No more Locks, Lock bonuses, or Lock penalties beginning Week 6. Earlier weeks retain their original scoring. Final standings: Squid 106, Jessica 100, Mattie 95, Payton 89, Colton 74, Jackson 68. No elimination this week; all Bux remain zero.",
       "date": "October 20, 2026",
       "week": 6
+    },
+    {
+      "id": "week7-payton-claim-julia-drop-connor",
+      "type": "waiver",
+      "title": "Payton claimed Julia Stiles; dropped Connor Wood",
+      "detail": "Julia Stiles & Ezra Sosa replace Connor Wood & Rylee Arnold on Payton’s one-dancer roster effective Week 7. Connor returns to the unowned pool. Payton keeps all 89 previously earned points; no historical points transfer. No Bux payment; all balances remain zero.",
+      "date": "October 27, 2026",
+      "week": 7,
+      "ownerId": "payton",
+      "dancerId": "julia-stiles",
+      "droppedDancerId": "connor-wood",
+      "cost": 0,
+      "effectiveWeek": 7,
+      "createdAt": "2026-10-28T00:09:58.737Z"
     }
   ],
   "locks": [],
@@ -3273,7 +3297,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-20-week6-final-no-locks",
+    "revision": "2026-10-27-payton-julia-waiver",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -3375,10 +3399,10 @@
       "jenna-dewan": "jackson",
       "harry-shum-jr": "mattie",
       "amber-glenn": "colton",
-      "julia-stiles": null,
+      "julia-stiles": "payton",
       "tyler-cameron": null,
       "jackson-olson": null,
-      "connor-wood": "payton"
+      "connor-wood": null
     },
     "trades": [],
     "resets": [],
@@ -5109,6 +5133,20 @@
         "detail": "No more Locks, Lock bonuses, or Lock penalties beginning Week 6. Earlier weeks retain their original scoring. Final standings: Squid 106, Jessica 100, Mattie 95, Payton 89, Colton 74, Jackson 68. No elimination this week; all Bux remain zero.",
         "date": "October 20, 2026",
         "week": 6
+      },
+      {
+        "id": "week7-payton-claim-julia-drop-connor",
+        "type": "waiver",
+        "title": "Payton claimed Julia Stiles; dropped Connor Wood",
+        "detail": "Julia Stiles & Ezra Sosa replace Connor Wood & Rylee Arnold on Payton’s one-dancer roster effective Week 7. Connor returns to the unowned pool. Payton keeps all 89 previously earned points; no historical points transfer. No Bux payment; all balances remain zero.",
+        "date": "October 27, 2026",
+        "week": 7,
+        "ownerId": "payton",
+        "dancerId": "julia-stiles",
+        "droppedDancerId": "connor-wood",
+        "cost": 0,
+        "effectiveWeek": 7,
+        "createdAt": "2026-10-28T00:09:58.737Z"
       }
     ],
     "locks": {},
@@ -5196,7 +5234,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-21T02:24:13.619Z",
+    "updatedAt": "2026-10-28T00:09:58.737Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
