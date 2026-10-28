@@ -82,7 +82,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 100,
+      "points": 118,
       "movement": 0
     },
     {
@@ -372,9 +372,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 57,
-      "avgScore": 7.83,
-      "trend": 0.33,
+      "seasonPoints": 75,
+      "avgScore": 8,
+      "trend": -0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -2497,6 +2497,27 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            8,
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -2522,7 +2543,8 @@
           "provisionalLeaderDancerId": "connor-wood"
         }
       ],
-      "scoringNotes": "Payton receives only the highest eligible dancer result tonight: Julia, Tyler, Tatyana, Jackson Olson, or Connor. Hold Payton’s team credit until eligible results are complete; do not add multiple dancers. No Locks or Bux."
+      "scoringNotes": "Payton receives only the highest eligible dancer result tonight: Julia, Tyler, Tatyana, Jackson Olson, or Connor. Hold Payton’s team credit until eligible results are complete; do not add multiple dancers. No Locks or Bux.",
+      "scoresComplete": true
     }
   ],
   "transactions": [
@@ -3589,6 +3611,14 @@
       "detail": "32 judges’ points. Top three (9, 8, 8) average 8.33, rounded up to 9 and doubled to 18 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "October 27, 2026",
       "week": 7
+    },
+    {
+      "id": "week7-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 8–9–9–9",
+      "detail": "35 judges’ points. Top three (9, 9, 9) average 9, doubled to 18 base points for Jessica. Placement bonuses and eliminations pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "October 27, 2026",
+      "week": 7
     }
   ],
   "locks": [],
@@ -3598,7 +3628,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-27-week7-maura",
+    "revision": "2026-10-27-week7-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5528,6 +5558,14 @@
         "detail": "32 judges’ points. Top three (9, 8, 8) average 8.33, rounded up to 9 and doubled to 18 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "October 27, 2026",
         "week": 7
+      },
+      {
+        "id": "week7-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 8–9–9–9",
+        "detail": "35 judges’ points. Top three (9, 9, 9) average 9, doubled to 18 base points for Jessica. Placement bonuses and eliminations pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "October 27, 2026",
+        "week": 7
       }
     ],
     "locks": {},
@@ -5615,7 +5653,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T01:57:19.552Z",
+    "updatedAt": "2026-10-28T01:59:41.307Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
