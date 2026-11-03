@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 109,
+      "points": 110,
       "movement": 0
     },
     {
@@ -68,21 +68,21 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 126,
+      "points": 127,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 137,
+      "points": 138,
       "movement": 0
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 138,
+      "points": 139,
       "movement": 0
     },
     {
@@ -2697,8 +2697,9 @@
           ],
           "average": 10,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "groupBonus": 1
         },
         {
           "dancerId": "ezra-frech",
@@ -2718,8 +2719,9 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "groupBonus": 1
         },
         {
           "dancerId": "jenna-dewan",
@@ -2739,8 +2741,9 @@
           ],
           "average": 10,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "groupBonus": 1
         },
         {
           "dancerId": "connor-wood",
@@ -2760,8 +2763,9 @@
           ],
           "average": 8,
           "basePoints": 16,
-          "fantasyPoints": 16,
-          "bonusesPending": true
+          "fantasyPoints": 17,
+          "bonusesPending": true,
+          "groupBonus": 1
         }
       ],
       "locks": {},
@@ -2785,9 +2789,31 @@
             9
           ],
           "total": 36,
-          "status": "winner-pending",
+          "status": "runner-up",
           "bonusPerDancer": 1,
-          "bonusesApplied": false
+          "bonusesApplied": true,
+          "finalizedAt": "2026-11-03T02:52:32.706Z"
+        },
+        {
+          "id": "team-other",
+          "name": "Other team",
+          "dancerIds": [
+            "jenna-dewan",
+            "harry-shum-jr",
+            "ezra-frech",
+            "connor-wood"
+          ],
+          "judges": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "total": 40,
+          "status": "winner",
+          "bonusPerDancer": 1,
+          "bonusesApplied": true,
+          "finalizedAt": "2026-11-03T02:52:32.706Z"
         }
       ]
     }
@@ -3944,6 +3970,14 @@
       "detail": "Maura, Amber, Julia, and Tatyana scored 36 in the group dance. Winning-group bonus is +1 per dancer (not doubled); winner pending. Group score is separate from individual base points; no participant points awarded yet.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week8-winning-group-bonus",
+      "type": "scoring",
+      "title": "Perfect 40 wins group dance",
+      "detail": "Harry, Ezra, Jenna, and Connor scored 10–10–10–10, beating Team Slaytopia’s 36. Mattie, Jessica, Jackson, and Payton each receive +1 winning-group point. Group bonus is not doubled and does not change individual dancer base-score bars. Judges-placement bonuses and eliminations remain pending.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3953,7 +3987,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-slaytopia",
+    "revision": "2026-11-02-week8-group-bonus",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5971,6 +6005,14 @@
         "detail": "Maura, Amber, Julia, and Tatyana scored 36 in the group dance. Winning-group bonus is +1 per dancer (not doubled); winner pending. Group score is separate from individual base points; no participant points awarded yet.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week8-winning-group-bonus",
+        "type": "scoring",
+        "title": "Perfect 40 wins group dance",
+        "detail": "Harry, Ezra, Jenna, and Connor scored 10–10–10–10, beating Team Slaytopia’s 36. Mattie, Jessica, Jackson, and Payton each receive +1 winning-group point. Group bonus is not doubled and does not change individual dancer base-score bars. Judges-placement bonuses and eliminations remain pending.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -6058,7 +6100,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T02:41:43.277Z",
+    "updatedAt": "2026-11-03T02:52:32.706Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
