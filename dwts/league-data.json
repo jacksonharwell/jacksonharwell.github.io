@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 7,
-    "phase": "Week 7 • final results",
+    "week": 8,
+    "phase": "Week 8 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-11-02",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -61,7 +61,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 92,
+      "points": 110,
       "movement": 0
     },
     {
@@ -89,7 +89,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 124,
+      "points": 140,
       "movement": 0
     }
   ],
@@ -188,9 +188,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 45,
-      "seasonPoints": 74,
-      "avgScore": 8,
-      "trend": -0.67,
+      "seasonPoints": 92,
+      "avgScore": 8.08,
+      "trend": -0.33,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -306,9 +306,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 76,
-      "seasonPoints": 72,
-      "avgScore": 7.81,
-      "trend": -0.67,
+      "seasonPoints": 88,
+      "avgScore": 7.83,
+      "trend": -0.33,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -2631,6 +2631,59 @@
       ],
       "finalizedAt": "2026-10-28T02:05:08.888Z",
       "judgesBonusesFinalized": true
+    },
+    {
+      "week": 8,
+      "label": "Week 8",
+      "date": "2026-11-02",
+      "performances": [
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "squid",
+          "judges": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "colton",
+          "judges": [
+            8,
+            9,
+            8,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            8
+          ],
+          "average": 8.67,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {},
+      "locksFinalized": true,
+      "status": "in-progress",
+      "scoringNotes": "Top three judge scores averaged, rounded up, and doubled. Placement bonuses and eliminations pending. No Locks or Bux. Week 7 Payton exception does not carry forward."
     }
   ],
   "transactions": [
@@ -3729,6 +3782,22 @@
       "detail": "Connor & Rylee are Payton’s active pair, effective Week 7. Julia returns to waivers. Connor’s 21 Week 7 points were already credited: Payton remains at 110, with no double counting. Graph ownership corrected; earlier scores preserved.",
       "date": "October 28, 2026",
       "week": 7
+    },
+    {
+      "id": "week8-maura-higgins-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 8–8–8–8",
+      "detail": "Top three (8, 8, 8) average 8.00, rounded up and doubled to 16 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 2, 2026",
+      "week": 8
+    },
+    {
+      "id": "week8-amber-glenn-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 8–9–8–9",
+      "detail": "Top three (9, 9, 8) average 8.67, rounded up and doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3738,7 +3807,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-10-28-payton-connor-correction",
+    "revision": "2026-11-02-week8-maura-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5700,6 +5769,22 @@
         "detail": "Connor & Rylee are Payton’s active pair, effective Week 7. Julia returns to waivers. Connor’s 21 Week 7 points were already credited: Payton remains at 110, with no double counting. Graph ownership corrected; earlier scores preserved.",
         "date": "October 28, 2026",
         "week": 7
+      },
+      {
+        "id": "week8-maura-higgins-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 8–8–8–8",
+        "detail": "Top three (8, 8, 8) average 8.00, rounded up and doubled to 16 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 2, 2026",
+        "week": 8
+      },
+      {
+        "id": "week8-amber-glenn-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 8–9–8–9",
+        "detail": "Top three (9, 9, 8) average 8.67, rounded up and doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -5787,7 +5872,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-10-28T14:15:36.236Z",
+    "updatedAt": "2026-11-03T01:24:56.251Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
