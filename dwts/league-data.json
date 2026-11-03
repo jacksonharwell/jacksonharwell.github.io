@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 89,
+      "points": 109,
       "movement": 0
     },
     {
@@ -82,7 +82,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 118,
+      "points": 138,
       "movement": 0
     },
     {
@@ -102,9 +102,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 107,
-      "seasonPoints": 77,
-      "avgScore": 8,
-      "trend": 0,
+      "seasonPoints": 97,
+      "avgScore": 8.25,
+      "trend": 0.67,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -380,9 +380,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 75,
-      "avgScore": 8,
-      "trend": -0.33,
+      "seasonPoints": 95,
+      "avgScore": 8.17,
+      "trend": 0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -2699,6 +2699,48 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            9,
+            10,
+            9,
+            9
+          ],
+          "countedJudges": [
+            10,
+            9,
+            9
+          ],
+          "average": 9.33,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "jackson",
+          "judges": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3827,6 +3869,22 @@
       "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week8-ezra-frech-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 9–10–9–9",
+      "detail": "Top three (10, 9, 9) average 9.33, rounded up and doubled to 20 base points for Jessica. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 2, 2026",
+      "week": 8
+    },
+    {
+      "id": "week8-jenna-dewan-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 10–10–10–10",
+      "detail": "Top three (10, 10, 10) average 10.00, rounded up and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3836,7 +3894,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-harry",
+    "revision": "2026-11-02-week8-ezra-jenna",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5822,6 +5880,22 @@
         "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week8-ezra-frech-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 9–10–9–9",
+        "detail": "Top three (10, 9, 9) average 9.33, rounded up and doubled to 20 base points for Jessica. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 2, 2026",
+        "week": 8
+      },
+      {
+        "id": "week8-jenna-dewan-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 10–10–10–10",
+        "detail": "Top three (10, 10, 10) average 10.00, rounded up and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -5909,7 +5983,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T01:54:05.435Z",
+    "updatedAt": "2026-11-03T02:15:56.857Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
