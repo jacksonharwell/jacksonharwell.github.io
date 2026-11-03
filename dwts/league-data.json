@@ -226,7 +226,7 @@
     {
       "id": "julia-stiles",
       "name": "Julia Stiles",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Ezra Sosa",
       "ownerId": null,
       "ownerName": null,
@@ -271,7 +271,8 @@
           "releasedAt": "2026-10-28T14:15:36.236Z",
           "reason": "Commissioner correction: Connor is Payton’s selected dancer"
         }
-      ]
+      ],
+      "eliminatedWeek": 8
     },
     {
       "id": "ciara-miller",
@@ -2815,6 +2816,9 @@
           "bonusesApplied": true,
           "finalizedAt": "2026-11-03T02:52:32.706Z"
         }
+      ],
+      "eliminations": [
+        "julia-stiles"
       ]
     }
   ],
@@ -3978,6 +3982,14 @@
       "detail": "Harry, Ezra, Jenna, and Connor scored 10–10–10–10, beating Team Slaytopia’s 36. Mattie, Jessica, Jackson, and Payton each receive +1 winning-group point. Group bonus is not doubled and does not change individual dancer base-score bars. Judges-placement bonuses and eliminations remain pending.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week8-julia-elimination",
+      "type": "elimination",
+      "title": "Julia Stiles & Ezra Sosa eliminated",
+      "detail": "Julia is unowned, so no participant loses points. Removed from the available pool and marked with a skull; score and ownership history preserved. Individual Week 8 score still missing from shared record; final scoring pending.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3987,7 +3999,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-group-bonus",
+    "revision": "2026-11-02-week8-julia-eliminated",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6013,6 +6025,14 @@
         "detail": "Harry, Ezra, Jenna, and Connor scored 10–10–10–10, beating Team Slaytopia’s 36. Mattie, Jessica, Jackson, and Payton each receive +1 winning-group point. Group bonus is not doubled and does not change individual dancer base-score bars. Judges-placement bonuses and eliminations remain pending.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week8-julia-elimination",
+        "type": "elimination",
+        "title": "Julia Stiles & Ezra Sosa eliminated",
+        "detail": "Julia is unowned, so no participant loses points. Removed from the available pool and marked with a skull; score and ownership history preserved. Individual Week 8 score still missing from shared record; final scoring pending.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -6100,7 +6120,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T02:52:32.706Z",
+    "updatedAt": "2026-11-03T03:05:55.726Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
