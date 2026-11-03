@@ -2767,7 +2767,29 @@
       "locks": {},
       "locksFinalized": true,
       "status": "in-progress",
-      "scoringNotes": "Top three judge scores averaged, rounded up, and doubled. Placement bonuses and eliminations pending. No Locks or Bux. Week 7 Payton exception does not carry forward."
+      "scoringNotes": "Top three judge scores averaged, rounded up, and doubled. Placement bonuses and eliminations pending. No Locks or Bux. Week 7 Payton exception does not carry forward.",
+      "groupDances": [
+        {
+          "id": "team-slaytopia",
+          "name": "Team Slaytopia",
+          "dancerIds": [
+            "maura-higgins",
+            "amber-glenn",
+            "julia-stiles",
+            "tatyana-ali"
+          ],
+          "judges": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "total": 36,
+          "status": "winner-pending",
+          "bonusPerDancer": 1,
+          "bonusesApplied": false
+        }
+      ]
     }
   ],
   "transactions": [
@@ -3914,6 +3936,14 @@
       "detail": "32 judges’ points. Top three average 8, doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week8-team-slaytopia",
+      "type": "scoring",
+      "title": "Team Slaytopia: 9–9–9–9",
+      "detail": "Maura, Amber, Julia, and Tatyana scored 36 in the group dance. Winning-group bonus is +1 per dancer (not doubled); winner pending. Group score is separate from individual base points; no participant points awarded yet.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3923,7 +3953,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-connor",
+    "revision": "2026-11-02-week8-slaytopia",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5933,6 +5963,14 @@
         "detail": "32 judges’ points. Top three average 8, doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week8-team-slaytopia",
+        "type": "scoring",
+        "title": "Team Slaytopia: 9–9–9–9",
+        "detail": "Maura, Amber, Julia, and Tatyana scored 36 in the group dance. Winning-group bonus is +1 per dancer (not doubled); winner pending. Group score is separate from individual base points; no participant points awarded yet.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -6020,7 +6058,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T02:25:30.175Z",
+    "updatedAt": "2026-11-03T02:41:43.277Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
