@@ -75,7 +75,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 117,
+      "points": 137,
       "movement": 0
     },
     {
@@ -145,9 +145,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 81,
-      "seasonPoints": 75,
-      "avgScore": 8.05,
-      "trend": 1,
+      "seasonPoints": 95,
+      "avgScore": 8.29,
+      "trend": 0,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -2678,6 +2678,27 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "mattie",
+          "judges": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3798,6 +3819,14 @@
       "detail": "Top three (9, 9, 8) average 8.67, rounded up and doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week8-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr.: 10–10–10–10",
+      "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 2, 2026",
+      "week": 8
     }
   ],
   "locks": [],
@@ -3807,7 +3836,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-maura-amber",
+    "revision": "2026-11-02-week8-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -5785,6 +5814,14 @@
         "detail": "Top three (9, 9, 8) average 8.67, rounded up and doubled to 18 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week8-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr.: 10–10–10–10",
+        "detail": "Perfect 40 judges’ points. Top three average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 2, 2026",
+        "week": 8
       }
     ],
     "locks": {},
@@ -5872,7 +5909,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T01:24:56.251Z",
+    "updatedAt": "2026-11-03T01:54:05.435Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
