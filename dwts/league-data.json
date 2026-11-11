@@ -89,7 +89,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 140,
+      "points": 141,
       "movement": 0
     }
   ],
@@ -3033,6 +3033,15 @@
           "loserDancerId": "tatyana-ali",
           "bonus": 1,
           "bonusesApplied": true
+        },
+        {
+          "id": "week9-maura-connor-danceoff",
+          "winnerDancerId": "maura-higgins",
+          "loserDancerId": "connor-wood",
+          "ownerId": "squid",
+          "bonus": 1,
+          "bonusesApplied": true,
+          "performanceBonusLinked": false
         }
       ]
     }
@@ -4269,6 +4278,14 @@
       "detail": "Jenna Dewan & Val Chmerkovskiy beat Tatyana Ali & Jan Ravnik. Jackson receives +1 dance-off point (not doubled). No losing-team deduction. Individual dancer base scores remain unchanged.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-maura-connor-danceoff",
+      "type": "scoring",
+      "title": "Maura & Mark win dance-off",
+      "detail": "Maura Higgins & Mark Ballas beat Connor Wood & Rylee Arnold. Squid receives +1 dance-off point, already credited separately while Maura’s individual judges’ scores are pending. Do not credit twice when her performance is added. No deduction for Payton. Individual dancer bars unchanged.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4278,7 +4295,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-jenna-danceoff",
+    "revision": "2026-11-10-week9-maura-danceoff",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6376,6 +6393,14 @@
         "detail": "Jenna Dewan & Val Chmerkovskiy beat Tatyana Ali & Jan Ravnik. Jackson receives +1 dance-off point (not doubled). No losing-team deduction. Individual dancer base scores remain unchanged.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-maura-connor-danceoff",
+        "type": "scoring",
+        "title": "Maura & Mark win dance-off",
+        "detail": "Maura Higgins & Mark Ballas beat Connor Wood & Rylee Arnold. Squid receives +1 dance-off point, already credited separately while Maura’s individual judges’ scores are pending. Do not credit twice when her performance is added. No deduction for Payton. Individual dancer bars unchanged.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6463,7 +6488,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:30:43.417Z",
+    "updatedAt": "2026-11-11T03:37:53.461Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
