@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 133,
+      "points": 132,
       "movement": 0
     },
     {
@@ -97,7 +97,7 @@
     {
       "id": "jenna-dewan",
       "name": "Jenna Dewan",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Val Chmerkovskiy",
       "ownerId": "jackson",
       "ownerName": "Jackson",
@@ -135,7 +135,8 @@
       ],
       "acquisition": "shakeup",
       "acquiredWeek": 6,
-      "acquiredAt": "2026-10-21T00:43:02.849Z"
+      "acquiredAt": "2026-10-21T00:43:02.849Z",
+      "eliminatedWeek": 9
     },
     {
       "id": "harry-shum-jr",
@@ -2970,9 +2971,11 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 21,
+          "fantasyPoints": 20,
           "bonusesPending": true,
-          "danceOffBonus": 1
+          "danceOffBonus": 1,
+          "eliminated": true,
+          "eliminationPenalty": -1
         },
         {
           "dancerId": "connor-wood",
@@ -3064,6 +3067,9 @@
           "bonusesApplied": true,
           "performanceBonusLinked": true
         }
+      ],
+      "eliminations": [
+        "jenna-dewan"
       ]
     }
   ],
@@ -4315,6 +4321,14 @@
       "detail": "27 judges’ points. Average 9, doubled to 18 base points for Squid. Maura’s +1 dance-off bonus was already credited and is now linked to her performance, not added again. Week total so far: 19 team points. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-jenna-elimination",
+      "type": "elimination",
+      "title": "Jenna Dewan & Val Chmerkovskiy eliminated",
+      "detail": "Jackson receives −1 elimination penalty. Jenna leaves the active roster but retains Jackson’s team color, skull, ownership history, and base-only dancer scores. Her dance-off bonus remains counted. Judges-placement bonuses pending Tatyana’s missing individual score.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4324,7 +4338,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-maura",
+    "revision": "2026-11-10-week9-jenna-eliminated",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6438,6 +6452,14 @@
         "detail": "27 judges’ points. Average 9, doubled to 18 base points for Squid. Maura’s +1 dance-off bonus was already credited and is now linked to her performance, not added again. Week total so far: 19 team points. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-jenna-elimination",
+        "type": "elimination",
+        "title": "Jenna Dewan & Val Chmerkovskiy eliminated",
+        "detail": "Jackson receives −1 elimination penalty. Jenna leaves the active roster but retains Jackson’s team color, skull, ownership history, and base-only dancer scores. Her dance-off bonus remains counted. Judges-placement bonuses pending Tatyana’s missing individual score.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6525,7 +6547,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:38:40.866Z",
+    "updatedAt": "2026-11-11T03:42:33.887Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
