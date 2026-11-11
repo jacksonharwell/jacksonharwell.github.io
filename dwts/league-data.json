@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 132,
+      "points": 133,
       "movement": 0
     },
     {
@@ -2970,8 +2970,9 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "danceOffBonus": 1
         },
         {
           "dancerId": "connor-wood",
@@ -3023,6 +3024,13 @@
           "id": "week9-amber-ezra-danceoff",
           "winnerDancerId": "amber-glenn",
           "loserDancerId": "ezra-frech",
+          "bonus": 1,
+          "bonusesApplied": true
+        },
+        {
+          "id": "week9-jenna-tatyana-danceoff",
+          "winnerDancerId": "jenna-dewan",
+          "loserDancerId": "tatyana-ali",
           "bonus": 1,
           "bonusesApplied": true
         }
@@ -4253,6 +4261,14 @@
       "detail": "Amber Glenn & Pasha Pashkov beat Ezra Frech & Daniella Karagach. Colton receives +1 dance-off point (not doubled). Jessica receives no deduction. Individual dancer base scores remain unchanged.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-jenna-tatyana-danceoff",
+      "type": "scoring",
+      "title": "Jenna & Val win dance-off",
+      "detail": "Jenna Dewan & Val Chmerkovskiy beat Tatyana Ali & Jan Ravnik. Jackson receives +1 dance-off point (not doubled). No losing-team deduction. Individual dancer base scores remain unchanged.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4262,7 +4278,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-amber-danceoff",
+    "revision": "2026-11-10-week9-jenna-danceoff",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6352,6 +6368,14 @@
         "detail": "Amber Glenn & Pasha Pashkov beat Ezra Frech & Daniella Karagach. Colton receives +1 dance-off point (not doubled). Jessica receives no deduction. Individual dancer base scores remain unchanged.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-jenna-tatyana-danceoff",
+        "type": "scoring",
+        "title": "Jenna & Val win dance-off",
+        "detail": "Jenna Dewan & Val Chmerkovskiy beat Tatyana Ali & Jan Ravnik. Jackson receives +1 dance-off point (not doubled). No losing-team deduction. Individual dancer base scores remain unchanged.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6439,7 +6463,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:21:55.003Z",
+    "updatedAt": "2026-11-11T03:30:43.417Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
