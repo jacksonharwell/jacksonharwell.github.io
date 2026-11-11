@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 9,
-    "phase": "Week 9 • live scoring",
+    "phase": "Week 9 • final results",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -54,14 +54,14 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 132,
+      "points": 133,
       "movement": 0
     },
     {
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 131,
+      "points": 132,
       "movement": 0
     },
     {
@@ -75,7 +75,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 160,
+      "points": 162,
       "movement": 0
     },
     {
@@ -83,14 +83,14 @@
       "name": "Jessica",
       "bux": 0,
       "points": 158,
-      "movement": 0
+      "movement": -2
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 0,
       "points": 159,
-      "movement": 0
+      "movement": -1
     }
   ],
   "dancers": [
@@ -414,9 +414,9 @@
       "ownerId": null,
       "ownerName": null,
       "auctionCost": 0,
-      "seasonPoints": 80,
-      "avgScore": 6.92,
-      "trend": 0.33,
+      "seasonPoints": 98,
+      "avgScore": 7.15,
+      "trend": 0.67,
       "image": "https://cdn.moviepilot.de/files/63a668a75e00853095c9fb65114409b3edba3886cce5ce24e959ffcaa148/copyright/Tatyana-M-Ali-2.jpg",
       "knownFor": "The Fresh Prince of Bel-Air • actor and singer",
       "danceBackground": "Performance background — Broadway-trained actor and recording artist; no ballroom record",
@@ -2931,7 +2931,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -2950,9 +2955,14 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 21,
-          "bonusesPending": true,
-          "danceOffBonus": 1
+          "fantasyPoints": 22,
+          "bonusesPending": false,
+          "danceOffBonus": 1,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "jenna-dewan",
@@ -2971,11 +2981,15 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true,
+          "fantasyPoints": 21,
+          "bonusesPending": false,
           "danceOffBonus": 1,
           "eliminated": true,
-          "eliminationPenalty": -1
+          "eliminationPenalty": -1,
+          "judgesPlacement": 2,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "lockPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -2995,7 +3009,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -3014,8 +3033,13 @@
           ],
           "average": 9.67,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 22,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "maura-higgins",
@@ -3036,13 +3060,43 @@
           "basePoints": 18,
           "fantasyPoints": 19,
           "danceOffBonus": 1,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
+        },
+        {
+          "dancerId": "tatyana-ali",
+          "dancerName": "Tatyana Ali",
+          "proName": "Jan Ravnik",
+          "ownerId": null,
+          "judges": [
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         }
       ],
       "locks": {},
       "locksFinalized": true,
-      "status": "in-progress",
-      "scoringNotes": "Top three averaged, rounded up and doubled; placement bonuses pending. No Locks or Bux.",
+      "status": "final",
+      "scoringNotes": "All seven individual scores final. Harry: +2 judges; Amber and Jenna: +1 judges each. Existing dance-off bonuses retained once: Amber, Jenna, Maura +1 each. Jenna -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
       "danceOffs": [
         {
           "id": "week9-amber-ezra-danceoff",
@@ -3070,7 +3124,10 @@
       ],
       "eliminations": [
         "jenna-dewan"
-      ]
+      ],
+      "scoresComplete": true,
+      "judgesBonusesFinalized": true,
+      "finalizedAt": "2026-11-11T03:43:44.469Z"
     }
   ],
   "transactions": [
@@ -4329,6 +4386,22 @@
       "detail": "Jackson receives −1 elimination penalty. Jenna leaves the active roster but retains Jackson’s team color, skull, ownership history, and base-only dancer scores. Her dance-off bonus remains counted. Judges-placement bonuses pending Tatyana’s missing individual score.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-tatyana-score",
+      "title": "Tatyana Ali: 9–9–9",
+      "detail": "27 judges’ points; average 9 doubled to 18 base points. Tatyana is unowned; no participant receives her points.",
+      "type": "scoring",
+      "date": "November 10, 2026",
+      "week": 9
+    },
+    {
+      "id": "week9-final-bonuses",
+      "title": "Week 9 results finalized",
+      "detail": "Added outstanding judges bonuses: Mattie +2 for Harry, Colton +1 for Amber, Jackson +1 for Jenna. Previously awarded dance-off bonuses and Jenna’s elimination penalty retained without double counting. All seven scores recorded.",
+      "type": "scoring",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4338,7 +4411,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-jenna-eliminated",
+    "revision": "2026-11-10-week9-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6460,6 +6533,22 @@
         "detail": "Jackson receives −1 elimination penalty. Jenna leaves the active roster but retains Jackson’s team color, skull, ownership history, and base-only dancer scores. Her dance-off bonus remains counted. Judges-placement bonuses pending Tatyana’s missing individual score.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-tatyana-score",
+        "title": "Tatyana Ali: 9–9–9",
+        "detail": "27 judges’ points; average 9 doubled to 18 base points. Tatyana is unowned; no participant receives her points.",
+        "type": "scoring",
+        "date": "November 10, 2026",
+        "week": 9
+      },
+      {
+        "id": "week9-final-bonuses",
+        "title": "Week 9 results finalized",
+        "detail": "Added outstanding judges bonuses: Mattie +2 for Harry, Colton +1 for Amber, Jackson +1 for Jenna. Previously awarded dance-off bonuses and Jenna’s elimination penalty retained without double counting. All seven scores recorded.",
+        "type": "scoring",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6547,7 +6636,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:42:33.887Z",
+    "updatedAt": "2026-11-11T03:43:44.469Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
