@@ -68,7 +68,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 127,
+      "points": 145,
       "movement": 0
     },
     {
@@ -536,9 +536,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 80,
-      "avgScore": 6.92,
-      "trend": -1.67,
+      "seasonPoints": 98,
+      "avgScore": 7.15,
+      "trend": 1,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -2971,6 +2971,26 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4179,6 +4199,14 @@
       "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-connor-score",
+      "type": "scoring",
+      "title": "Connor Wood: 9–9–9",
+      "detail": "27 judges’ points. Average 9, doubled to 18 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4188,7 +4216,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-jenna",
+    "revision": "2026-11-10-week9-connor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6254,6 +6282,14 @@
         "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-connor-score",
+        "type": "scoring",
+        "title": "Connor Wood: 9–9–9",
+        "detail": "27 judges’ points. Average 9, doubled to 18 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6341,7 +6377,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T02:45:22.835Z",
+    "updatedAt": "2026-11-11T03:02:59.571Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
