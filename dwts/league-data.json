@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 8,
-    "phase": "Week 8 • live scoring",
+    "week": 9,
+    "phase": "Week 9 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-11-02",
+    "lastUpdated": "2026-11-10",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -82,7 +82,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 139,
+      "points": 157,
       "movement": 0
     },
     {
@@ -381,9 +381,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 95,
-      "avgScore": 8.17,
-      "trend": 0.33,
+      "seasonPoints": 113,
+      "avgScore": 8.26,
+      "trend": -0.33,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -2820,6 +2820,37 @@
       "eliminations": [
         "julia-stiles"
       ]
+    },
+    {
+      "week": 9,
+      "label": "Week 9",
+      "date": "2026-11-10",
+      "performances": [
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "judges": [
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 18,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {},
+      "locksFinalized": true,
+      "status": "in-progress",
+      "scoringNotes": "Top three averaged, rounded up and doubled; placement bonuses pending. No Locks or Bux. Week 8 remains pending final reconciliation."
     }
   ],
   "transactions": [
@@ -3990,6 +4021,14 @@
       "detail": "Julia is unowned, so no participant loses points. Removed from the available pool and marked with a skull; score and ownership history preserved. Individual Week 8 score still missing from shared record; final scoring pending.",
       "date": "November 2, 2026",
       "week": 8
+    },
+    {
+      "id": "week9-ezra-score",
+      "type": "scoring",
+      "title": "Ezra Frech: 9–9–9",
+      "detail": "27 judges’ points; average 9, doubled to 18 base points for Jessica. Placement bonuses pending. No Locks or Bux; individual dancer totals remain bonus-free. Prior Week 8 final reconciliation still pending.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -3999,7 +4038,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-02-week8-julia-eliminated",
+    "revision": "2026-11-10-week9-ezra",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6033,6 +6072,14 @@
         "detail": "Julia is unowned, so no participant loses points. Removed from the available pool and marked with a skull; score and ownership history preserved. Individual Week 8 score still missing from shared record; final scoring pending.",
         "date": "November 2, 2026",
         "week": 8
+      },
+      {
+        "id": "week9-ezra-score",
+        "type": "scoring",
+        "title": "Ezra Frech: 9–9–9",
+        "detail": "27 judges’ points; average 9, doubled to 18 base points for Jessica. Placement bonuses pending. No Locks or Bux; individual dancer totals remain bonus-free. Prior Week 8 final reconciliation still pending.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6120,7 +6167,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-03T03:05:55.726Z",
+    "updatedAt": "2026-11-11T02:18:27.670Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
