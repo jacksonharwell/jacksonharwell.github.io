@@ -61,7 +61,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 130,
+      "points": 131,
       "movement": 0
     },
     {
@@ -2949,8 +2949,9 @@
           ],
           "average": 9.33,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": true,
+          "danceOffBonus": 1
         },
         {
           "dancerId": "jenna-dewan",
@@ -3016,7 +3017,16 @@
       "locks": {},
       "locksFinalized": true,
       "status": "in-progress",
-      "scoringNotes": "Top three averaged, rounded up and doubled; placement bonuses pending. No Locks or Bux."
+      "scoringNotes": "Top three averaged, rounded up and doubled; placement bonuses pending. No Locks or Bux.",
+      "danceOffs": [
+        {
+          "id": "week9-amber-ezra-danceoff",
+          "winnerDancerId": "amber-glenn",
+          "loserDancerId": "ezra-frech",
+          "bonus": 1,
+          "bonusesApplied": true
+        }
+      ]
     }
   ],
   "transactions": [
@@ -4235,6 +4245,14 @@
       "detail": "29 judges’ points. Average 9.67, rounded up to 10 and doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-amber-ezra-danceoff",
+      "type": "scoring",
+      "title": "Amber & Pasha win dance-off",
+      "detail": "Amber Glenn & Pasha Pashkov beat Ezra Frech & Daniella Karagach. Colton receives +1 dance-off point (not doubled). Jessica receives no deduction. Individual dancer base scores remain unchanged.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4244,7 +4262,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-harry",
+    "revision": "2026-11-10-week9-amber-danceoff",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6326,6 +6344,14 @@
         "detail": "29 judges’ points. Average 9.67, rounded up to 10 and doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-amber-ezra-danceoff",
+        "type": "scoring",
+        "title": "Amber & Pasha win dance-off",
+        "detail": "Amber Glenn & Pasha Pashkov beat Ezra Frech & Daniella Karagach. Colton receives +1 dance-off point (not doubled). Jessica receives no deduction. Individual dancer base scores remain unchanged.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6413,7 +6439,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:10:24.707Z",
+    "updatedAt": "2026-11-11T03:21:55.003Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
