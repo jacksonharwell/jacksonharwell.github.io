@@ -61,7 +61,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 110,
+      "points": 130,
       "movement": 0
     },
     {
@@ -188,9 +188,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 45,
-      "seasonPoints": 92,
-      "avgScore": 8.08,
-      "trend": -0.33,
+      "seasonPoints": 112,
+      "avgScore": 8.22,
+      "trend": 0.67,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -2931,6 +2931,26 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "colton",
+          "judges": [
+            9,
+            9,
+            10
+          ],
+          "countedJudges": [
+            10,
+            9,
+            9
+          ],
+          "average": 9.33,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4123,6 +4143,14 @@
       "detail": "Recorded Tatyana’s confirmed 9–8–8–8 and Julia’s previously supplied 8–8–8–9: 18 base points each. Added outstanding judges bonuses only: Jackson +2, Mattie +2, Jessica +1. Group bonuses were already credited. Julia’s elimination costs no participant points. Week 9 scores preserved.",
       "date": "November 10, 2026",
       "week": 8
+    },
+    {
+      "id": "week9-amber-score",
+      "type": "scoring",
+      "title": "Amber Glenn: 9–9–10",
+      "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4132,7 +4160,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week8-reconciled",
+    "revision": "2026-11-10-week9-amber",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6182,6 +6210,14 @@
         "detail": "Recorded Tatyana’s confirmed 9–8–8–8 and Julia’s previously supplied 8–8–8–9: 18 base points each. Added outstanding judges bonuses only: Jackson +2, Mattie +2, Jessica +1. Group bonuses were already credited. Julia’s elimination costs no participant points. Week 9 scores preserved.",
         "date": "November 10, 2026",
         "week": 8
+      },
+      {
+        "id": "week9-amber-score",
+        "type": "scoring",
+        "title": "Amber Glenn: 9–9–10",
+        "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6269,7 +6305,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T02:20:24.463Z",
+    "updatedAt": "2026-11-11T02:27:30.810Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
