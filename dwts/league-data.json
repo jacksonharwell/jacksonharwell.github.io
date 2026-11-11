@@ -89,7 +89,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 141,
+      "points": 159,
       "movement": 0
     }
   ],
@@ -307,9 +307,9 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 76,
-      "seasonPoints": 88,
-      "avgScore": 7.83,
-      "trend": -0.33,
+      "seasonPoints": 106,
+      "avgScore": 7.96,
+      "trend": 1,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
       "danceBackground": "Moderate — childhood Irish dancing plus Dancing on Ice choreography",
@@ -3013,6 +3013,27 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "squid",
+          "judges": [
+            9,
+            9,
+            9
+          ],
+          "countedJudges": [
+            9,
+            9,
+            9
+          ],
+          "average": 9,
+          "basePoints": 18,
+          "fantasyPoints": 19,
+          "danceOffBonus": 1,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -3041,7 +3062,7 @@
           "ownerId": "squid",
           "bonus": 1,
           "bonusesApplied": true,
-          "performanceBonusLinked": false
+          "performanceBonusLinked": true
         }
       ]
     }
@@ -4286,6 +4307,14 @@
       "detail": "Maura Higgins & Mark Ballas beat Connor Wood & Rylee Arnold. Squid receives +1 dance-off point, already credited separately while Maura’s individual judges’ scores are pending. Do not credit twice when her performance is added. No deduction for Payton. Individual dancer bars unchanged.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 9–9–9",
+      "detail": "27 judges’ points. Average 9, doubled to 18 base points for Squid. Maura’s +1 dance-off bonus was already credited and is now linked to her performance, not added again. Week total so far: 19 team points. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4295,7 +4324,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-maura-danceoff",
+    "revision": "2026-11-10-week9-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6401,6 +6430,14 @@
         "detail": "Maura Higgins & Mark Ballas beat Connor Wood & Rylee Arnold. Squid receives +1 dance-off point, already credited separately while Maura’s individual judges’ scores are pending. Do not credit twice when her performance is added. No deduction for Payton. Individual dancer bars unchanged.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 9–9–9",
+        "detail": "27 judges’ points. Average 9, doubled to 18 base points for Squid. Maura’s +1 dance-off bonus was already credited and is now linked to her performance, not added again. Week total so far: 19 team points. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6488,7 +6525,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:37:53.461Z",
+    "updatedAt": "2026-11-11T03:38:40.866Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
