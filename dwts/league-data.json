@@ -54,7 +54,7 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 112,
+      "points": 132,
       "movement": 0
     },
     {
@@ -102,9 +102,9 @@
       "ownerId": "jackson",
       "ownerName": "Jackson",
       "auctionCost": 107,
-      "seasonPoints": 97,
-      "avgScore": 8.25,
-      "trend": 0.67,
+      "seasonPoints": 117,
+      "avgScore": 8.37,
+      "trend": -0.67,
       "image": "https://img.topnews.live/resize-4/photos/638442959231964057.jpg",
       "knownFor": "The Rookie • Step Up • actor and dancer",
       "danceBackground": "Elite — former professional backup dancer for Janet Jackson, Missy Elliott and others",
@@ -2951,6 +2951,26 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "jenna-dewan",
+          "dancerName": "Jenna Dewan",
+          "proName": "Val Chmerkovskiy",
+          "ownerId": "jackson",
+          "judges": [
+            10,
+            9,
+            9
+          ],
+          "countedJudges": [
+            10,
+            9,
+            9
+          ],
+          "average": 9.33,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4151,6 +4171,14 @@
       "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week9-jenna-score",
+      "type": "scoring",
+      "title": "Jenna Dewan: 10–9–9",
+      "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 10, 2026",
+      "week": 9
     }
   ],
   "locks": [],
@@ -4160,7 +4188,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-amber",
+    "revision": "2026-11-10-week9-jenna",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6218,6 +6246,14 @@
         "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Colton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week9-jenna-score",
+        "type": "scoring",
+        "title": "Jenna Dewan: 10–9–9",
+        "detail": "28 judges’ points. Average 9.33, rounded up to 10 and doubled to 20 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 10, 2026",
+        "week": 9
       }
     ],
     "locks": {},
@@ -6305,7 +6341,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T02:27:30.810Z",
+    "updatedAt": "2026-11-11T02:45:22.835Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
