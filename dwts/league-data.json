@@ -75,7 +75,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 162,
+      "points": 182,
       "movement": 0
     },
     {
@@ -146,9 +146,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 81,
-      "seasonPoints": 115,
-      "avgScore": 8.44,
-      "trend": -0.33,
+      "seasonPoints": 135,
+      "avgScore": 8.6,
+      "trend": 0.33,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -3156,6 +3156,26 @@
           "basePoints": 16,
           "fantasyPoints": 16,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "mattie",
+          "judges": [
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4456,6 +4476,14 @@
       "detail": "24 judges’ points; average 8 doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-harry-score",
+      "type": "scoring",
+      "title": "Harry Shum Jr. & Jenna Johnson: 10–10–10",
+      "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4465,7 +4493,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-tatyana-connor",
+    "revision": "2026-11-17-week10-harry",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6623,6 +6651,14 @@
         "detail": "24 judges’ points; average 8 doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-harry-score",
+        "type": "scoring",
+        "title": "Harry Shum Jr. & Jenna Johnson: 10–10–10",
+        "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -6710,7 +6746,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T01:14:34.348Z",
+    "updatedAt": "2026-11-18T01:24:27.794Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
