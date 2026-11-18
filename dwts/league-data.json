@@ -89,7 +89,7 @@
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 159,
+      "points": 179,
       "movement": -1
     }
   ],
@@ -308,8 +308,8 @@
       "ownerId": "squid",
       "ownerName": "Squid",
       "auctionCost": 76,
-      "seasonPoints": 106,
-      "avgScore": 7.96,
+      "seasonPoints": 126,
+      "avgScore": 8.17,
       "trend": 1,
       "image": "https://hips.hearstapps.com/hmg-prod/images/8b12eeb6-8ef2-4348-ad0f-52ffcbb0fa60.jpg",
       "knownFor": "Love Island UK • The Traitors • TV presenter",
@@ -3176,6 +3176,26 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "maura-higgins",
+          "dancerName": "Maura Higgins",
+          "proName": "Mark Ballas",
+          "ownerId": "squid",
+          "judges": [
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4484,6 +4504,14 @@
       "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-maura-score",
+      "type": "scoring",
+      "title": "Maura Higgins: 10–10–10",
+      "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4493,7 +4521,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-harry",
+    "revision": "2026-11-17-week10-maura",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6659,6 +6687,14 @@
         "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Mattie. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-maura-score",
+        "type": "scoring",
+        "title": "Maura Higgins: 10–10–10",
+        "detail": "Perfect 30 judges’ points. Average 10, doubled to 20 base points for Squid. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -6746,7 +6782,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T01:24:27.794Z",
+    "updatedAt": "2026-11-18T01:30:25.312Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
