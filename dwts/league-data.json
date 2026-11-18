@@ -82,7 +82,7 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 176,
+      "points": 196,
       "movement": -2
     },
     {
@@ -382,9 +382,9 @@
       "ownerId": "jessica",
       "ownerName": "Jessica",
       "auctionCost": 51,
-      "seasonPoints": 131,
-      "avgScore": 8.33,
-      "trend": 0,
+      "seasonPoints": 151,
+      "avgScore": 8.48,
+      "trend": 1,
       "image": "https://d2779tscntxxsw.cloudfront.net/688ce4f2d5896.png?quality=80&width=1200",
       "knownFor": "Paralympic champion • track and field",
       "danceBackground": "No formal training established — elite explosiveness, balance and body control",
@@ -3319,6 +3319,27 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "ezra-frech",
+          "dancerName": "Ezra Frech",
+          "proName": "Daniella Karagach",
+          "ownerId": "jessica",
+          "danceNumber": 2,
+          "judges": [
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4683,6 +4704,14 @@
       "detail": "Second separately judged dance earns 20 additional base points for Squid. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-ezra-frech-dance2",
+      "type": "scoring",
+      "title": "Ezra Frech, second dance: 10–10–10",
+      "detail": "Second separately judged dance earns 20 additional base points for Jessica. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4692,7 +4721,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-maura-dance2",
+    "revision": "2026-11-17-week10-ezra-dance2",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6914,6 +6943,14 @@
         "detail": "Second separately judged dance earns 20 additional base points for Squid. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-ezra-frech-dance2",
+        "type": "scoring",
+        "title": "Ezra Frech, second dance: 10–10–10",
+        "detail": "Second separately judged dance earns 20 additional base points for Jessica. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -7001,7 +7038,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T02:28:40.052Z",
+    "updatedAt": "2026-11-18T02:33:31.737Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
