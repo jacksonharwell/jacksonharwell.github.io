@@ -68,14 +68,14 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 161,
+      "points": 177,
       "movement": 0
     },
     {
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 182,
+      "points": 202,
       "movement": 0
     },
     {
@@ -146,9 +146,9 @@
       "ownerId": "mattie",
       "ownerName": "Mattie",
       "auctionCost": 81,
-      "seasonPoints": 135,
-      "avgScore": 8.6,
-      "trend": 0.33,
+      "seasonPoints": 155,
+      "avgScore": 8.73,
+      "trend": 0,
       "image": "https://p7.hiclipart.com/preview/501/692/934/harry-shum-jr-mike-chang-shadowhunters-t-shirt-actor-t-shirt.jpg",
       "knownFor": "Glee • Grey's Anatomy • Step Up",
       "danceBackground": "Elite — professional dancer, choreographer and former backup dancer",
@@ -540,9 +540,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 114,
-      "avgScore": 7.23,
-      "trend": -1,
+      "seasonPoints": 130,
+      "avgScore": 7.3,
+      "trend": 0,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -3256,12 +3256,54 @@
           "basePoints": 18,
           "fantasyPoints": 18,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "danceNumber": 2,
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
+        },
+        {
+          "dancerId": "harry-shum-jr",
+          "dancerName": "Harry Shum Jr.",
+          "proName": "Jenna Johnson",
+          "ownerId": "mattie",
+          "danceNumber": 2,
+          "judges": [
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
       "locksFinalized": true,
       "status": "in-progress",
-      "scoringNotes": "Top three judges averaged, rounded up and doubled. Placement bonuses pending. No Locks or Bux. Jackson claimed Tatyana effective Week 10; earlier points remain unchanged."
+      "scoringNotes": "Top three judges averaged, rounded up and doubled. Placement bonuses pending. No Locks or Bux. Jackson claimed Tatyana effective Week 10; earlier points remain unchanged. Multiple individually judged dances are scored separately; nightly placement bonuses remain pending all dances."
     }
   ],
   "transactions": [
@@ -4596,6 +4638,22 @@
       "detail": "27 judges’ points. Average 9, doubled to 18 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-connor-wood-dance2",
+      "type": "scoring",
+      "title": "Connor Wood, second dance: 8–8–8",
+      "detail": "Second separately judged dance earns 16 additional base points for Payton. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
+    },
+    {
+      "id": "week10-harry-shum-jr-dance2",
+      "type": "scoring",
+      "title": "Harry Shum Jr., second dance: 10–10–10",
+      "detail": "Second separately judged dance earns 20 additional base points for Mattie. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4605,7 +4663,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-tatyana",
+    "revision": "2026-11-17-week10-connor-harry-dance2",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6803,6 +6861,22 @@
         "detail": "27 judges’ points. Average 9, doubled to 18 base points for Jackson. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-connor-wood-dance2",
+        "type": "scoring",
+        "title": "Connor Wood, second dance: 8–8–8",
+        "detail": "Second separately judged dance earns 16 additional base points for Payton. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
+      },
+      {
+        "id": "week10-harry-shum-jr-dance2",
+        "type": "scoring",
+        "title": "Harry Shum Jr., second dance: 10–10–10",
+        "detail": "Second separately judged dance earns 20 additional base points for Mattie. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -6890,7 +6964,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T01:57:01.216Z",
+    "updatedAt": "2026-11-18T02:16:18.517Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
