@@ -2,14 +2,14 @@
   "league": {
     "name": "DWTS Fantasy League",
     "season": "2026",
-    "week": 9,
-    "phase": "Week 9 • final results",
+    "week": 10,
+    "phase": "Week 10 • live scoring",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-11-10",
+    "lastUpdated": "2026-11-17",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -68,7 +68,7 @@
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 145,
+      "points": 161,
       "movement": 0
     },
     {
@@ -411,8 +411,8 @@
       "name": "Tatyana Ali",
       "status": "confirmed",
       "pro": "Jan Ravnik",
-      "ownerId": null,
-      "ownerName": null,
+      "ownerId": "jackson",
+      "ownerName": "Jackson",
       "auctionCost": 0,
       "seasonPoints": 98,
       "avgScore": 7.15,
@@ -443,7 +443,10 @@
           "releasedWeek": 6,
           "reason": "Midseason shakeup; confirmed unowned"
         }
-      ]
+      ],
+      "acquisition": "waiver",
+      "acquiredWeek": 10,
+      "acquiredAt": "2026-11-18T01:14:34.348Z"
     },
     {
       "id": "taylor-hanson",
@@ -537,9 +540,9 @@
       "ownerId": "payton",
       "ownerName": "Payton",
       "auctionCost": 41,
-      "seasonPoints": 98,
-      "avgScore": 7.15,
-      "trend": 1,
+      "seasonPoints": 114,
+      "avgScore": 7.23,
+      "trend": -1,
       "image": "https://images.squarespace-cdn.com/content/v1/5e8a4dc046d9d05b34c80fcf/533baae0-7e9f-478b-849e-80044d49c489/ConnorWood_EditedSelects-10%2B%281%29.jpg?format=2500w",
       "knownFor": "Comedian • TikTok • Brooke and Connor podcast",
       "danceBackground": "No formal training established — stage comfort and comic performance",
@@ -3128,6 +3131,37 @@
       "scoresComplete": true,
       "judgesBonusesFinalized": true,
       "finalizedAt": "2026-11-11T03:43:44.469Z"
+    },
+    {
+      "week": 10,
+      "label": "Week 10",
+      "date": "2026-11-17",
+      "performances": [
+        {
+          "dancerId": "connor-wood",
+          "dancerName": "Connor Wood",
+          "proName": "Rylee Arnold",
+          "ownerId": "payton",
+          "judges": [
+            8,
+            8,
+            8
+          ],
+          "countedJudges": [
+            8,
+            8,
+            8
+          ],
+          "average": 8,
+          "basePoints": 16,
+          "fantasyPoints": 16,
+          "bonusesPending": true
+        }
+      ],
+      "locks": {},
+      "locksFinalized": true,
+      "status": "in-progress",
+      "scoringNotes": "Top three judges averaged, rounded up and doubled. Placement bonuses pending. No Locks or Bux. Jackson claimed Tatyana effective Week 10; earlier points remain unchanged."
     }
   ],
   "transactions": [
@@ -4402,6 +4436,26 @@
       "type": "scoring",
       "date": "November 10, 2026",
       "week": 9
+    },
+    {
+      "id": "week10-jackson-tatyana-claim",
+      "type": "waiver",
+      "title": "Jackson claimed Tatyana Ali",
+      "detail": "Tatyana & Jan join Jackson effective Week 10 for 0 Bux. Jenna remains eliminated with historical ownership intact. No prior dancer points transfer.",
+      "ownerId": "jackson",
+      "dancerId": "tatyana-ali",
+      "cost": 0,
+      "effectiveWeek": 10,
+      "date": "November 17, 2026",
+      "week": 10
+    },
+    {
+      "id": "week10-connor-score",
+      "type": "scoring",
+      "title": "Connor Wood: 8–8–8",
+      "detail": "24 judges’ points; average 8 doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4411,7 +4465,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-10-week9-final",
+    "revision": "2026-11-17-week10-tatyana-connor",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -4506,7 +4560,7 @@
       "squid": 0
     },
     "ownershipOverrides": {
-      "tatyana-ali": null,
+      "tatyana-ali": "jackson",
       "guillermo-rodriguez": "jackson",
       "ezra-frech": "jessica",
       "maura-higgins": "squid",
@@ -6549,6 +6603,26 @@
         "type": "scoring",
         "date": "November 10, 2026",
         "week": 9
+      },
+      {
+        "id": "week10-jackson-tatyana-claim",
+        "type": "waiver",
+        "title": "Jackson claimed Tatyana Ali",
+        "detail": "Tatyana & Jan join Jackson effective Week 10 for 0 Bux. Jenna remains eliminated with historical ownership intact. No prior dancer points transfer.",
+        "ownerId": "jackson",
+        "dancerId": "tatyana-ali",
+        "cost": 0,
+        "effectiveWeek": 10,
+        "date": "November 17, 2026",
+        "week": 10
+      },
+      {
+        "id": "week10-connor-score",
+        "type": "scoring",
+        "title": "Connor Wood: 8–8–8",
+        "detail": "24 judges’ points; average 8 doubled to 16 base points for Payton. Placement bonuses pending. No Locks or Bux; individual dancer points remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -6636,7 +6710,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-11T03:43:44.469Z",
+    "updatedAt": "2026-11-18T01:14:34.348Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
