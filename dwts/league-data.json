@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 10,
-    "phase": "Week 10 • live scoring",
+    "phase": "Week 10 • final",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -55,14 +55,14 @@
       "name": "Jackson",
       "bux": 0,
       "points": 171,
-      "movement": 0
+      "movement": -1
     },
     {
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 172,
-      "movement": 0
+      "points": 174,
+      "movement": 1
     },
     {
       "id": "payton",
@@ -75,7 +75,7 @@
       "id": "mattie",
       "name": "Mattie",
       "bux": 0,
-      "points": 202,
+      "points": 203,
       "movement": 0
     },
     {
@@ -83,14 +83,14 @@
       "name": "Jessica",
       "bux": 0,
       "points": 196,
-      "movement": -2
+      "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 199,
-      "movement": -1
+      "points": 200,
+      "movement": 0
     }
   ],
   "dancers": [
@@ -141,7 +141,7 @@
     {
       "id": "harry-shum-jr",
       "name": "Harry Shum Jr.",
-      "status": "confirmed",
+      "status": "eliminated",
       "pro": "Jenna Johnson",
       "ownerId": "mattie",
       "ownerName": "Mattie",
@@ -179,7 +179,8 @@
       ],
       "acquisition": "shakeup",
       "acquiredWeek": 6,
-      "acquiredAt": "2026-10-21T00:43:02.849Z"
+      "acquiredAt": "2026-10-21T00:43:02.849Z",
+      "eliminatedWeek": 10
     },
     {
       "id": "amber-glenn",
@@ -3155,7 +3156,12 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -3175,7 +3181,12 @@
           "average": 10,
           "basePoints": 20,
           "fantasyPoints": 20,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "maura-higgins",
@@ -3195,7 +3206,12 @@
           "average": 10,
           "basePoints": 20,
           "fantasyPoints": 20,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 3,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "ezra-frech",
@@ -3215,7 +3231,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -3235,7 +3256,12 @@
           "average": 10,
           "basePoints": 20,
           "fantasyPoints": 20,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -3255,7 +3281,12 @@
           "average": 9,
           "basePoints": 18,
           "fantasyPoints": 18,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 5,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "connor-wood",
@@ -3276,7 +3307,12 @@
           "average": 8,
           "basePoints": 16,
           "fantasyPoints": 16,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 6,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "harry-shum-jr",
@@ -3296,8 +3332,14 @@
           ],
           "average": 10,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": -1,
+          "eliminated": true
         },
         {
           "dancerId": "maura-higgins",
@@ -3317,8 +3359,13 @@
           ],
           "average": 9.67,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 21,
+          "bonusesPending": false,
+          "judgesPlacement": 3,
+          "judgesBonus": 1,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "ezra-frech",
@@ -3339,7 +3386,12 @@
           "average": 10,
           "basePoints": 20,
           "fantasyPoints": 20,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 4,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "amber-glenn",
@@ -3359,8 +3411,13 @@
           ],
           "average": 10,
           "basePoints": 20,
-          "fantasyPoints": 20,
-          "bonusesPending": true
+          "fantasyPoints": 22,
+          "bonusesPending": false,
+          "judgesPlacement": 1,
+          "judgesBonus": 2,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         },
         {
           "dancerId": "tatyana-ali",
@@ -3381,13 +3438,24 @@
           "average": 9.33,
           "basePoints": 20,
           "fantasyPoints": 20,
-          "bonusesPending": true
+          "bonusesPending": false,
+          "judgesPlacement": 5,
+          "judgesBonus": 0,
+          "lockBonus": 0,
+          "lockPenalty": 0,
+          "eliminationPenalty": 0
         }
       ],
       "locks": {},
       "locksFinalized": true,
-      "status": "in-progress",
-      "scoringNotes": "Top three judges averaged, rounded up and doubled. Placement bonuses pending. No Locks or Bux. Jackson claimed Tatyana effective Week 10; earlier points remain unchanged. Multiple individually judged dances are scored separately; nightly placement bonuses remain pending all dances."
+      "status": "final",
+      "scoringNotes": "Two individual dances per dancer, each scored separately. Nightly combined judges totals: Harry and Amber 60 (+2 each); Maura 59 (+1); Ezra 57; Tatyana 55; Connor 48. Placement bonuses applied once per dancer on the second performance. Harry -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
+      "eliminations": [
+        "harry-shum-jr"
+      ],
+      "scoresComplete": true,
+      "judgesBonusesFinalized": true,
+      "finalizedAt": "2026-11-18T03:06:38.994Z"
     }
   ],
   "transactions": [
@@ -4770,6 +4838,14 @@
       "detail": "Second separately judged dance earns 20 additional base points for Jackson. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-final-results",
+      "type": "scoring",
+      "title": "Week 10 finalized • Harry eliminated",
+      "detail": "Two individual dances per dancer, each scored separately. Nightly combined judges totals: Harry and Amber 60 (+2 each); Maura 59 (+1); Ezra 57; Tatyana 55; Connor 48. Placement bonuses applied once per dancer on the second performance. Harry -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4779,7 +4855,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-tatyana-dance2",
+    "revision": "2026-11-17-week10-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7025,6 +7101,14 @@
         "detail": "Second separately judged dance earns 20 additional base points for Jackson. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-final-results",
+        "type": "scoring",
+        "title": "Week 10 finalized • Harry eliminated",
+        "detail": "Two individual dances per dancer, each scored separately. Nightly combined judges totals: Harry and Amber 60 (+2 each); Maura 59 (+1); Ezra 57; Tatyana 55; Connor 48. Placement bonuses applied once per dancer on the second performance. Harry -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -7112,7 +7196,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T02:52:54.885Z",
+    "updatedAt": "2026-11-18T03:06:38.994Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
