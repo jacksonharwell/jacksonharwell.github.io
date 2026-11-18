@@ -61,7 +61,7 @@
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 152,
+      "points": 172,
       "movement": 0
     },
     {
@@ -189,9 +189,9 @@
       "ownerId": "colton",
       "ownerName": "Colton",
       "auctionCost": 45,
-      "seasonPoints": 132,
-      "avgScore": 8.4,
-      "trend": 0.67,
+      "seasonPoints": 152,
+      "avgScore": 8.55,
+      "trend": 0,
       "image": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-02/USATSI_27985352.jpg?itok=RcnS5d0r",
       "knownFor": "Olympic champion • U.S. figure skater",
       "danceBackground": "Strong crossover — elite musicality, edges, spins, lines and performance from figure skating",
@@ -3340,6 +3340,27 @@
           "basePoints": 20,
           "fantasyPoints": 20,
           "bonusesPending": true
+        },
+        {
+          "dancerId": "amber-glenn",
+          "dancerName": "Amber Glenn",
+          "proName": "Pasha Pashkov",
+          "ownerId": "colton",
+          "danceNumber": 2,
+          "judges": [
+            10,
+            10,
+            10
+          ],
+          "countedJudges": [
+            10,
+            10,
+            10
+          ],
+          "average": 10,
+          "basePoints": 20,
+          "fantasyPoints": 20,
+          "bonusesPending": true
         }
       ],
       "locks": {},
@@ -4712,6 +4733,14 @@
       "detail": "Second separately judged dance earns 20 additional base points for Jessica. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "week10-amber-glenn-dance2",
+      "type": "scoring",
+      "title": "Amber Glenn, second dance: 10–10–10",
+      "detail": "Second separately judged dance earns 20 additional base points for Colton. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+      "date": "November 17, 2026",
+      "week": 10
     }
   ],
   "locks": [],
@@ -4721,7 +4750,7 @@
     "Full 16-couple cast and official professional pairings added Sept. 2."
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-ezra-dance2",
+    "revision": "2026-11-17-week10-amber-dance2",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -6951,6 +6980,14 @@
         "detail": "Second separately judged dance earns 20 additional base points for Jessica. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "week10-amber-glenn-dance2",
+        "type": "scoring",
+        "title": "Amber Glenn, second dance: 10–10–10",
+        "detail": "Second separately judged dance earns 20 additional base points for Colton. First-dance scores preserved. Nightly placement bonuses pending; no Locks or Bux. Individual dancer scores remain bonus-free.",
+        "date": "November 17, 2026",
+        "week": 10
       }
     ],
     "locks": {},
@@ -7038,7 +7075,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T02:33:31.737Z",
+    "updatedAt": "2026-11-18T02:47:07.688Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
