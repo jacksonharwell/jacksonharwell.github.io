@@ -4877,6 +4877,14 @@
       "detail": "Mattie's finale picks: 1. Amber Glenn; 2. Ezra Frech; 3. Maura Higgins; 4. Connor Wood; 5. Tatyana Ali. Squid picks next. Prediction points pending final results.",
       "date": "November 24, 2026",
       "week": 11
+    },
+    {
+      "id": "finale-jessica-picks",
+      "type": "finale",
+      "title": "Jessica's finale predictions recorded",
+      "detail": "Jessica's finale picks: 1. Ezra Frech; 2. Connor Wood; 3. Amber Glenn; 4. Tatyana Ali; 5. Maura Higgins. Recorded ahead of Squid at commissioner's request; Squid's predictions remain pending. Prediction points pending final results.",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
@@ -4887,7 +4895,7 @@
     "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-24-finale-mattie-picks",
+    "revision": "2026-11-24-finale-jessica-picks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7157,6 +7165,14 @@
         "detail": "Mattie's finale picks: 1. Amber Glenn; 2. Ezra Frech; 3. Maura Higgins; 4. Connor Wood; 5. Tatyana Ali. Squid picks next. Prediction points pending final results.",
         "date": "November 24, 2026",
         "week": 11
+      },
+      {
+        "id": "finale-jessica-picks",
+        "type": "finale",
+        "title": "Jessica's finale predictions recorded",
+        "detail": "Jessica's finale picks: 1. Ezra Frech; 2. Connor Wood; 3. Amber Glenn; 4. Tatyana Ali; 5. Maura Higgins. Recorded ahead of Squid at commissioner's request; Squid's predictions remain pending. Prediction points pending final results.",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7244,7 +7260,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-24T21:57:02.396Z",
+    "updatedAt": "2026-11-24T22:14:58.259Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
@@ -7372,6 +7388,13 @@
         "maura-higgins",
         "connor-wood",
         "tatyana-ali"
+      ],
+      "jessica": [
+        "ezra-frech",
+        "connor-wood",
+        "amber-glenn",
+        "tatyana-ali",
+        "maura-higgins"
       ]
     },
     "results": [],
