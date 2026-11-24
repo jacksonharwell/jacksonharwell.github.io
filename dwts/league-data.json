@@ -4893,6 +4893,14 @@
       "detail": "Payton's finale picks: 1. Ezra Frech; 2. Maura Higgins; 3. Connor Wood; 4. Amber Glenn; 5. Tatyana Ali. Squid's predictions remain pending. Prediction points pending final results.",
       "date": "November 24, 2026",
       "week": 11
+    },
+    {
+      "id": "finale-squid-picks",
+      "type": "finale",
+      "title": "Squid's finale predictions recorded",
+      "detail": "Squid's finale picks: 1. Ezra Frech; 2. Maura Higgins; 3. Connor Wood; 4. Amber Glenn; 5. Tatyana Ali. Colton picks next. Prediction points pending final results.",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
@@ -4903,7 +4911,7 @@
     "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-24-finale-payton-picks",
+    "revision": "2026-11-24-finale-squid-picks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7189,6 +7197,14 @@
         "detail": "Payton's finale picks: 1. Ezra Frech; 2. Maura Higgins; 3. Connor Wood; 4. Amber Glenn; 5. Tatyana Ali. Squid's predictions remain pending. Prediction points pending final results.",
         "date": "November 24, 2026",
         "week": 11
+      },
+      {
+        "id": "finale-squid-picks",
+        "type": "finale",
+        "title": "Squid's finale predictions recorded",
+        "detail": "Squid's finale picks: 1. Ezra Frech; 2. Maura Higgins; 3. Connor Wood; 4. Amber Glenn; 5. Tatyana Ali. Colton picks next. Prediction points pending final results.",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7276,7 +7292,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-24T22:43:09.971Z",
+    "updatedAt": "2026-11-24T23:41:43.743Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
@@ -7413,6 +7429,13 @@
         "maura-higgins"
       ],
       "payton": [
+        "ezra-frech",
+        "maura-higgins",
+        "connor-wood",
+        "amber-glenn",
+        "tatyana-ali"
+      ],
+      "squid": [
         "ezra-frech",
         "maura-higgins",
         "connor-wood",
