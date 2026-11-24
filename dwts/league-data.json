@@ -9,7 +9,7 @@
     "draftDate": "Sunday, September 13, 2026",
     "draftTime": "6:00 PM",
     "premiereDate": "Tuesday, September 15, 2026",
-    "lastUpdated": "2026-11-17",
+    "lastUpdated": "2026-11-24",
     "draftISO": "2026-09-13T18:00:00-05:00",
     "officialRecord": true,
     "lockPolicy": {
@@ -47,6 +47,21 @@
       "effectiveDate": "2026-10-20",
       "through": "end of 2026 season",
       "reason": "Commissioner retired Dancer Bux for the remainder of the season"
+    },
+    "finalePolicy": {
+      "date": "2026-11-24",
+      "predictionOrder": [
+        "mattie",
+        "squid",
+        "jessica",
+        "payton",
+        "colton",
+        "jackson"
+      ],
+      "winnerCorrectPoints": 10,
+      "otherPlacementCorrectPoints": 5,
+      "exactPlacementRequired": true,
+      "pointsCarryForward": true
     }
   },
   "owners": [
@@ -4846,16 +4861,25 @@
       "detail": "Two individual dances per dancer, each scored separately. Nightly combined judges totals: Harry and Amber 60 (+2 each); Maura 59 (+1); Ezra 57; Tatyana 55; Connor 48. Placement bonuses applied once per dancer on the second performance. Harry -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
       "date": "November 17, 2026",
       "week": 10
+    },
+    {
+      "id": "2026-finale-prediction-rules",
+      "type": "rules",
+      "title": "Finale prediction rules • 10 for the winner, 5 per other correct placement",
+      "detail": "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
   "notes": [
     "Six-owner league confirmed.",
     "Auction draft: Sunday, Sept. 13 at 6 PM Central, two days before the Sept. 15 premiere.",
-    "Full 16-couple cast and official professional pairings added Sept. 2."
+    "Full 16-couple cast and official professional pairings added Sept. 2.",
+    "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-17-week10-final",
+    "revision": "2026-11-24-finale-prediction-rules",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7109,6 +7133,14 @@
         "detail": "Two individual dances per dancer, each scored separately. Nightly combined judges totals: Harry and Amber 60 (+2 each); Maura 59 (+1); Ezra 57; Tatyana 55; Connor 48. Placement bonuses applied once per dancer on the second performance. Harry -1 elimination. No Locks or Bux. Individual dancer scores remain base-only.",
         "date": "November 17, 2026",
         "week": 10
+      },
+      {
+        "id": "2026-finale-prediction-rules",
+        "type": "rules",
+        "title": "Finale prediction rules • 10 for the winner, 5 per other correct placement",
+        "detail": "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7196,7 +7228,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-18T03:06:38.994Z",
+    "updatedAt": "2026-11-24T21:55:57.718Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
