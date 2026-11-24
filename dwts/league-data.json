@@ -4869,6 +4869,14 @@
       "detail": "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!",
       "date": "November 24, 2026",
       "week": 11
+    },
+    {
+      "id": "finale-mattie-picks",
+      "type": "finale",
+      "title": "Mattie's finale predictions recorded",
+      "detail": "Mattie's finale picks: 1. Amber Glenn; 2. Ezra Frech; 3. Maura Higgins; 4. Connor Wood; 5. Tatyana Ali. Squid picks next. Prediction points pending final results.",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
@@ -4879,7 +4887,7 @@
     "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-24-finale-prediction-rules",
+    "revision": "2026-11-24-finale-mattie-picks",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7141,6 +7149,14 @@
         "detail": "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!",
         "date": "November 24, 2026",
         "week": 11
+      },
+      {
+        "id": "finale-mattie-picks",
+        "type": "finale",
+        "title": "Mattie's finale predictions recorded",
+        "detail": "Mattie's finale picks: 1. Amber Glenn; 2. Ezra Frech; 3. Maura Higgins; 4. Connor Wood; 5. Tatyana Ali. Squid picks next. Prediction points pending final results.",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7228,7 +7244,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-24T21:55:57.718Z",
+    "updatedAt": "2026-11-24T21:57:02.396Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
@@ -7347,5 +7363,18 @@
       "giada-de-laurentiis",
       "guillermo-rodriguez"
     ]
+  },
+  "finale": {
+    "predictions": {
+      "mattie": [
+        "amber-glenn",
+        "ezra-frech",
+        "maura-higgins",
+        "connor-wood",
+        "tatyana-ali"
+      ]
+    },
+    "results": [],
+    "status": "awaiting-picks"
   }
 }
