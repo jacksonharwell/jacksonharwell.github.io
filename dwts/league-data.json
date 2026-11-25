@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 10,
-    "phase": "Week 10 • final",
+    "phase": "Finale • live results",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -69,21 +69,21 @@
       "id": "jackson",
       "name": "Jackson",
       "bux": 0,
-      "points": 171,
+      "points": 181,
       "movement": -1
     },
     {
       "id": "colton",
       "name": "Colton",
       "bux": 0,
-      "points": 174,
+      "points": 179,
       "movement": 1
     },
     {
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 177,
+      "points": 182,
       "movement": 0
     },
     {
@@ -97,14 +97,14 @@
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 196,
+      "points": 206,
       "movement": 0
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 200,
+      "points": 205,
       "movement": 0
     }
   ],
@@ -4917,6 +4917,14 @@
       "detail": "Jackson's finale picks: 1. Amber Glenn; 2. Connor Wood; 3. Ezra Frech; 4. Tatyana Ali; 5. Maura Higgins. All six participants' predictions are recorded. Prediction points pending final results.",
       "date": "November 24, 2026",
       "week": 11
+    },
+    {
+      "id": "finale-results-places-3-5",
+      "type": "finale",
+      "title": "Finale results • Connor 3rd, Tatyana 4th, Maura 5th",
+      "detail": "Exact-placement bonuses awarded: Jessica +10, Jackson +10, Payton +5, Squid +5, Colton +5, Mattie +0. First and second place pending. Individual dancer scores unchanged.",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
@@ -4927,7 +4935,7 @@
     "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-24-finale-all-picks-submitted",
+    "revision": "2026-11-24-finale-results-3-5",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7237,6 +7245,14 @@
         "detail": "Jackson's finale picks: 1. Amber Glenn; 2. Connor Wood; 3. Ezra Frech; 4. Tatyana Ali; 5. Maura Higgins. All six participants' predictions are recorded. Prediction points pending final results.",
         "date": "November 24, 2026",
         "week": 11
+      },
+      {
+        "id": "finale-results-places-3-5",
+        "type": "finale",
+        "title": "Finale results • Connor 3rd, Tatyana 4th, Maura 5th",
+        "detail": "Exact-placement bonuses awarded: Jessica +10, Jackson +10, Payton +5, Squid +5, Colton +5, Mattie +0. First and second place pending. Individual dancer scores unchanged.",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7324,7 +7340,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-24T23:47:05.210Z",
+    "updatedAt": "2026-11-25T03:57:15.699Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
@@ -7489,7 +7505,21 @@
         "maura-higgins"
       ]
     },
-    "results": [],
-    "status": "awaiting-results"
+    "results": [
+      null,
+      null,
+      "connor-wood",
+      "tatyana-ali",
+      "maura-higgins"
+    ],
+    "status": "in-progress",
+    "bonusPoints": {
+      "jackson": 10,
+      "colton": 5,
+      "payton": 5,
+      "mattie": 0,
+      "jessica": 10,
+      "squid": 5
+    }
   }
 }
