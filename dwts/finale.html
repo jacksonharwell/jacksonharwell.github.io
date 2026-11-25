@@ -7,12 +7,13 @@ const d=await response.json(),policy=d.league.finalePolicy,picks=d.finale?.predi
 const colors={mattie:'#587fba',squid:'#ad78d5',jessica:'#53b47b',payton:'#f4a329',colton:'#e86161',jackson:'#c9ac83'};
 const owner=id=>d.owners.find(o=>o.id===id);
 const pending=order.find(id=>!picks[id]?.length);
-next.textContent=pending?'Next to pick: '+owner(pending).name:'All predictions recorded — awaiting results';
+const results=d.finale?.results||[];
+next.textContent=results.some(Boolean)?(d.finale.status==='final'?'Final results':'Results so far')+': '+results.map((id,i)=>id?(i+1)+'. '+(d.dancers.find(x=>x.id===id)?.name||id):null).filter(Boolean).join(' • ')+(results.filter(Boolean).length<5?' • 1st and 2nd pending':''):pending?'Next to pick: '+owner(pending).name:'All predictions recorded — awaiting results';
 for(const [index,id] of order.entries()){
 const card=document.createElement('section');card.className='rule-block finale-card';card.style.borderTop='4px solid '+colors[id];
 const heading=document.createElement('h2');heading.textContent=(index+1)+'. '+owner(id).name;heading.style.color=colors[id];card.append(heading);
 const points=document.createElement('p');points.textContent=owner(id).points+' season points';card.append(points);
-if(picks[id]?.length){const list=document.createElement('ol');for(const dancerId of picks[id]){const li=document.createElement('li');li.textContent=d.dancers.find(x=>x.id===dancerId)?.name||dancerId;list.append(li);}card.append(list);const status=document.createElement('p');status.textContent='Picks recorded • bonus pending';card.append(status);}
+if(picks[id]?.length){const list=document.createElement('ol');for(const dancerId of picks[id]){const li=document.createElement('li');li.textContent=d.dancers.find(x=>x.id===dancerId)?.name||dancerId;list.append(li);}card.append(list);const status=document.createElement('p');status.textContent=results.some(Boolean)?'Prediction bonus: +'+(d.finale.bonusPoints?.[id]||0)+(d.finale.status==='final'?' • final':' • remaining results pending'):'Picks recorded • bonus pending';card.append(status);}
 else{const p=document.createElement('p');p.textContent=id===pending?'Up next — waiting for picks':'Awaiting picks';card.append(p);}
 root.append(card);
 }
