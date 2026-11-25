@@ -3,7 +3,7 @@
     "name": "DWTS Fantasy League",
     "season": "2026",
     "week": 10,
-    "phase": "Finale • live results",
+    "phase": "Season complete • Jessica wins!",
     "startingBux": 200,
     "shakeupWeek": 6,
     "draftDate": "Sunday, September 13, 2026",
@@ -70,20 +70,20 @@
       "name": "Jackson",
       "bux": 0,
       "points": 181,
-      "movement": -1
+      "movement": 1
     },
     {
       "id": "colton",
       "name": "Colton",
       "bux": 0,
       "points": 179,
-      "movement": 1
+      "movement": -1
     },
     {
       "id": "payton",
       "name": "Payton",
       "bux": 0,
-      "points": 182,
+      "points": 192,
       "movement": 0
     },
     {
@@ -91,20 +91,20 @@
       "name": "Mattie",
       "bux": 0,
       "points": 203,
-      "movement": 0
+      "movement": -2
     },
     {
       "id": "jessica",
       "name": "Jessica",
       "bux": 0,
-      "points": 206,
-      "movement": 0
+      "points": 216,
+      "movement": 2
     },
     {
       "id": "squid",
       "name": "Squid",
       "bux": 0,
-      "points": 205,
+      "points": 215,
       "movement": 0
     }
   ],
@@ -4925,6 +4925,14 @@
       "detail": "Exact-placement bonuses awarded: Jessica +10, Jackson +10, Payton +5, Squid +5, Colton +5, Mattie +0. First and second place pending. Individual dancer scores unchanged.",
       "date": "November 24, 2026",
       "week": 11
+    },
+    {
+      "id": "finale-final-results",
+      "type": "finale",
+      "title": "Jessica wins the inaugural DWTS Fantasy League!",
+      "detail": "Final order: Ezra, Amber, Connor, Tatyana, Maura. Total prediction bonuses: Jessica +20, Squid +15, Payton +15, Jackson +10, Colton +5, Mattie +0. Final standings: Jessica 216, Squid 215, Mattie 203, Payton 192, Jackson 181, Colton 179. Jessica wins by one point! Individual dancer scores remain bonus-free.",
+      "date": "November 24, 2026",
+      "week": 11
     }
   ],
   "locks": [],
@@ -4935,7 +4943,7 @@
     "Finale predictions are public and submitted in this order: Mattie, Squid, Jessica, Payton, Colton, Jackson. Predict the full finishing order. Earn 10 points for correctly predicting 1st place and 5 points for each other exact placement. Season points carry forward. Last chance to make up ground for our inaugural trophy!"
   ],
   "officialState": {
-    "revision": "2026-11-24-finale-results-3-5",
+    "revision": "2026-11-24-finale-final",
     "purchases": {
       "jenna-dewan": {
         "ownerId": "squid",
@@ -7253,6 +7261,14 @@
         "detail": "Exact-placement bonuses awarded: Jessica +10, Jackson +10, Payton +5, Squid +5, Colton +5, Mattie +0. First and second place pending. Individual dancer scores unchanged.",
         "date": "November 24, 2026",
         "week": 11
+      },
+      {
+        "id": "finale-final-results",
+        "type": "finale",
+        "title": "Jessica wins the inaugural DWTS Fantasy League!",
+        "detail": "Final order: Ezra, Amber, Connor, Tatyana, Maura. Total prediction bonuses: Jessica +20, Squid +15, Payton +15, Jackson +10, Colton +5, Mattie +0. Final standings: Jessica 216, Squid 215, Mattie 203, Payton 192, Jackson 181, Colton 179. Jessica wins by one point! Individual dancer scores remain bonus-free.",
+        "date": "November 24, 2026",
+        "week": 11
       }
     ],
     "locks": {},
@@ -7340,7 +7356,7 @@
         "reason": "Locks retired beginning Week 6"
       }
     },
-    "updatedAt": "2026-11-25T03:57:15.699Z",
+    "updatedAt": "2026-11-25T03:59:16.704Z",
     "shakeupSelections": {
       "jessica": {
         "dancerId": "ezra-frech",
@@ -7506,20 +7522,22 @@
       ]
     },
     "results": [
-      null,
-      null,
+      "ezra-frech",
+      "amber-glenn",
       "connor-wood",
       "tatyana-ali",
       "maura-higgins"
     ],
-    "status": "in-progress",
+    "status": "final",
     "bonusPoints": {
       "jackson": 10,
       "colton": 5,
-      "payton": 5,
+      "payton": 15,
       "mattie": 0,
-      "jessica": 10,
-      "squid": 5
-    }
+      "jessica": 20,
+      "squid": 15
+    },
+    "finalizedAt": "2026-11-25T03:59:16.704Z",
+    "championOwnerId": "jessica"
   }
 }
