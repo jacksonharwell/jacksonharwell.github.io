@@ -7,6 +7,16 @@ const d=await response.json(),policy=d.league.finalePolicy,picks=d.finale?.predi
 const colors={mattie:'#587fba',squid:'#ad78d5',jessica:'#53b47b',payton:'#f4a329',colton:'#e86161',jackson:'#c9ac83'};
 const owner=id=>d.owners.find(o=>o.id===id);
 const pending=order.find(id=>!picks[id]?.length);
+if(d.finale?.status==='final' && d.finale.championOwnerId){
+const champion=owner(d.finale.championOwnerId);
+const banner=document.createElement('section');banner.className='rule-block';
+const title=document.createElement('h2');title.textContent='🪩 '+champion.name+' — Inaugural Champion!';
+const subtitle=document.createElement('p');subtitle.textContent=champion.points+' points • Final season standings';
+const list=document.createElement('ol');
+for(const person of [...d.owners].sort((a,b)=>b.points-a.points)){const row=document.createElement('li');row.textContent=person.name+': '+person.points+' points (+'+(d.finale.bonusPoints[person.id]||0)+' finale bonus)';list.append(row);}
+banner.append(title,subtitle,list);root.before(banner);
+}
+
 const results=d.finale?.results||[];
 next.textContent=results.some(Boolean)?(d.finale.status==='final'?'Final results':'Results so far')+': '+results.map((id,i)=>id?(i+1)+'. '+(d.dancers.find(x=>x.id===id)?.name||id):null).filter(Boolean).join(' • ')+(results.filter(Boolean).length<5?' • 1st and 2nd pending':''):pending?'Next to pick: '+owner(pending).name:'All predictions recorded — awaiting results';
 for(const [index,id] of order.entries()){
